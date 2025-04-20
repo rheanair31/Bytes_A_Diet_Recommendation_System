@@ -1,0 +1,1043 @@
+food_id,food_name,cuisine_type,region,country,diet_type,meal_type,serving_size_g,calories,protein_g,fat_g,carbs_g,fiber_g,sugar_g,sodium_mg,cholesterol_mg,suitable_breakfast,suitable_lunch,suitable_dinner,suitable_snack,spring,summer,fall,winter,allergens
+1,Escalivada,Spanish,European,Spain,Vegetarian,Breakfast,100,293.6,19.3,19.6,38.0,2.1,4.8,141.0,35.0,1,1,1,0,1,1,1,1,['Soy']
+2,Tteokbokki,Korean,Asian,South Korea,Vegetarian,Dessert,100,380.3,7.4,10.4,58.9,4.2,20.3,227.0,7.0,0,0,1,0,1,1,1,1,"['Nuts', 'None', 'Dairy']"
+3,Mole Poblano,Mexican,Latin American,Mexico,Non-Vegetarian,Breakfast,100,276.1,12.9,13.6,28.7,5.3,4.5,563.0,74.0,1,1,0,1,1,1,1,0,[]
+4,Kibbeh Nayeh,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Beverage,100,264.0,30.7,12.4,20.4,3.6,0.5,847.0,50.0,0,0,1,1,1,1,1,1,"['Eggs', 'Shellfish']"
+5,Mushroom Tom Yum,Thai,Asian,Thailand,Vegetarian,Dinner,100,116.3,14.4,19.4,42.3,4.4,2.4,579.0,18.0,0,1,0,0,1,1,1,1,"['Nuts', 'Shellfish', 'Soy']"
+6,Bean Tostadas,Mexican,Latin American,Mexico,Vegan,Dinner,100,128.1,7.0,2.6,51.4,5.3,8.3,318.0,21.0,0,1,1,0,1,0,0,1,"['Eggs', 'Shellfish', 'None']"
+7,Salt and Pepper Shrimp,Chinese,Asian,China,Non-Vegetarian,Lunch,100,286.7,18.7,29.3,28.3,5.6,8.9,838.0,141.0,0,1,1,0,1,1,0,1,"['Gluten', 'None', 'Shellfish']"
+8,Stir-Fried Greens,Chinese,Asian,China,Vegan,Lunch,100,120.4,4.0,2.7,28.0,6.5,4.0,680.0,14.0,0,1,1,0,1,1,0,1,[]
+9,Champinones al Ajillo,Spanish,European,Spain,Vegan,Dinner,100,164.6,7.4,4.3,47.1,3.7,11.9,641.0,8.0,1,1,1,0,0,1,1,1,[]
+10,Boquerones en Vinagre,Spanish,European,Spain,Non-Vegetarian,Beverage,100,151.4,31.3,23.6,26.9,4.6,0.7,623.0,44.0,0,1,0,0,1,1,1,1,[]
+11,Coniglio alla Cacciatora,Italian,European,Italy,Non-Vegetarian,Dinner,100,365.8,27.5,15.3,6.9,1.9,3.3,957.0,107.0,1,0,0,1,1,1,1,1,['Shellfish']
+12,Fava,Greek,European,Greece,Vegan,Lunch,100,304.1,6.7,3.9,43.5,9.8,7.2,640.0,20.0,0,1,0,0,1,1,1,1,"['Eggs', 'Soy']"
+13,Melitzanosalata,Greek,European,Greece,Vegetarian,Lunch,100,230.7,8.1,3.4,14.3,2.3,9.9,320.0,20.0,1,1,1,0,1,1,1,1,[]
+14,Vegetable Pad Prik King,Thai,Asian,Thailand,Vegetarian,Dessert,100,472.3,3.2,18.2,51.4,1.1,16.9,303.0,6.0,1,1,1,0,0,1,1,1,"['Dairy', 'Gluten', 'Shellfish']"
+15,Calamares a la Romana,Spanish,European,Spain,Non-Vegetarian,Dinner,100,382.4,31.2,21.9,31.1,4.8,1.9,1103.0,95.0,0,0,1,0,1,1,1,1,[]
+16,Sopes with Beans and Cheese,Mexican,Latin American,Mexico,Vegetarian,Lunch,100,301.9,13.8,8.4,14.4,3.8,7.0,673.0,34.0,0,1,1,0,0,1,0,1,[]
+17,Gazpacho,Spanish,European,Spain,Vegan,Breakfast,100,201.7,12.7,13.3,26.7,1.8,8.1,760.0,13.0,0,0,1,0,1,1,1,1,"['Nuts', 'Eggs', 'None']"
+18,Vegetable Terrine,French,European,France,Vegan,Beverage,100,219.3,9.0,7.8,53.9,11.7,3.8,448.0,12.0,1,1,0,0,1,1,1,1,['Gluten']
+19,Tabbouleh,Lebanese,Middle Eastern,Lebanon,Vegetarian,Lunch,100,171.2,3.4,13.4,30.1,2.4,4.9,736.0,10.0,0,1,1,1,0,1,1,1,"['Shellfish', 'Soy', 'None']"
+20,Lamb Maklouba,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dinner,100,186.2,24.8,29.7,12.3,4.0,7.6,514.0,117.0,0,1,1,1,1,1,0,0,[]
+21,Dolmades,Greek,European,Greece,Vegan,Dessert,100,310.3,6.7,22.7,43.8,0.5,35.9,325.0,7.0,1,1,1,0,0,1,1,1,"['Soy', 'Shellfish']"
+22,Fattet Hummus,Lebanese,Middle Eastern,Lebanon,Vegetarian,Beverage,100,110.2,10.1,14.5,10.7,6.1,4.2,552.0,7.0,0,0,1,0,1,1,1,1,"['Soy', 'Dairy']"
+23,Bun Thit Nuong,Vietnamese,Asian,Vietnam,Non-Vegetarian,Lunch,100,322.7,22.7,28.6,9.1,2.0,1.1,1132.0,135.0,0,1,1,0,0,1,1,1,[]
+24,Vegetable Larb,Thai,Asian,Thailand,Vegetarian,Beverage,100,164.5,10.9,16.9,32.2,6.2,4.4,165.0,36.0,1,1,0,0,1,1,1,1,[]
+25,Vegetable Green Curry,Thai,Asian,Thailand,Vegan,Dessert,100,470.1,6.7,16.8,37.2,3.6,37.4,721.0,31.0,0,1,1,0,0,1,1,0,[]
+26,Stir-Fried Vegetables,Thai,Asian,Thailand,Vegan,Snack,100,247.7,2.8,4.6,50.9,8.5,1.1,171.0,27.0,0,0,1,1,1,1,1,1,"['None', 'Eggs']"
+27,Vegetable Chili,American,North American,United States,Vegan,Beverage,100,101.2,3.6,10.8,42.7,8.9,3.5,599.0,9.0,1,0,1,0,0,1,0,1,"['None', 'Dairy']"
+28,Enfrijoladas,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,181.3,12.0,14.0,44.0,7.3,9.0,166.0,15.0,0,1,1,0,1,1,1,0,"['Gluten', 'None']"
+29,Pickled Vegetables,Japanese,Asian,Japan,Vegetarian,Dessert,100,279.6,3.2,29.5,38.8,4.5,30.8,656.0,20.0,1,1,1,0,1,0,1,0,['Nuts']
+30,Chana Masala,Indian,Asian,India,Vegan,Snack,100,232.7,6.9,5.1,43.9,5.5,1.3,552.0,7.0,0,0,0,1,1,1,1,0,"['Soy', 'Nuts']"
+31,Alcachofas al Ajillo,Spanish,European,Spain,Vegetarian,Beverage,100,335.1,14.4,18.6,24.8,2.1,14.0,400.0,39.0,0,1,1,0,1,1,1,1,['Soy']
+32,Bulgogi,Korean,Asian,South Korea,Non-Vegetarian,Snack,100,390.9,32.1,14.5,16.6,5.1,3.2,453.0,97.0,0,1,0,1,1,1,1,1,['Shellfish']
+33,Prosciutto di Parma,Italian,European,Italy,Non-Vegetarian,Dessert,100,480.8,7.3,21.4,28.4,3.1,39.8,426.0,92.0,1,0,1,0,0,1,1,0,[]
+34,Lamb Souvlaki,Greek,European,Greece,Non-Vegetarian,Beverage,100,369.3,29.8,23.3,26.1,2.2,2.9,1028.0,127.0,0,1,1,1,1,0,0,0,"['Dairy', 'None', 'Soy']"
+35,Vegetable Moussaka,Greek,European,Greece,Vegetarian,Dessert,100,460.1,9.2,20.2,42.6,4.0,31.2,591.0,32.0,0,1,1,0,1,1,1,0,"['Soy', 'Shellfish', 'None']"
+36,Ratatouille,French,European,France,Vegan,Snack,100,304.7,5.4,8.0,18.8,8.2,1.4,426.0,22.0,0,0,1,1,1,1,1,0,"['Eggs', 'Gluten']"
+37,Banh Xeo,Vietnamese,Asian,Vietnam,Non-Vegetarian,Lunch,100,221.6,26.8,8.7,6.1,4.9,3.6,414.0,93.0,0,0,1,1,1,1,1,1,"['Soy', 'Eggs']"
+38,Champignons à la Grecque,French,European,France,Vegetarian,Lunch,100,292.5,5.6,13.6,13.4,2.4,8.4,478.0,25.0,0,0,1,0,0,1,1,1,"['Nuts', 'Eggs']"
+39,Vegetable Soup,French,European,France,Vegan,Beverage,100,267.0,11.8,10.3,27.9,10.2,4.0,407.0,3.0,0,1,1,0,1,1,0,0,['Soy']
+40,Lentil Soup,Lebanese,Middle Eastern,Lebanon,Vegetarian,Snack,100,106.3,14.6,17.2,37.8,5.3,3.4,210.0,10.0,0,1,0,1,1,1,1,1,"['Nuts', 'Eggs']"
+41,Gyudon,Japanese,Asian,Japan,Non-Vegetarian,Dinner,100,287.3,29.3,22.5,13.4,5.7,7.4,799.0,103.0,0,1,1,0,1,1,0,1,[]
+42,Chile Relleno with Cheese,Mexican,Latin American,Mexico,Vegetarian,Breakfast,100,304.9,8.7,12.1,42.7,1.1,4.1,132.0,2.0,1,1,0,0,1,1,1,1,[]
+43,Vegetable Pot Pie,American,North American,United States,Vegetarian,Dinner,100,313.9,11.4,11.1,13.9,5.9,7.6,221.0,17.0,0,0,1,0,1,0,1,1,['Gluten']
+44,Canh Chua Ca,Vietnamese,Asian,Vietnam,Non-Vegetarian,Beverage,100,249.6,27.3,22.0,6.4,2.2,6.3,753.0,133.0,0,0,1,1,1,1,1,1,[]
+45,Rillettes de Porc,French,European,France,Non-Vegetarian,Breakfast,100,364.7,7.4,6.4,39.3,1.2,12.5,1146.0,99.0,1,0,0,0,1,0,0,1,"['Eggs', 'None', 'Soy']"
+46,Tempura,Japanese,Asian,Japan,Non-Vegetarian,Lunch,100,247.0,27.9,18.1,21.4,5.6,3.9,1165.0,139.0,0,1,1,0,1,1,1,1,"['Dairy', 'Nuts', 'Shellfish']"
+47,Hor Mok Pla,Thai,Asian,Thailand,Non-Vegetarian,Dessert,100,258.7,1.6,12.0,25.6,0.5,32.1,364.0,68.0,0,1,1,1,1,1,1,1,"['Shellfish', 'None', 'Eggs']"
+48,Horiatiki,Greek,European,Greece,Vegetarian,Breakfast,100,411.2,5.3,21.3,28.5,1.8,14.5,540.0,35.0,1,0,0,0,1,1,1,1,"['Nuts', 'Shellfish']"
+49,Taramasalata,Greek,European,Greece,Non-Vegetarian,Dinner,100,333.8,31.1,14.2,10.3,4.5,8.1,1191.0,80.0,0,1,1,0,0,1,1,1,"['Shellfish', 'Soy']"
+50,Buffalo Cauliflower,American,North American,United States,Vegan,Dessert,100,311.6,8.0,16.8,57.6,4.3,25.7,626.0,30.0,0,0,1,0,1,1,1,1,[]
+51,Samkeh Harra,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Beverage,100,175.8,33.1,19.1,29.8,1.9,9.0,650.0,31.0,0,0,1,1,1,1,1,0,"['None', 'Eggs']"
+52,Funghi Trifolati,Italian,European,Italy,Vegetarian,Snack,100,326.3,4.1,8.4,48.0,9.6,9.0,542.0,18.0,1,0,1,1,1,1,0,1,"['Soy', 'None', 'Shellfish']"
+53,Guacamole,Mexican,Latin American,Mexico,Vegan,Snack,100,167.4,5.3,12.8,45.1,10.1,9.7,164.0,20.0,0,1,0,1,1,1,0,1,['Shellfish']
+54,Beef Fajitas,Mexican,Latin American,Mexico,Non-Vegetarian,Beverage,100,164.4,26.0,17.7,31.6,2.1,1.2,429.0,121.0,1,1,1,1,1,1,1,1,"['Shellfish', 'Eggs']"
+55,Vegetable Risotto,Italian,European,Italy,Vegan,Lunch,100,242.2,3.0,3.3,43.0,3.7,10.0,594.0,3.0,0,1,1,0,1,1,1,0,['Gluten']
+56,Peas Pulao,Indian,Asian,India,Vegetarian,Dinner,100,121.2,14.8,9.4,24.8,8.5,14.3,790.0,30.0,0,1,1,1,1,1,0,1,"['Eggs', 'Gluten', 'Soy']"
+57,Appam with Chicken Stew,Indian,Asian,India,Non-Vegetarian,Beverage,100,244.1,16.7,25.1,21.8,2.5,9.1,400.0,89.0,0,1,1,0,0,1,1,0,"['Soy', 'Gluten']"
+58,Vegetable Sliders,American,North American,United States,Vegetarian,Snack,100,102.8,8.6,4.0,14.8,2.9,10.1,622.0,23.0,0,0,1,1,1,1,1,1,"['Nuts', 'Shellfish']"
+59,Lasagne ai Quattro Formaggi,Italian,European,Italy,Vegetarian,Dinner,100,340.5,7.5,7.9,44.7,3.8,14.5,109.0,39.0,0,1,0,0,1,1,1,1,"['None', 'Soy', 'Gluten']"
+60,Patatas Bravas,Spanish,European,Spain,Vegan,Snack,100,109.9,10.9,10.4,54.7,3.7,7.1,779.0,21.0,1,0,0,1,1,1,1,1,"['Eggs', 'Shellfish']"
+61,Briam,Greek,European,Greece,Vegetarian,Breakfast,100,357.3,15.4,14.1,38.8,5.1,18.2,132.0,11.0,1,1,1,0,1,1,0,0,"['Gluten', 'Shellfish', 'Dairy']"
+62,Vegetable Briam,Greek,European,Greece,Vegan,Dinner,100,318.6,10.9,9.3,39.8,5.5,3.1,425.0,14.0,0,1,1,0,1,1,1,1,['None']
+63,Risotto alla Pescatora,Italian,European,Italy,Non-Vegetarian,Snack,100,295.9,16.6,29.4,34.6,4.2,5.4,579.0,128.0,0,0,0,1,1,1,0,1,['Eggs']
+64,Sujuk,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dinner,100,321.2,18.3,28.0,29.7,5.7,7.3,852.0,80.0,0,1,1,0,1,1,1,1,"['Gluten', 'Nuts', 'Eggs']"
+65,Bo Luc Lac,Vietnamese,Asian,Vietnam,Non-Vegetarian,Snack,100,383.2,32.3,9.0,5.8,2.3,8.1,1189.0,48.0,0,1,0,1,0,0,1,1,"['Gluten', 'Shellfish', 'Dairy']"
+66,Mushroom Bourguignon,French,European,France,Vegan,Lunch,100,236.7,5.8,17.5,48.7,10.5,6.2,390.0,11.0,0,0,1,0,1,1,0,0,"['Nuts', 'Shellfish', 'Eggs']"
+67,Fattoush,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dessert,100,216.9,8.8,26.3,60.0,5.0,28.9,638.0,38.0,1,1,1,1,1,0,1,0,[]
+68,Vegetable Pastitsio,Greek,European,Greece,Vegetarian,Beverage,100,312.4,6.0,10.7,15.2,9.6,9.5,260.0,27.0,0,1,0,1,1,1,1,1,['Dairy']
+69,Vegetable Wontons,Chinese,Asian,China,Vegetarian,Dessert,100,385.4,4.2,12.3,48.5,2.6,34.3,464.0,34.0,0,1,0,1,1,1,1,1,"['Nuts', 'Shellfish', 'Soy']"
+70,Salt and Pepper Tofu,Chinese,Asian,China,Vegetarian,Snack,100,238.0,9.7,17.9,26.1,3.1,1.4,629.0,25.0,0,1,0,1,1,1,0,0,[]
+71,Lengua Tacos,Mexican,Latin American,Mexico,Non-Vegetarian,Dessert,100,411.2,2.9,12.7,25.5,1.8,29.7,653.0,82.0,0,0,1,0,1,1,1,1,[]
+72,Kimchi,Korean,Asian,South Korea,Vegan,Snack,100,308.0,5.5,10.2,46.3,6.6,7.8,704.0,38.0,0,1,0,1,1,1,0,0,['Shellfish']
+73,Pasta Primavera,Italian,European,Italy,Vegan,Beverage,100,133.8,11.3,9.9,25.3,7.1,11.8,445.0,13.0,0,1,1,0,1,1,0,1,['None']
+74,Lamb Fatayer,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dessert,100,390.0,3.2,11.5,29.5,0.6,18.8,425.0,107.0,0,0,1,0,1,0,1,1,[]
+75,Stuffed Tomatoes,Greek,European,Greece,Vegetarian,Lunch,100,145.5,7.1,18.2,29.0,7.3,3.4,235.0,2.0,0,1,0,0,1,1,1,1,[]
+76,Paidakia,Greek,European,Greece,Non-Vegetarian,Beverage,100,192.2,20.6,11.9,7.7,0.7,4.6,486.0,74.0,0,0,0,1,1,1,0,1,['Shellfish']
+77,Minestrone,Italian,European,Italy,Vegan,Snack,100,215.8,8.9,2.6,47.0,8.7,1.9,712.0,37.0,0,1,1,1,0,1,1,1,"['Eggs', 'Nuts', 'Soy']"
+78,Vegetable Bun Cha,Vietnamese,Asian,Vietnam,Vegetarian,Snack,100,115.3,6.3,16.7,39.9,3.5,3.9,359.0,19.0,0,0,0,1,1,1,1,1,"['Gluten', 'Shellfish']"
+79,Som Tam,Thai,Asian,Thailand,Vegan,Beverage,100,242.2,5.7,9.4,44.9,3.3,3.8,599.0,36.0,1,1,0,0,1,1,1,0,[]
+80,Mutton Rara,Indian,Asian,India,Non-Vegetarian,Lunch,100,277.9,25.6,10.4,18.4,3.2,2.4,542.0,75.0,0,1,0,0,1,0,1,1,[]
+81,Vegetable Harumaki,Japanese,Asian,Japan,Vegetarian,Lunch,100,105.0,6.9,6.6,23.1,3.0,13.5,516.0,27.0,0,1,1,1,1,1,1,1,['Nuts']
+82,Sabudana Khichdi,Indian,Asian,India,Vegetarian,Beverage,100,297.3,9.0,4.5,31.5,6.7,11.4,402.0,5.0,0,0,1,0,1,1,1,0,[]
+83,Vegetable Banh Mi,Vietnamese,Asian,Vietnam,Vegan,Dessert,100,285.1,4.3,22.9,45.0,1.8,39.7,524.0,9.0,0,0,1,0,1,1,1,0,[]
+84,Carpaccio di Salmone,Italian,European,Italy,Non-Vegetarian,Dessert,100,230.5,2.4,14.9,30.6,0.9,22.1,456.0,138.0,1,1,1,0,1,0,1,1,"['Gluten', 'Shellfish', 'None']"
+85,Pisto,Spanish,European,Spain,Vegan,Dessert,100,224.1,5.7,18.2,59.4,0.6,24.9,779.0,35.0,0,0,1,0,1,1,1,1,"['Nuts', 'Dairy']"
+86,Jamón Ibérico,Spanish,European,Spain,Non-Vegetarian,Breakfast,100,404.3,8.9,8.4,40.1,7.5,12.0,814.0,64.0,1,1,1,0,0,1,1,1,"['Shellfish', 'Gluten']"
+87,Magret de Canard,French,European,France,Non-Vegetarian,Beverage,100,342.4,18.7,15.1,17.8,3.0,2.4,403.0,103.0,0,1,0,0,1,1,1,1,['None']
+88,Spaghetti alla Carbonara,Italian,European,Italy,Non-Vegetarian,Dessert,100,286.6,6.2,13.1,41.8,2.7,16.3,603.0,46.0,1,1,1,0,1,1,1,1,[]
+89,Vegetable Japchae,Korean,Asian,South Korea,Vegan,Beverage,100,114.6,11.9,7.2,47.4,5.3,8.5,632.0,24.0,1,1,0,0,1,1,1,0,[]
+90,Buddha's Delight,Chinese,Asian,China,Vegan,Beverage,100,208.5,6.1,7.6,52.2,10.5,11.6,187.0,29.0,1,1,1,0,1,1,1,0,[]
+91,Kadai Mushroom,Indian,Asian,India,Vegetarian,Lunch,100,334.6,5.2,4.1,39.6,6.6,12.8,198.0,32.0,0,1,1,0,1,1,1,0,[]
+92,Pad Kee Mao,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,250.4,7.5,8.3,44.4,5.7,11.4,623.0,135.0,1,0,0,0,1,0,1,1,['None']
+93,Shrimp Fried Rice,Chinese,Asian,China,Non-Vegetarian,Dinner,100,248.1,31.3,17.7,16.3,2.8,3.0,973.0,90.0,1,1,1,1,1,1,1,1,"['Gluten', 'Eggs']"
+94,Vegetable Pho,Vietnamese,Asian,Vietnam,Vegetarian,Snack,100,158.1,13.8,9.5,31.7,9.3,9.7,182.0,38.0,0,1,0,1,1,1,1,1,"['Dairy', 'Soy']"
+95,Guanciale,Italian,European,Italy,Non-Vegetarian,Breakfast,100,356.9,10.0,7.8,43.8,5.3,11.6,1105.0,125.0,1,0,1,0,1,1,1,1,[]
+96,Hummus,Lebanese,Middle Eastern,Lebanon,Vegan,Lunch,100,134.9,5.1,6.0,44.8,3.3,7.3,634.0,35.0,0,0,1,1,1,1,1,1,[]
+97,Garlic Eggplant,Chinese,Asian,China,Vegan,Snack,100,178.7,10.2,3.8,48.9,4.1,5.4,658.0,6.0,0,0,0,1,1,1,1,0,"['Dairy', 'Eggs']"
+98,Penne alla Vodka con Pancetta,Italian,European,Italy,Non-Vegetarian,Snack,100,207.3,29.4,23.8,24.2,4.2,5.4,527.0,71.0,0,0,0,1,1,1,1,1,[]
+99,Vegetable Gimbap,Korean,Asian,South Korea,Vegan,Dessert,100,254.5,9.2,21.7,39.0,2.3,38.7,207.0,23.0,0,1,0,0,1,1,1,1,"['Soy', 'Dairy', 'Gluten']"
+100,Gigantes Plaki,Greek,European,Greece,Vegetarian,Dinner,100,226.5,10.3,3.3,44.9,9.5,8.9,588.0,37.0,0,1,1,0,1,1,1,1,"['Eggs', 'None']"
+101,Chicago Deep Dish Pizza,American,North American,United States,Non-Vegetarian,Beverage,100,326.8,18.1,20.7,23.2,2.5,7.4,1141.0,141.0,1,1,1,0,1,1,1,0,['Nuts']
+102,Marinara Pasta,Italian,European,Italy,Vegan,Beverage,100,203.7,3.1,17.8,48.6,4.1,11.1,709.0,21.0,0,1,1,0,1,1,1,1,"['None', 'Dairy']"
+103,Paella de Verduras,Spanish,European,Spain,Vegan,Beverage,100,236.0,6.0,2.9,28.4,10.2,1.1,333.0,16.0,0,1,1,0,1,1,0,1,['Dairy']
+104,Vegetable Lo Mein,Chinese,Asian,China,Vegetarian,Dinner,100,234.3,14.0,8.9,23.9,7.9,7.3,257.0,18.0,0,1,1,0,1,1,1,1,['Dairy']
+105,Vegetable Spring Rolls,Chinese,Asian,China,Vegan,Dessert,100,242.3,2.6,20.0,39.7,4.6,24.1,506.0,25.0,0,1,1,0,0,1,0,0,['Soy']
+106,Cecina,Mexican,Latin American,Mexico,Non-Vegetarian,Snack,100,153.3,28.3,11.9,33.8,0.9,4.1,377.0,150.0,1,0,0,1,0,1,1,1,['None']
+107,Black Bean Tacos,Mexican,Latin American,Mexico,Vegan,Lunch,100,215.5,8.0,3.1,45.0,4.9,10.9,244.0,8.0,1,1,1,0,1,1,1,1,['Nuts']
+108,Soupe de Légumes,French,European,France,Vegetarian,Lunch,100,109.1,8.7,12.6,12.6,8.2,7.3,467.0,18.0,0,1,1,1,1,1,0,1,[]
+109,Tofu Cashew Stir-Fry,Thai,Asian,Thailand,Vegetarian,Beverage,100,200.2,9.7,5.6,17.3,8.9,14.2,361.0,11.0,0,1,1,0,1,1,0,1,[]
+110,Risotto alle Noci,Italian,European,Italy,Vegetarian,Dinner,100,261.0,7.9,3.4,16.2,7.7,10.2,119.0,9.0,0,1,1,0,1,1,1,1,"['Shellfish', 'Soy', 'Eggs']"
+111,Calzone Vegetariano,Italian,European,Italy,Vegetarian,Snack,100,157.8,11.1,3.3,14.2,8.4,3.5,557.0,10.0,0,0,0,1,1,1,1,1,['Shellfish']
+112,Berenjenas Fritas,Spanish,European,Spain,Vegetarian,Dessert,100,229.8,3.2,24.4,54.9,4.2,24.9,568.0,8.0,1,1,1,0,1,1,1,1,"['Nuts', 'Shellfish']"
+113,Karimeen Pollichathu,Indian,Asian,India,Non-Vegetarian,Breakfast,100,273.3,18.4,5.3,22.6,2.5,2.5,463.0,100.0,1,0,1,0,1,1,1,1,['None']
+114,Vegan Mac and Cheese,American,North American,United States,Vegan,Snack,100,196.9,10.9,15.1,28.7,5.3,5.2,513.0,11.0,0,1,1,1,0,1,1,0,[]
+115,Pla Tod,Thai,Asian,Thailand,Non-Vegetarian,Dessert,100,387.2,4.7,21.0,40.3,1.5,38.7,987.0,47.0,0,1,1,0,1,1,1,0,"['Nuts', 'Gluten']"
+116,Lobster Roll,American,North American,United States,Non-Vegetarian,Snack,100,367.1,24.7,27.7,29.0,2.6,0.2,542.0,95.0,0,0,0,1,1,1,0,1,[]
+117,Bo Kho,Vietnamese,Asian,Vietnam,Non-Vegetarian,Breakfast,100,358.4,8.9,7.8,45.0,7.9,11.5,455.0,63.0,1,0,0,0,1,1,1,1,"['Dairy', 'Shellfish', 'Eggs']"
+118,Hoy Maeng Poo Ob,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,204.6,18.7,7.4,37.3,2.9,12.0,886.0,130.0,1,1,0,1,0,0,1,1,"['Soy', 'Shellfish']"
+119,Champiñones al Ajillo,Spanish,European,Spain,Vegetarian,Breakfast,100,251.6,5.2,7.7,47.0,7.1,12.8,520.0,27.0,1,0,0,1,1,1,1,0,[]
+120,Sigeumchi Namul,Korean,Asian,South Korea,Vegetarian,Beverage,100,143.8,14.0,10.1,25.3,6.2,1.7,216.0,30.0,0,1,0,0,1,1,1,1,[]
+121,Dal Tadka,Indian,Asian,India,Vegan,Lunch,100,119.0,8.0,5.9,30.6,5.6,4.9,603.0,12.0,0,0,1,0,1,1,1,1,"['Dairy', 'Gluten', 'None']"
+122,Calamari Ripieni,Italian,European,Italy,Non-Vegetarian,Lunch,100,291.6,24.5,22.6,33.1,4.4,2.1,328.0,61.0,0,1,0,0,1,1,1,1,"['None', 'Dairy']"
+123,Fresh Spring Rolls,Vietnamese,Asian,Vietnam,Vegan,Beverage,100,236.9,2.5,9.9,38.9,6.0,9.5,175.0,3.0,0,1,1,1,1,1,1,1,"['Eggs', 'Soy']"
+124,Piccione Ripieno,Italian,European,Italy,Non-Vegetarian,Snack,100,332.0,24.9,23.1,18.0,1.5,8.2,1019.0,113.0,0,0,0,1,0,1,1,1,"['Dairy', 'Soy']"
+125,Vegetable Burger,American,North American,United States,Vegetarian,Snack,100,168.0,10.1,9.1,13.7,9.3,2.9,765.0,18.0,0,0,0,1,0,1,0,1,"['None', 'Gluten']"
+126,Shojin Ryori,Japanese,Asian,Japan,Vegetarian,Beverage,100,146.3,9.5,17.8,39.3,8.5,10.2,585.0,34.0,1,1,1,1,1,1,1,1,"['None', 'Soy']"
+127,Masala Dosa,Indian,Asian,India,Vegetarian,Breakfast,100,262.4,12.3,9.4,49.6,7.6,2.7,594.0,37.0,0,0,0,1,1,1,1,0,"['Shellfish', 'Nuts']"
+128,Feta Me Meli,Greek,European,Greece,Vegetarian,Beverage,100,145.1,9.8,18.6,11.4,7.6,5.2,747.0,39.0,1,1,1,0,1,1,1,1,"['Shellfish', 'Nuts']"
+129,Chestnut Soup,French,European,France,Vegetarian,Dinner,100,336.1,8.7,17.7,43.8,4.6,12.6,126.0,24.0,0,1,1,0,1,1,1,1,"['Dairy', 'None', 'Nuts']"
+130,Vegetable Bibimbap,Korean,Asian,South Korea,Vegan,Dinner,100,152.9,3.2,3.2,42.9,6.1,9.0,146.0,13.0,0,1,1,0,1,1,0,1,['Dairy']
+131,Japchae,Korean,Asian,South Korea,Non-Vegetarian,Breakfast,100,334.9,16.9,11.4,38.8,7.2,13.1,510.0,33.0,1,0,0,0,1,1,1,1,"['Shellfish', 'Nuts']"
+132,Hot Dog,American,North American,United States,Non-Vegetarian,Dinner,100,367.5,15.4,27.2,20.9,5.6,8.0,1198.0,72.0,0,1,1,0,1,1,1,1,[]
+133,Mushroom Congee,Chinese,Asian,China,Vegetarian,Snack,100,291.8,7.8,11.2,35.1,9.0,14.8,638.0,17.0,0,0,0,1,1,1,1,1,['Shellfish']
+134,Pla Neung Manao,Thai,Asian,Thailand,Non-Vegetarian,Dessert,100,326.4,7.6,14.8,28.9,1.8,22.2,567.0,58.0,1,0,1,0,1,1,1,0,"['Soy', 'None']"
+135,Lahm bi Ajeen,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Beverage,100,160.5,15.4,29.7,17.8,2.3,6.8,496.0,144.0,1,0,1,0,0,1,1,1,[]
+136,Yukgaejang,Korean,Asian,South Korea,Non-Vegetarian,Dinner,100,346.6,16.8,17.2,31.4,5.7,4.7,852.0,50.0,0,1,1,0,1,0,1,1,[]
+137,Bean Chalupas,Mexican,Latin American,Mexico,Vegetarian,Snack,100,347.8,5.8,19.0,36.0,6.9,8.2,261.0,7.0,0,0,1,1,1,1,0,0,['Soy']
+138,Vegetable Fajitas,Mexican,Latin American,Mexico,Vegan,Dinner,100,150.7,3.9,14.5,29.0,3.5,11.7,719.0,37.0,0,1,1,0,1,1,1,1,"['Soy', 'Eggs']"
+139,Mushroom Tlayudas,Mexican,Latin American,Mexico,Vegetarian,Dinner,100,348.7,5.1,9.7,40.3,7.6,3.2,671.0,9.0,0,0,1,0,1,1,1,1,"['Nuts', 'Gluten']"
+140,Poulet Rôti,French,European,France,Non-Vegetarian,Dinner,100,206.0,25.7,21.0,22.4,0.5,8.8,539.0,46.0,0,1,1,0,1,0,1,1,['Dairy']
+141,Samak Mashwi,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dessert,100,466.6,9.6,27.2,53.3,3.3,28.8,378.0,79.0,1,1,0,1,1,0,1,1,[]
+142,Lapin à la Moutarde,French,European,France,Non-Vegetarian,Beverage,100,243.2,20.2,23.9,19.9,0.5,2.2,915.0,39.0,1,0,1,0,0,1,0,0,"['Shellfish', 'Dairy', 'Nuts']"
+143,Panang Curry,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,362.8,24.9,18.6,22.8,4.9,3.5,910.0,98.0,0,1,1,0,1,0,0,1,['Gluten']
+144,Daube de Bœuf,French,European,France,Non-Vegetarian,Lunch,100,216.8,32.6,25.5,24.8,5.1,8.7,938.0,130.0,0,0,0,1,1,1,0,1,"['Dairy', 'Soy', 'Eggs']"
+145,Tamagoyaki,Japanese,Asian,Japan,Vegetarian,Breakfast,100,374.4,15.2,17.4,42.6,2.1,17.9,710.0,1.0,1,0,0,1,1,1,1,1,['Soy']
+146,Tortilla de Bacalao,Spanish,European,Spain,Non-Vegetarian,Snack,100,356.5,17.6,15.4,27.3,1.0,8.2,1049.0,91.0,0,0,1,0,1,0,1,1,"['None', 'Nuts', 'Shellfish']"
+147,Vegetable Tempura,Japanese,Asian,Japan,Vegan,Beverage,100,101.5,4.9,11.9,54.2,8.7,3.9,544.0,22.0,1,1,1,1,1,1,1,1,"['Shellfish', 'Gluten']"
+148,Arroz Negro,Spanish,European,Spain,Non-Vegetarian,Dinner,100,345.0,17.1,24.7,21.2,5.8,3.4,869.0,142.0,0,1,1,0,1,1,1,1,['None']
+149,Cornbread,American,North American,United States,Vegetarian,Dessert,100,230.8,9.4,23.8,27.4,1.5,32.7,147.0,23.0,0,1,0,1,0,0,1,1,['Nuts']
+150,Shawarma Djej,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Breakfast,100,286.5,14.3,5.9,46.1,7.8,19.4,975.0,46.0,1,0,1,0,0,1,1,1,[]
+151,Bamia,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Beverage,100,339.6,15.5,8.5,14.7,2.9,7.7,915.0,84.0,0,1,1,1,1,1,1,1,[]
+152,Pasta alla Norcina,Italian,European,Italy,Non-Vegetarian,Breakfast,100,268.4,20.0,13.5,33.5,2.1,16.3,924.0,56.0,1,0,0,0,1,1,0,1,"['Eggs', 'Gluten', 'Soy']"
+153,Cannelloni con Besciamella,Italian,European,Italy,Vegetarian,Dessert,100,224.7,7.1,23.1,34.6,4.8,18.8,403.0,38.0,0,0,1,1,1,1,1,1,"['None', 'Dairy', 'Shellfish']"
+154,Greek Meatballs,Greek,European,Greece,Non-Vegetarian,Lunch,100,254.9,27.8,16.7,13.2,5.9,4.1,1105.0,58.0,1,0,1,1,1,1,0,0,['Dairy']
+155,Minestrone Soup,Italian,European,Italy,Vegetarian,Dessert,100,263.9,1.3,23.0,37.9,4.3,26.8,778.0,7.0,0,1,0,1,1,1,1,0,[]
+156,Vegetable Pad Thai,Thai,Asian,Thailand,Vegan,Dessert,100,460.6,8.0,25.4,54.6,3.8,30.7,192.0,1.0,1,0,0,0,1,1,1,1,['Shellfish']
+157,Chipirones en su Tinta,Spanish,European,Spain,Non-Vegetarian,Dessert,100,476.3,6.5,25.9,41.9,0.6,18.1,917.0,82.0,1,1,1,0,1,1,1,1,['None']
+158,Lahem Bi Ajin,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Lunch,100,200.1,24.8,9.4,22.5,1.6,8.0,579.0,85.0,0,1,0,0,1,0,1,1,['Nuts']
+159,Fish Tacos,Mexican,Latin American,Mexico,Non-Vegetarian,Beverage,100,152.9,16.4,16.6,19.4,3.6,2.9,925.0,133.0,0,0,1,0,1,1,1,1,[]
+160,Vegetable Briami,Greek,European,Greece,Vegetarian,Dinner,100,295.0,3.5,11.2,14.2,3.9,14.8,200.0,20.0,0,1,0,0,1,0,1,1,['Eggs']
+161,Shrimp and Grits,American,North American,United States,Non-Vegetarian,Snack,100,304.5,29.0,20.3,5.3,2.0,5.2,379.0,72.0,0,0,1,1,1,1,0,1,"['Dairy', 'Nuts']"
+162,Larb Moo,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,208.3,6.2,12.9,24.0,5.0,14.4,1021.0,54.0,1,0,1,0,1,0,1,1,['Eggs']
+163,Yachae Mandu,Korean,Asian,South Korea,Vegetarian,Snack,100,141.9,4.3,13.8,38.3,2.3,14.1,136.0,22.0,0,0,1,1,0,1,1,1,"['Dairy', 'None']"
+164,Buddha Bowls,Vietnamese,Asian,Vietnam,Vegan,Snack,100,263.1,10.7,13.4,47.1,6.1,10.0,156.0,36.0,0,0,0,1,1,1,0,0,[]
+165,Tapenade,French,European,France,Vegetarian,Beverage,100,236.9,12.8,10.7,35.7,6.2,11.2,157.0,2.0,1,1,1,0,1,1,0,0,"['Gluten', 'None', 'Soy']"
+166,Shawarma,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Breakfast,100,261.8,7.4,22.4,26.6,7.8,8.1,464.0,125.0,1,1,0,1,0,1,1,0,[]
+167,Nopales Salad,Mexican,Latin American,Mexico,Vegetarian,Dessert,100,397.6,5.5,21.1,50.2,1.1,39.9,782.0,26.0,1,1,0,1,0,1,1,1,"['Shellfish', 'Gluten']"
+168,Bucatini all'Amatriciana,Italian,European,Italy,Non-Vegetarian,Snack,100,199.9,28.6,9.6,5.9,1.5,4.6,1081.0,117.0,0,1,1,1,1,1,1,1,[]
+169,Vegetable Manakish,Lebanese,Middle Eastern,Lebanon,Vegetarian,Lunch,100,285.7,8.1,8.9,24.8,9.9,1.6,707.0,23.0,0,1,1,0,0,1,1,1,[]
+170,Xiaolongbao,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,309.7,15.9,14.7,46.2,7.3,9.6,549.0,101.0,1,0,0,0,1,1,1,1,"['Shellfish', 'Soy', 'Nuts']"
+171,Veggie Burgers,American,North American,United States,Vegan,Beverage,100,309.8,4.1,12.0,40.3,9.6,2.4,601.0,36.0,0,0,1,0,1,1,0,0,"['None', 'Nuts', 'Gluten']"
+172,Zarzuela,Spanish,European,Spain,Non-Vegetarian,Snack,100,194.9,19.8,29.4,10.4,5.1,4.9,523.0,134.0,1,0,0,1,1,1,1,1,['Shellfish']
+173,Ribollita,Italian,European,Italy,Vegetarian,Dinner,100,211.3,9.2,9.1,33.7,3.3,6.5,779.0,10.0,0,1,1,0,1,1,0,1,"['Gluten', 'Dairy']"
+174,Panella,Italian,European,Italy,Vegetarian,Snack,100,264.2,6.9,16.1,15.2,9.8,7.4,265.0,3.0,0,0,1,1,1,1,1,0,[]
+175,Chicken Ramen,Japanese,Asian,Japan,Non-Vegetarian,Snack,100,192.4,25.4,15.4,29.9,2.6,2.5,855.0,115.0,0,0,0,1,1,1,1,1,"['Eggs', 'Dairy']"
+176,Pasta ai Carciofi,Italian,European,Italy,Vegetarian,Snack,100,141.8,5.0,3.6,39.5,7.3,7.6,691.0,32.0,0,0,1,1,1,1,1,1,[]
+177,Hainanese Chicken Rice,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,346.3,18.0,9.1,23.4,2.9,3.0,778.0,142.0,1,0,0,0,1,0,0,0,['Nuts']
+178,Chorizo con Huevos,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,159.8,17.4,17.9,33.0,1.9,5.1,337.0,48.0,0,0,1,0,1,1,1,1,"['Nuts', 'Gluten', 'Soy']"
+179,Aloo Gobi,Indian,Asian,India,Vegan,Snack,100,326.9,11.7,2.1,53.1,8.8,10.5,418.0,21.0,1,0,0,1,0,1,1,1,"['Dairy', 'Nuts']"
+180,Calçots,Spanish,European,Spain,Vegetarian,Beverage,100,222.2,11.0,5.4,11.2,4.5,10.9,241.0,27.0,0,1,0,0,1,1,0,0,[]
+181,Po' Boy,American,North American,United States,Non-Vegetarian,Beverage,100,392.5,16.9,22.8,18.3,5.2,1.8,923.0,131.0,0,0,1,1,1,1,1,1,"['None', 'Nuts', 'Eggs']"
+182,Pasta alla Crema di Zucca,Italian,European,Italy,Vegetarian,Breakfast,100,436.2,15.2,14.9,38.5,7.1,12.3,121.0,37.0,1,0,0,0,1,1,1,1,['Nuts']
+183,Beef Vindaloo,Indian,Asian,India,Non-Vegetarian,Breakfast,100,372.4,15.1,9.3,39.8,3.8,13.7,396.0,109.0,1,0,1,0,1,1,1,1,"['Nuts', 'Eggs', 'Gluten']"
+184,Grilled Octopus,Greek,European,Greece,Non-Vegetarian,Breakfast,100,449.9,5.7,24.5,32.2,7.1,16.1,810.0,119.0,1,0,1,0,1,0,0,1,['Soy']
+185,Red Braised Pork,Chinese,Asian,China,Non-Vegetarian,Dessert,100,463.6,4.6,16.5,48.4,4.0,34.1,1018.0,82.0,0,1,1,1,1,1,1,1,['Eggs']
+186,Galbi,Korean,Asian,South Korea,Non-Vegetarian,Snack,100,354.5,17.4,20.0,5.2,1.9,3.7,657.0,113.0,0,1,0,1,1,1,0,1,"['Dairy', 'Eggs']"
+187,Garganelli con Prosciutto,Italian,European,Italy,Non-Vegetarian,Beverage,100,247.1,24.0,13.2,16.2,1.4,0.7,843.0,110.0,0,0,1,0,1,1,1,1,['None']
+188,Vegetable Paella,Spanish,European,Spain,Vegetarian,Dinner,100,254.9,8.6,9.5,44.5,6.2,7.7,118.0,14.0,0,1,1,1,1,1,1,1,"['Shellfish', 'Soy', 'Dairy']"
+189,Za'atar Bread,Lebanese,Middle Eastern,Lebanon,Vegetarian,Snack,100,195.0,7.8,12.9,31.3,6.9,11.7,669.0,29.0,1,0,0,1,1,1,1,0,"['Eggs', 'Shellfish', 'None']"
+190,Spanakopita,Greek,European,Greece,Vegetarian,Breakfast,100,438.9,5.3,8.9,20.2,5.5,18.2,270.0,37.0,1,1,1,1,1,1,1,1,"['Soy', 'None', 'Gluten']"
+191,Dubu Buchim,Korean,Asian,South Korea,Vegetarian,Dinner,100,115.1,14.2,9.0,14.1,5.9,4.6,299.0,12.0,0,1,0,1,1,1,0,1,['Nuts']
+192,Bombil Fry,Indian,Asian,India,Non-Vegetarian,Dinner,100,350.8,25.8,14.8,23.3,4.3,2.7,672.0,45.0,0,1,0,1,0,1,1,1,"['Dairy', 'Soy', 'None']"
+193,Vegetable Club Sandwich,American,North American,United States,Vegetarian,Lunch,100,145.3,11.2,6.1,31.0,7.7,2.5,497.0,10.0,1,1,1,0,1,1,1,1,[]
+194,Crispy Chilli Beef,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,440.7,12.3,21.1,36.5,1.3,13.4,1156.0,102.0,1,1,0,1,1,0,1,1,"['Dairy', 'Soy', 'Nuts']"
+195,Fideuà,Spanish,European,Spain,Non-Vegetarian,Snack,100,354.8,32.7,13.0,11.4,3.7,4.1,1056.0,138.0,1,0,0,1,1,1,0,1,"['Nuts', 'Soy', 'Gluten']"
+196,Sweet Potato Fries,American,North American,United States,Vegan,Breakfast,100,288.4,8.6,20.6,28.2,6.8,9.6,567.0,4.0,1,0,0,0,1,0,0,1,"['None', 'Nuts']"
+197,BBQ Ribs,American,North American,United States,Non-Vegetarian,Beverage,100,306.0,24.0,20.9,10.0,4.4,8.6,495.0,41.0,1,1,0,1,0,1,1,0,"['Dairy', 'Shellfish', 'None']"
+198,Pinchos Morunos,Spanish,European,Spain,Non-Vegetarian,Lunch,100,155.9,27.8,21.4,21.4,1.4,3.9,835.0,90.0,0,1,1,0,1,0,1,1,"['Shellfish', 'None']"
+199,Waldorf Salad,American,North American,United States,Vegetarian,Snack,100,346.9,4.6,14.8,26.2,5.4,11.0,585.0,40.0,1,1,1,1,1,1,1,1,"['None', 'Gluten']"
+200,Feta Saganaki,Greek,European,Greece,Vegetarian,Lunch,100,132.1,4.2,15.3,33.1,4.2,2.1,160.0,36.0,1,0,1,0,1,1,1,0,['Gluten']
+201,Falafel,Lebanese,Middle Eastern,Lebanon,Vegan,Breakfast,100,248.0,9.9,9.5,30.6,1.5,11.3,147.0,32.0,1,0,0,1,1,1,0,1,[]
+202,Vegetable Mapo Doufu,Chinese,Asian,China,Vegetarian,Dessert,100,270.1,5.9,27.6,47.8,2.7,23.1,333.0,27.0,0,0,1,1,1,1,1,1,"['None', 'Shellfish']"
+203,Vegetable Curry,Indian,Asian,India,Vegan,Dinner,100,328.7,8.6,10.9,44.2,7.2,1.7,494.0,38.0,0,1,1,0,1,1,0,1,[]
+204,Camarones a la Diabla,Mexican,Latin American,Mexico,Non-Vegetarian,Beverage,100,193.8,28.8,12.4,21.1,0.6,4.5,981.0,72.0,1,0,1,0,1,1,0,1,['None']
+205,Spanakorizo,Greek,European,Greece,Vegetarian,Breakfast,100,366.2,16.9,23.5,27.0,3.8,4.7,795.0,37.0,1,1,1,1,1,1,1,1,"['Eggs', 'Shellfish', 'None']"
+206,Mujadara,Lebanese,Middle Eastern,Lebanon,Vegan,Lunch,100,224.2,10.4,10.3,39.9,3.8,9.3,189.0,33.0,1,1,0,0,1,1,1,0,[]
+207,Vegetable Sushi,Japanese,Asian,Japan,Vegan,Snack,100,279.9,9.1,2.6,27.1,5.4,5.0,161.0,37.0,1,1,0,1,1,1,1,0,[]
+208,Bhindi Masala,Indian,Asian,India,Vegan,Lunch,100,227.4,5.1,8.4,32.9,8.4,6.7,744.0,20.0,1,0,1,0,1,1,1,0,"['Shellfish', 'Gluten']"
+209,Sweet Potato Casserole,American,North American,United States,Vegetarian,Dinner,100,348.0,13.2,6.5,47.2,2.9,12.4,366.0,35.0,0,1,1,0,1,1,1,1,['Nuts']
+210,Shanghai Soup Dumplings,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,417.0,17.1,20.8,29.1,1.6,9.3,456.0,113.0,1,1,0,1,0,1,1,1,['Dairy']
+211,Campechana,Mexican,Latin American,Mexico,Non-Vegetarian,Lunch,100,236.5,34.5,22.1,29.7,0.8,8.6,1130.0,88.0,0,1,0,0,1,1,1,1,[]
+212,Gougère,French,European,France,Vegetarian,Snack,100,251.6,12.2,6.0,30.1,5.2,3.0,357.0,3.0,0,0,1,1,1,1,1,0,['Eggs']
+213,Potato Salad,American,North American,United States,Vegetarian,Beverage,100,106.5,4.6,19.4,32.0,9.7,7.1,318.0,20.0,0,1,1,0,1,1,0,0,"['Gluten', 'Shellfish']"
+214,Yudofu,Japanese,Asian,Japan,Vegetarian,Lunch,100,209.9,4.3,13.9,18.6,7.0,10.1,206.0,2.0,0,1,0,0,1,1,1,1,"['Shellfish', 'Nuts', 'Eggs']"
+215,Canh Chua Chay,Vietnamese,Asian,Vietnam,Vegetarian,Dessert,100,434.2,5.1,11.2,59.8,0.3,32.4,789.0,10.0,0,1,1,0,1,1,1,1,"['None', 'Eggs']"
+216,Gai Yang,Thai,Asian,Thailand,Non-Vegetarian,Dinner,100,185.6,17.4,14.7,8.0,4.2,0.6,758.0,150.0,1,1,1,0,1,1,1,1,"['None', 'Dairy']"
+217,Lamb Chops,Greek,European,Greece,Non-Vegetarian,Snack,100,353.5,27.3,14.7,23.7,3.2,4.3,418.0,136.0,0,1,0,1,1,1,1,0,['Gluten']
+218,Mi Quang Chay,Vietnamese,Asian,Vietnam,Vegetarian,Dinner,100,212.4,5.3,9.3,26.6,8.6,11.3,639.0,0.0,0,1,1,0,1,1,1,1,['Gluten']
+219,Tzatziki,Greek,European,Greece,Vegetarian,Lunch,100,204.0,8.8,3.3,20.4,8.1,2.9,475.0,9.0,1,0,0,1,1,1,1,1,"['None', 'Gluten']"
+220,Paneer Butter Masala,Indian,Asian,India,Vegetarian,Lunch,100,103.0,5.9,19.6,42.1,9.7,7.8,177.0,22.0,0,1,0,0,1,1,1,1,"['None', 'Shellfish', 'Eggs']"
+221,Fasolia Gigantes,Greek,European,Greece,Vegetarian,Snack,100,213.6,13.1,4.7,29.5,3.2,5.5,616.0,19.0,0,0,0,1,1,1,1,1,"['Eggs', 'None']"
+222,Lamb Kofta,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Breakfast,100,294.0,10.9,14.2,43.6,7.2,19.2,1008.0,68.0,1,1,1,0,1,1,1,1,"['None', 'Shellfish', 'Nuts']"
+223,Laab,Thai,Asian,Thailand,Non-Vegetarian,Dinner,100,322.0,23.8,13.6,30.2,0.2,9.0,715.0,106.0,1,1,1,0,1,0,1,1,['Dairy']
+224,Pasta al Pesto,Italian,European,Italy,Vegetarian,Beverage,100,264.8,13.7,13.8,34.6,2.5,8.3,205.0,29.0,1,0,0,1,0,1,0,0,"['None', 'Dairy']"
+225,Spicy Tofu Soup,Chinese,Asian,China,Vegetarian,Dessert,100,353.7,7.1,10.8,28.0,3.6,16.8,150.0,0.0,0,1,0,1,1,0,1,1,['None']
+226,Gumbo,American,North American,United States,Non-Vegetarian,Dessert,100,487.0,7.6,17.1,35.4,1.7,34.4,895.0,52.0,1,1,1,0,1,1,1,1,['Nuts']
+227,Banh Mi Chay,Vietnamese,Asian,Vietnam,Vegetarian,Dinner,100,143.5,4.2,14.2,40.6,4.1,1.3,158.0,39.0,1,1,0,0,1,1,0,1,"['Soy', 'Gluten', 'Nuts']"
+228,Gomoku Chirashi,Japanese,Asian,Japan,Non-Vegetarian,Lunch,100,223.9,30.4,21.7,16.5,1.2,1.2,854.0,123.0,1,0,1,0,1,1,0,1,"['Dairy', 'Shellfish']"
+229,Kongnamul Muchim,Korean,Asian,South Korea,Vegetarian,Snack,100,261.0,9.4,3.7,48.7,8.4,5.1,786.0,24.0,0,1,1,1,1,1,0,0,[]
+230,Tiropita,Greek,European,Greece,Vegetarian,Dinner,100,245.6,12.0,16.8,36.3,3.0,5.7,750.0,9.0,0,0,1,0,1,1,1,0,"['Gluten', 'Nuts', 'Dairy']"
+231,Som Tam Poo Ma,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,293.0,11.5,13.8,38.4,7.6,6.3,409.0,54.0,1,1,0,0,0,1,1,1,[]
+232,Seafood Tofu Pot,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,421.7,14.7,10.7,44.5,7.0,17.2,1127.0,60.0,1,1,0,0,1,1,1,1,[]
+233,Kimchi Jjigae,Korean,Asian,South Korea,Non-Vegetarian,Lunch,100,338.8,24.2,26.5,26.9,4.7,6.6,460.0,95.0,1,1,1,0,1,1,1,1,['Gluten']
+234,Malai Tikka,Indian,Asian,India,Non-Vegetarian,Dessert,100,495.4,9.4,10.9,30.8,0.7,33.1,1036.0,56.0,0,1,1,0,1,1,1,1,[]
+235,Vegetable Flautas,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,226.5,13.1,15.5,31.7,6.7,8.1,308.0,23.0,0,1,1,0,1,1,1,1,"['Dairy', 'Nuts', 'Eggs']"
+236,Vegetable Massaman Curry,Thai,Asian,Thailand,Vegetarian,Snack,100,272.2,13.5,13.8,40.4,3.3,7.5,107.0,10.0,1,0,1,1,1,1,1,1,"['None', 'Soy']"
+237,Bamia bil Zeit,Lebanese,Middle Eastern,Lebanon,Vegetarian,Snack,100,281.6,14.9,4.7,26.1,8.4,3.9,489.0,29.0,0,0,0,1,0,1,1,0,[]
+238,Yachae Jeon,Korean,Asian,South Korea,Vegetarian,Breakfast,100,354.0,7.8,12.1,43.5,4.9,2.1,633.0,1.0,1,0,0,0,1,1,0,1,['None']
+239,Doenjang Chigae,Korean,Asian,South Korea,Non-Vegetarian,Dinner,100,336.4,19.0,29.1,16.0,2.0,1.5,575.0,135.0,0,1,1,0,1,1,1,1,"['Gluten', 'Eggs', 'Dairy']"
+240,Dubu Kimchi,Korean,Asian,South Korea,Vegetarian,Breakfast,100,449.1,10.5,14.0,41.7,7.2,12.7,374.0,17.0,1,0,0,0,0,1,1,1,"['Gluten', 'Dairy', 'Nuts']"
+241,Soupe au Pistou,French,European,France,Vegetarian,Dessert,100,408.7,1.0,22.4,37.4,4.0,17.3,512.0,19.0,0,1,1,0,1,1,1,1,"['Gluten', 'Nuts']"
+242,Jambalaya,American,North American,United States,Non-Vegetarian,Dinner,100,310.6,16.3,20.8,21.8,3.4,6.0,909.0,127.0,0,0,1,0,1,1,1,1,"['Nuts', 'Shellfish']"
+243,Risotto al Prosecco,Italian,European,Italy,Vegetarian,Snack,100,167.5,12.9,11.5,13.1,2.5,5.7,649.0,28.0,0,0,0,1,1,1,1,1,"['Dairy', 'Soy', 'Shellfish']"
+244,Fafda,Indian,Asian,India,Vegetarian,Lunch,100,297.2,9.2,10.5,15.9,4.6,7.1,162.0,9.0,0,1,1,0,1,1,1,1,[]
+245,Pimientos de Padrón,Spanish,European,Spain,Vegetarian,Lunch,100,249.6,11.8,20.0,47.3,7.1,6.9,545.0,31.0,0,1,0,0,1,1,1,1,[]
+246,Vegetable Gyoza,Japanese,Asian,Japan,Vegetarian,Snack,100,129.6,7.9,17.3,25.4,6.6,9.2,229.0,14.0,1,0,0,1,1,1,1,1,[]
+247,Fasolada,Greek,European,Greece,Vegetarian,Beverage,100,183.6,3.3,3.4,43.3,4.2,8.3,309.0,38.0,0,1,1,0,1,0,1,1,"['None', 'Nuts', 'Eggs']"
+248,Hiyayakko,Japanese,Asian,Japan,Vegetarian,Snack,100,164.8,8.2,17.8,43.7,3.5,12.2,421.0,19.0,0,0,0,1,1,1,0,1,"['Nuts', 'Shellfish']"
+249,Bollito Misto,Italian,European,Italy,Non-Vegetarian,Breakfast,100,233.4,6.2,19.6,34.9,4.1,15.1,989.0,49.0,0,0,0,1,1,0,1,1,['Gluten']
+250,Pulpo a la Gallega,Spanish,European,Spain,Non-Vegetarian,Beverage,100,302.6,17.7,24.5,24.7,5.7,0.7,351.0,64.0,0,1,0,1,1,1,1,1,['Nuts']
+251,Pulled Pork Sandwich,American,North American,United States,Non-Vegetarian,Beverage,100,215.4,19.9,27.9,12.5,1.6,7.6,705.0,123.0,0,1,0,0,1,1,1,1,['Shellfish']
+252,Discada Norteña,Mexican,Latin American,Mexico,Non-Vegetarian,Lunch,100,166.3,24.8,8.7,6.9,5.4,1.4,779.0,79.0,0,1,0,0,1,1,1,1,[]
+253,Gemista,Greek,European,Greece,Vegetarian,Dessert,100,304.2,9.1,10.4,48.2,4.8,29.0,756.0,2.0,0,1,1,1,0,1,1,1,"['Dairy', 'Nuts', 'None']"
+254,Vegetable Gumbo,American,North American,United States,Vegetarian,Snack,100,204.7,6.1,15.4,49.3,4.1,10.2,239.0,23.0,0,1,0,1,1,1,1,0,"['None', 'Gluten', 'Dairy']"
+255,Dolsot Bibimbap,Korean,Asian,South Korea,Non-Vegetarian,Beverage,100,266.0,34.4,21.4,15.5,0.7,1.5,503.0,60.0,0,0,1,1,1,1,1,1,['Gluten']
+256,Salmorejo,Spanish,European,Spain,Vegetarian,Beverage,100,312.7,9.7,11.9,14.6,8.9,11.1,147.0,28.0,1,0,1,1,1,1,1,1,"['Eggs', 'Shellfish']"
+257,Chicken Satay,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,285.9,16.6,18.1,19.5,1.0,9.5,1065.0,110.0,0,0,1,1,0,0,1,1,['Dairy']
+258,Dau Phu Chien,Vietnamese,Asian,Vietnam,Vegetarian,Dessert,100,338.7,4.7,23.0,44.1,0.3,27.8,664.0,18.0,1,1,1,1,0,1,1,1,[]
+259,Tortilla Española,Spanish,European,Spain,Vegetarian,Beverage,100,113.0,12.4,6.4,20.3,3.3,5.6,630.0,21.0,1,1,1,1,1,1,1,0,[]
+260,Sukiyaki,Japanese,Asian,Japan,Non-Vegetarian,Beverage,100,201.2,32.6,27.4,31.1,1.4,4.5,1186.0,123.0,0,1,1,1,0,1,1,1,[]
+261,Grilled Cheese,American,North American,United States,Vegetarian,Snack,100,106.8,3.8,10.9,46.4,6.3,8.0,174.0,26.0,0,0,0,1,1,1,1,1,['Shellfish']
+262,Moussaka,Greek,European,Greece,Non-Vegetarian,Lunch,100,355.5,22.6,25.1,33.9,1.2,5.2,558.0,125.0,1,1,1,0,1,0,1,1,[]
+263,Cucumber Rolls,Japanese,Asian,Japan,Vegan,Lunch,100,232.8,8.3,14.8,30.8,11.2,6.9,211.0,28.0,0,1,1,1,1,1,1,0,"['Eggs', 'Shellfish']"
+264,Gnocchi,Italian,European,Italy,Vegetarian,Breakfast,100,398.3,9.8,22.1,47.2,2.9,19.7,198.0,8.0,1,0,1,0,1,1,0,1,"['Dairy', 'Gluten']"
+265,Salade Niçoise,French,European,France,Non-Vegetarian,Snack,100,196.1,32.9,22.4,9.6,2.6,6.2,375.0,136.0,0,0,0,1,0,1,1,1,['Gluten']
+266,Lahanosalata,Greek,European,Greece,Vegetarian,Dessert,100,441.1,5.5,29.3,39.6,4.9,31.7,544.0,7.0,0,1,0,0,1,1,1,1,"['Eggs', 'Gluten', 'Shellfish']"
+267,Croquetas,Spanish,European,Spain,Non-Vegetarian,Dessert,100,464.6,4.8,13.2,25.4,2.8,28.2,947.0,137.0,0,1,1,0,1,1,1,1,[]
+268,Shish Barak,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Snack,100,169.9,29.6,12.1,30.7,4.9,5.4,939.0,68.0,1,0,1,0,1,1,1,1,['Gluten']
+269,Bakaliaros Skordalia,Greek,European,Greece,Non-Vegetarian,Dessert,100,341.4,8.4,19.2,37.5,2.5,35.7,602.0,51.0,1,1,1,0,1,1,1,1,[]
+270,Huevos Rotos,Spanish,European,Spain,Non-Vegetarian,Dessert,100,413.6,8.4,12.0,33.4,0.7,23.7,705.0,120.0,1,1,0,0,1,1,1,1,"['Shellfish', 'None', 'Nuts']"
+271,Cao Lau,Vietnamese,Asian,Vietnam,Non-Vegetarian,Breakfast,100,362.8,14.3,12.0,45.2,4.3,19.6,871.0,45.0,1,1,0,0,0,1,1,1,[]
+272,Beef in Oyster Sauce,Chinese,Asian,China,Non-Vegetarian,Lunch,100,319.0,21.5,23.1,7.1,1.0,8.6,504.0,130.0,0,1,1,1,1,0,1,1,['Shellfish']
+273,Vegetable Tom Yum,Thai,Asian,Thailand,Vegetarian,Snack,100,169.8,10.7,14.8,30.5,4.4,4.0,123.0,12.0,0,0,0,1,1,1,0,1,"['Gluten', 'Soy', 'None']"
+274,Makanek,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dessert,100,395.9,9.4,27.4,51.8,3.9,31.6,534.0,139.0,0,1,0,0,1,0,1,1,"['Soy', 'Eggs']"
+275,Buffalo Cauliflower Wings,American,North American,United States,Vegetarian,Dinner,100,267.7,9.7,4.9,27.9,5.7,13.1,483.0,15.0,0,0,1,1,1,1,1,1,"['Shellfish', 'None']"
+276,Vegetable Sopes,Mexican,Latin American,Mexico,Vegetarian,Dessert,100,493.0,2.0,18.5,26.5,3.7,38.0,296.0,34.0,0,0,1,0,0,1,1,1,[]
+277,Clam Bake,American,North American,United States,Non-Vegetarian,Dessert,100,287.7,9.2,25.1,53.2,0.1,39.1,954.0,67.0,0,1,0,0,0,1,0,1,[]
+278,Shanklish,Lebanese,Middle Eastern,Lebanon,Vegetarian,Breakfast,100,407.3,9.2,22.5,23.4,5.9,11.7,168.0,10.0,1,0,1,0,1,1,1,0,"['Dairy', 'Soy']"
+279,Chettinad Chicken,Indian,Asian,India,Non-Vegetarian,Snack,100,153.1,24.4,14.6,23.0,1.8,3.0,969.0,36.0,0,0,0,1,1,1,1,0,"['Shellfish', 'None']"
+280,Kashmiri Chicken Yakhni,Indian,Asian,India,Non-Vegetarian,Snack,100,375.7,32.0,22.7,22.8,5.4,1.9,371.0,59.0,0,0,0,1,1,1,1,0,"['None', 'Dairy', 'Nuts']"
+281,Unadon,Japanese,Asian,Japan,Non-Vegetarian,Lunch,100,348.6,15.7,20.8,34.9,5.1,5.2,357.0,130.0,1,0,1,1,1,1,1,1,"['Gluten', 'Nuts']"
+282,Masala Kulcha,Indian,Asian,India,Vegetarian,Dinner,100,249.7,4.4,4.6,46.4,7.4,12.6,715.0,23.0,1,0,1,0,1,1,1,1,"['Soy', 'Dairy']"
+283,Vegetable Pot-au-Feu,French,European,France,Vegetarian,Dinner,100,229.4,8.2,8.4,27.4,8.2,9.4,725.0,18.0,0,1,1,0,0,1,1,1,[]
+284,Dakos,Greek,European,Greece,Vegetarian,Beverage,100,251.8,10.6,13.1,38.1,3.9,8.2,173.0,15.0,0,1,1,0,1,1,1,1,"['Gluten', 'Soy']"
+285,Eggs Benedict,American,North American,United States,Non-Vegetarian,Dessert,100,346.3,6.9,29.0,46.0,3.7,27.7,871.0,39.0,0,1,0,1,1,0,1,0,[]
+286,Ensalada de Naranja y Aceitunas,Spanish,European,Spain,Vegetarian,Lunch,100,163.6,7.3,11.0,11.8,3.1,4.9,780.0,13.0,0,1,1,0,1,0,1,1,[]
+287,Malabar Fish Curry,Indian,Asian,India,Non-Vegetarian,Beverage,100,270.5,18.9,21.4,13.4,1.2,5.2,305.0,31.0,1,1,1,1,1,1,0,1,"['Shellfish', 'Eggs', 'None']"
+288,Spring Rolls,Thai,Asian,Thailand,Vegetarian,Snack,100,154.8,3.4,4.8,23.6,8.4,9.0,459.0,12.0,0,0,0,1,1,1,1,0,[]
+289,Jangjorim,Korean,Asian,South Korea,Vegetarian,Dinner,100,332.9,7.8,4.5,34.7,2.9,5.8,455.0,35.0,0,0,1,1,1,1,1,0,"['Shellfish', 'Dairy']"
+290,Torrijas,Spanish,European,Spain,Non-Vegetarian,Breakfast,100,323.4,15.5,24.9,23.9,2.9,9.1,680.0,79.0,1,1,1,0,1,1,1,1,"['Dairy', 'Eggs']"
+291,Vegetable Moo Shu,Chinese,Asian,China,Vegetarian,Lunch,100,326.9,11.6,13.3,22.4,8.6,14.4,675.0,0.0,0,1,1,0,0,1,0,0,"['Shellfish', 'Soy', 'Gluten']"
+292,Vegetable Oshizushi,Japanese,Asian,Japan,Vegetarian,Lunch,100,259.1,3.6,7.4,12.4,6.8,10.6,180.0,15.0,0,1,1,0,1,1,0,1,"['Nuts', 'Soy', 'None']"
+293,Buffalo Wings,American,North American,United States,Non-Vegetarian,Snack,100,264.1,22.4,10.7,17.6,4.5,0.7,372.0,73.0,1,1,1,1,1,0,1,1,"['Eggs', 'None', 'Nuts']"
+294,Beef Brisket,American,North American,United States,Non-Vegetarian,Snack,100,385.4,28.4,22.9,15.9,3.6,0.1,872.0,140.0,1,0,1,1,0,0,1,1,[]
+295,Canh Rau Muong,Vietnamese,Asian,Vietnam,Vegetarian,Breakfast,100,353.1,18.1,19.5,23.6,7.3,3.2,474.0,6.0,1,0,0,0,1,1,1,0,"['Shellfish', 'Dairy', 'Nuts']"
+296,Socca,French,European,France,Vegetarian,Dessert,100,203.5,4.8,15.9,42.0,2.9,16.1,186.0,22.0,1,1,1,0,1,1,0,0,['None']
+297,Ful Medames,Lebanese,Middle Eastern,Lebanon,Vegetarian,Snack,100,185.8,11.8,14.1,43.8,7.5,7.0,571.0,11.0,1,0,0,0,1,1,1,1,"['Dairy', 'Gluten', 'Nuts']"
+298,Tofu Yellow Curry,Thai,Asian,Thailand,Vegetarian,Breakfast,100,276.6,16.8,13.9,44.0,6.8,17.4,742.0,17.0,1,0,0,0,0,1,1,1,"['None', 'Shellfish']"
+299,Gamja Jorim,Korean,Asian,South Korea,Vegetarian,Snack,100,179.7,10.0,9.3,34.0,7.6,10.6,362.0,7.0,0,0,0,1,1,0,1,1,"['Eggs', 'None']"
+300,Vegetable Sundubu Jjigae,Korean,Asian,South Korea,Vegetarian,Dessert,100,329.2,2.3,27.8,37.1,0.8,15.6,552.0,25.0,0,1,1,1,1,1,1,0,['Eggs']
+301,Fried Chicken,American,North American,United States,Non-Vegetarian,Beverage,100,235.2,16.4,17.0,14.3,4.1,6.1,628.0,56.0,0,1,1,1,0,1,1,1,['Dairy']
+302,Vegetable Jajangmyeon,Korean,Asian,South Korea,Vegetarian,Breakfast,100,447.0,11.8,18.8,24.2,4.4,2.5,454.0,39.0,1,1,0,0,1,1,1,1,"['Gluten', 'Dairy']"
+303,Kolokithokeftedes,Greek,European,Greece,Vegetarian,Lunch,100,196.1,3.5,3.5,25.5,3.3,1.3,629.0,18.0,0,1,0,1,1,1,1,1,"['Soy', 'None', 'Gluten']"
+304,Barbacoa,Mexican,Latin American,Mexico,Non-Vegetarian,Snack,100,222.3,33.0,10.6,33.7,1.9,8.9,843.0,129.0,1,1,0,1,1,1,1,1,[]
+305,Vegetable Jambalaya,American,North American,United States,Vegetarian,Breakfast,100,446.0,9.3,24.2,31.7,3.7,8.1,479.0,6.0,1,0,0,1,0,1,1,1,[]
+306,Al Pastor Tacos,Mexican,Latin American,Mexico,Non-Vegetarian,Snack,100,288.4,25.8,24.8,30.0,2.6,3.0,533.0,53.0,0,0,0,1,1,1,1,1,[]
+307,Coq au Vin,French,European,France,Non-Vegetarian,Lunch,100,164.4,21.8,13.9,34.0,3.3,3.5,822.0,47.0,0,1,1,1,1,1,1,1,"['Gluten', 'Dairy']"
+308,Spider Roll,Japanese,Asian,Japan,Non-Vegetarian,Dessert,100,333.2,6.6,19.8,39.1,5.0,37.0,861.0,98.0,0,1,0,0,1,1,1,1,"['Nuts', 'None', 'Soy']"
+309,Goi Cuon Chay,Vietnamese,Asian,Vietnam,Vegetarian,Beverage,100,255.2,5.4,9.7,11.6,5.8,8.6,259.0,39.0,0,1,1,1,1,1,1,1,[]
+310,Kung Pao Chicken,Chinese,Asian,China,Non-Vegetarian,Beverage,100,377.4,29.4,19.7,31.1,0.8,7.9,412.0,125.0,0,0,1,0,1,1,1,1,"['Eggs', 'Soy', 'Shellfish']"
+311,Rava Kesari,Indian,Asian,India,Vegetarian,Beverage,100,168.9,13.5,19.0,16.0,5.7,14.7,438.0,35.0,0,1,1,0,1,1,1,1,['Soy']
+312,Vegetable Red Curry,Thai,Asian,Thailand,Vegetarian,Beverage,100,247.2,7.5,7.9,18.1,8.1,6.4,458.0,20.0,0,1,1,0,1,1,1,1,[]
+313,Khao Soi,Thai,Asian,Thailand,Non-Vegetarian,Dinner,100,294.3,32.3,29.6,17.2,5.0,7.6,816.0,145.0,0,1,0,0,1,1,1,1,"['Nuts', 'Gluten']"
+314,Goi Ga,Vietnamese,Asian,Vietnam,Non-Vegetarian,Snack,100,200.1,17.2,26.8,18.2,5.1,8.9,356.0,136.0,0,0,0,1,1,1,1,1,[]
+315,Chicken Pot Pie,American,North American,United States,Non-Vegetarian,Snack,100,262.1,25.2,21.8,32.8,0.1,4.8,919.0,117.0,0,1,0,1,1,1,1,1,['Eggs']
+316,Pad Krapow Moo,Thai,Asian,Thailand,Non-Vegetarian,Lunch,100,323.1,17.7,14.6,15.8,4.8,2.8,490.0,145.0,0,0,1,0,1,1,1,0,['Dairy']
+317,Rajas con Crema,Mexican,Latin American,Mexico,Vegetarian,Dessert,100,202.7,10.0,23.5,54.0,1.5,15.4,617.0,33.0,1,1,0,0,1,1,1,1,[]
+318,Prawn Saganaki,Greek,European,Greece,Non-Vegetarian,Dessert,100,422.1,2.3,25.1,51.9,3.3,34.2,1061.0,104.0,0,1,0,0,1,0,0,1,['None']
+319,Dubu Jorim,Korean,Asian,South Korea,Vegetarian,Breakfast,100,222.2,12.3,6.6,32.2,3.8,3.2,344.0,4.0,1,0,0,0,1,1,1,0,"['Nuts', 'Shellfish', 'Gluten']"
+320,Gaeng Som,Thai,Asian,Thailand,Non-Vegetarian,Dessert,100,442.5,9.5,11.4,58.4,2.6,22.5,369.0,90.0,1,1,1,0,1,1,1,1,"['Nuts', 'Eggs']"
+321,Niku Udon,Japanese,Asian,Japan,Non-Vegetarian,Lunch,100,348.6,29.1,9.1,7.2,2.4,3.0,509.0,64.0,1,1,1,1,1,1,1,1,['None']
+322,Vegetable Banh Xeo,Vietnamese,Asian,Vietnam,Vegetarian,Snack,100,300.9,14.2,9.9,46.2,4.6,7.7,258.0,26.0,1,0,0,1,1,1,1,1,[]
+323,Piperade,French,European,France,Vegetarian,Beverage,100,344.7,10.2,9.1,35.9,3.0,13.4,452.0,18.0,1,0,1,0,1,1,1,1,"['Nuts', 'Gluten']"
+324,Vegetable Quiche,French,European,France,Vegetarian,Dinner,100,246.5,10.5,4.2,37.3,3.9,11.0,676.0,32.0,0,1,1,0,1,1,1,1,"['Gluten', 'Eggs', 'Soy']"
+325,Chicken Karaage,Japanese,Asian,Japan,Non-Vegetarian,Beverage,100,288.1,25.4,11.1,28.3,1.6,5.0,556.0,46.0,0,1,0,0,1,1,0,1,"['Dairy', 'Nuts']"
+326,Banh Bot Loc,Vietnamese,Asian,Vietnam,Non-Vegetarian,Dessert,100,388.9,1.5,25.0,36.1,0.0,27.8,342.0,63.0,1,1,0,0,1,0,1,1,[]
+327,Tapas,Spanish,European,Spain,Non-Vegetarian,Beverage,100,326.7,16.3,26.5,5.1,1.5,7.4,585.0,42.0,1,1,1,0,1,1,1,1,[]
+328,Polpette,Italian,European,Italy,Non-Vegetarian,Dessert,100,308.1,3.4,26.9,36.0,3.9,37.3,690.0,139.0,1,0,1,1,1,1,1,1,['Gluten']
+329,Pad Ped Moo,Thai,Asian,Thailand,Non-Vegetarian,Snack,100,244.3,34.3,10.0,25.6,3.0,3.9,869.0,114.0,0,0,1,0,1,1,1,1,"['Soy', 'Shellfish', 'None']"
+330,Chicken Nanban,Japanese,Asian,Japan,Non-Vegetarian,Snack,100,151.1,18.3,23.7,25.0,5.8,7.6,1156.0,114.0,1,1,0,1,1,1,1,0,['Nuts']
+331,Sushi,Japanese,Asian,Japan,Non-Vegetarian,Dessert,100,289.4,1.9,25.6,47.5,0.2,24.0,1161.0,90.0,0,1,0,1,0,1,1,1,"['Dairy', 'Eggs']"
+332,Djej Meshwi,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Snack,100,258.2,24.2,12.6,16.1,2.2,0.5,991.0,80.0,1,0,0,1,1,1,1,0,"['Nuts', 'Shellfish']"
+333,Vegetable Cassoulet,French,European,France,Vegetarian,Breakfast,100,405.5,17.8,9.2,39.7,4.3,17.8,251.0,27.0,1,1,0,0,1,1,1,1,[]
+334,Vegetable Chop Suey,Chinese,Asian,China,Vegetarian,Dinner,100,251.9,6.5,5.3,36.1,7.9,5.4,551.0,16.0,1,1,1,1,1,1,1,1,"['Nuts', 'Eggs', 'Gluten']"
+335,Pad Kra Pao,Thai,Asian,Thailand,Vegetarian,Lunch,100,278.3,5.4,18.1,21.5,4.9,1.8,178.0,21.0,0,1,1,1,0,1,1,1,['Eggs']
+336,Pastrami on Rye,American,North American,United States,Non-Vegetarian,Lunch,100,216.9,31.7,8.3,16.4,2.0,0.2,412.0,80.0,0,1,1,1,1,1,1,0,"['Dairy', 'Shellfish']"
+337,Canh Bau,Vietnamese,Asian,Vietnam,Vegetarian,Beverage,100,223.2,7.9,12.0,33.8,2.1,7.5,774.0,21.0,0,1,1,1,0,1,1,1,"['Nuts', 'Gluten', 'Dairy']"
+338,Chicken Wings,American,North American,United States,Non-Vegetarian,Dessert,100,403.3,3.8,25.5,52.1,2.6,39.4,413.0,32.0,0,1,0,0,1,1,1,1,['Dairy']
+339,Fasolia Yigantes Plaki,Greek,European,Greece,Vegetarian,Beverage,100,292.5,12.7,5.0,20.6,2.1,5.1,641.0,21.0,0,0,0,1,1,1,1,1,"['Dairy', 'Nuts', 'Soy']"
+340,Philly Cheesesteak,American,North American,United States,Non-Vegetarian,Beverage,100,237.0,22.4,8.0,14.0,3.9,9.7,1062.0,33.0,1,1,0,1,1,1,1,1,"['Dairy', 'Soy', 'None']"
+341,Batata wa Lahme,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dinner,100,374.6,30.7,25.2,18.7,2.4,3.0,359.0,57.0,0,0,1,0,1,1,1,1,"['Eggs', 'Gluten']"
+342,Gamjatang,Korean,Asian,South Korea,Non-Vegetarian,Dinner,100,211.7,24.7,24.4,19.2,0.3,9.6,1148.0,124.0,0,1,1,1,0,1,1,1,"['Dairy', 'Gluten', 'Shellfish']"
+343,Cocido Madrileño,Spanish,European,Spain,Non-Vegetarian,Dessert,100,497.4,5.9,29.3,27.6,1.8,20.6,476.0,47.0,1,1,0,1,0,1,0,0,"['None', 'Shellfish', 'Gluten']"
+344,Cassoulet,French,European,France,Non-Vegetarian,Beverage,100,305.6,30.6,20.7,9.4,4.9,6.4,649.0,111.0,0,1,1,1,1,0,0,1,['Soy']
+345,Vegetable Crepes,French,European,France,Vegetarian,Lunch,100,165.0,7.1,18.6,21.6,5.8,13.5,595.0,2.0,0,0,1,0,1,1,1,1,"['Gluten', 'Dairy', 'Shellfish']"
+346,Chicken Sumac,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dessert,100,244.2,1.1,22.6,40.7,0.7,38.9,777.0,59.0,0,1,1,0,0,1,0,0,"['None', 'Shellfish', 'Eggs']"
+347,Cha Ca,Vietnamese,Asian,Vietnam,Non-Vegetarian,Dessert,100,350.2,7.1,11.5,34.6,4.0,26.5,792.0,82.0,0,1,0,0,1,0,1,1,[]
+348,Baba Ganoush,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dinner,100,111.0,5.0,10.6,18.4,2.4,12.8,787.0,32.0,0,1,0,1,1,1,1,1,['Gluten']
+349,Nalli Nihari,Indian,Asian,India,Non-Vegetarian,Dinner,100,363.4,19.8,29.1,10.9,5.7,9.9,941.0,148.0,1,1,1,0,0,1,1,0,[]
+350,Bun Cha,Vietnamese,Asian,Vietnam,Non-Vegetarian,Snack,100,292.4,20.2,17.6,22.8,0.4,6.2,1183.0,53.0,0,0,0,1,1,1,1,0,"['Gluten', 'None', 'Nuts']"
+351,Beef Satay,Thai,Asian,Thailand,Non-Vegetarian,Snack,100,348.1,33.2,28.8,33.8,3.1,9.8,982.0,49.0,0,1,0,1,1,1,1,1,[]
+352,Sizzling Beef in Black Pepper Sauce,Chinese,Asian,China,Non-Vegetarian,Dessert,100,343.1,7.5,14.9,47.4,3.3,19.1,809.0,123.0,1,1,0,0,1,1,1,1,"['None', 'Eggs']"
+353,Scallion Pancakes,Chinese,Asian,China,Vegetarian,Dinner,100,224.7,3.1,3.2,24.3,9.4,4.2,544.0,9.0,0,1,1,0,1,1,1,1,"['Soy', 'Dairy', 'Eggs']"
+354,Vegetable Tamales,Mexican,Latin American,Mexico,Vegetarian,Dinner,100,180.4,13.2,15.4,13.8,5.4,1.4,437.0,26.0,0,0,1,0,1,1,1,1,[]
+355,Turkey Club Sandwich,American,North American,United States,Non-Vegetarian,Lunch,100,179.6,20.8,16.8,32.6,6.0,0.4,985.0,75.0,0,0,1,1,1,0,1,1,[]
+356,Vegetable Yakisoba,Japanese,Asian,Japan,Vegetarian,Dinner,100,198.1,12.1,18.6,48.0,6.6,6.0,651.0,10.0,0,1,1,0,1,1,1,1,['Shellfish']
+357,Spinach Fatayer,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dinner,100,241.0,7.3,14.2,19.6,3.5,13.9,171.0,20.0,1,1,1,0,1,0,1,1,"['None', 'Gluten']"
+358,Dhaba Chicken,Indian,Asian,India,Non-Vegetarian,Beverage,100,205.2,15.8,8.8,10.3,5.2,2.8,1155.0,100.0,1,1,0,1,1,0,1,1,"['Soy', 'Shellfish', 'Gluten']"
+359,Besan Ladoo,Indian,Asian,India,Vegetarian,Dessert,100,331.0,6.2,20.3,51.6,1.4,23.8,726.0,38.0,0,1,1,0,1,1,1,0,"['None', 'Gluten']"
+360,Bacalao al Pil Pil,Spanish,European,Spain,Non-Vegetarian,Snack,100,373.1,23.4,25.2,19.3,3.0,2.0,832.0,52.0,0,0,0,1,1,1,1,1,['Eggs']
+361,Choucroute Garnie,French,European,France,Non-Vegetarian,Dessert,100,299.5,8.7,14.1,27.5,0.3,38.5,756.0,79.0,0,1,1,0,1,1,1,1,['Eggs']
+362,Coleslaw,American,North American,United States,Vegetarian,Beverage,100,302.7,13.0,8.6,37.7,8.2,10.2,206.0,35.0,0,1,1,0,1,1,0,0,"['Eggs', 'None']"
+363,Kaisen Don,Japanese,Asian,Japan,Non-Vegetarian,Beverage,100,284.8,20.6,17.4,6.1,0.8,7.7,300.0,80.0,0,0,1,0,1,1,1,1,"['Soy', 'None']"
+364,Seaweed Soup,Korean,Asian,South Korea,Vegetarian,Dessert,100,356.8,1.5,29.5,32.9,1.5,22.6,261.0,0.0,1,1,1,0,1,1,1,1,['None']
+365,Pot-au-Feu,French,European,France,Non-Vegetarian,Snack,100,332.3,34.3,12.9,24.9,4.5,8.5,680.0,66.0,1,1,0,0,0,0,1,1,['None']
+366,Huitlacoche Quesadillas,Mexican,Latin American,Mexico,Vegetarian,Lunch,100,181.3,11.6,16.9,17.3,5.0,13.6,665.0,39.0,0,1,1,0,1,1,1,1,"['Shellfish', 'Nuts', 'Eggs']"
+367,Zaatar Manoushe,Lebanese,Middle Eastern,Lebanon,Vegetarian,Snack,100,288.6,7.7,13.0,36.4,2.6,8.6,597.0,7.0,0,1,0,1,1,1,1,1,[]
+368,Camarones al Mojo de Ajo,Mexican,Latin American,Mexico,Non-Vegetarian,Snack,100,345.2,26.7,28.9,6.3,1.6,6.0,567.0,116.0,0,0,1,1,1,0,1,0,"['None', 'Shellfish', 'Eggs']"
+369,Farinata,Italian,European,Italy,Vegetarian,Dessert,100,427.7,1.9,20.3,42.8,1.8,38.3,679.0,28.0,1,1,1,1,1,1,1,1,"['Nuts', 'Shellfish']"
+370,Insalata di Indivia,Italian,European,Italy,Vegetarian,Beverage,100,278.6,8.5,18.7,37.8,7.8,13.1,292.0,32.0,0,1,0,0,0,1,1,1,[]
+371,Vegetable Philly Cheesesteak,American,North American,United States,Vegetarian,Dinner,100,148.8,7.1,8.7,49.1,8.9,10.8,609.0,22.0,0,0,1,1,1,1,1,1,"['Nuts', 'Shellfish', 'Dairy']"
+372,Margherita Pizza,Italian,European,Italy,Vegetarian,Lunch,100,336.8,9.0,9.5,16.5,8.3,11.3,369.0,1.0,0,1,1,0,1,1,0,1,"['Eggs', 'None', 'Shellfish']"
+373,Dahi Bhalla,Indian,Asian,India,Vegetarian,Dessert,100,451.7,1.1,24.1,59.0,2.2,20.9,593.0,33.0,0,1,0,1,1,1,1,0,"['Nuts', 'Gluten']"
+374,Aloo Tikki,Indian,Asian,India,Vegetarian,Snack,100,236.6,14.6,3.9,30.2,7.7,13.1,225.0,32.0,1,1,0,1,1,1,0,0,"['Gluten', 'None']"
+375,Reuben Sandwich,American,North American,United States,Non-Vegetarian,Dinner,100,288.2,22.9,10.9,31.0,0.9,3.1,561.0,135.0,0,0,1,0,1,1,1,1,"['Soy', 'Eggs']"
+376,Muhammara,Lebanese,Middle Eastern,Lebanon,Vegetarian,Beverage,100,268.2,12.6,7.3,35.0,6.6,12.7,734.0,0.0,0,1,0,0,0,1,1,0,"['Eggs', 'Soy']"
+377,Khao Kha Moo,Thai,Asian,Thailand,Non-Vegetarian,Dessert,100,402.2,1.5,21.0,35.1,1.5,23.8,859.0,70.0,0,1,1,0,1,1,1,1,['Shellfish']
+378,Edamame,Japanese,Asian,Japan,Vegetarian,Breakfast,100,383.2,11.1,6.4,43.5,3.0,9.8,580.0,13.0,1,0,1,0,1,0,1,1,['Gluten']
+379,Ensalada Rusa,Spanish,European,Spain,Vegetarian,Beverage,100,114.1,7.5,19.1,35.7,7.4,9.9,239.0,17.0,1,1,1,0,1,1,1,1,[]
+380,Stir-Fried Mushrooms,Chinese,Asian,China,Vegetarian,Dinner,100,287.7,4.2,7.7,21.1,5.5,14.7,147.0,21.0,0,1,1,1,1,1,1,0,"['Eggs', 'None']"
+381,Ca Tim Kho To,Vietnamese,Asian,Vietnam,Vegetarian,Dessert,100,253.8,9.7,12.3,39.1,3.7,32.6,396.0,14.0,0,1,1,1,1,1,0,0,[]
+382,Sichuan Boiled Fish,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,299.4,9.0,9.1,34.5,2.9,7.2,891.0,146.0,1,0,0,0,1,1,0,1,"['Shellfish', 'Gluten']"
+383,Salmon Sashimi,Japanese,Asian,Japan,Non-Vegetarian,Breakfast,100,350.9,6.2,6.5,48.5,3.1,3.7,839.0,105.0,1,1,0,0,1,1,1,1,['Gluten']
+384,Meatloaf,American,North American,United States,Non-Vegetarian,Dessert,100,394.6,3.4,10.3,58.8,1.3,31.9,936.0,103.0,1,0,0,0,0,1,0,0,['Dairy']
+385,Bun Rieu Chay,Vietnamese,Asian,Vietnam,Vegetarian,Snack,100,178.2,6.3,13.2,44.6,9.6,2.5,208.0,38.0,0,0,1,0,1,1,1,1,[]
+386,Thit Kho,Vietnamese,Asian,Vietnam,Non-Vegetarian,Breakfast,100,384.1,18.2,9.1,37.6,5.9,14.2,667.0,32.0,1,0,0,1,1,1,1,1,"['Dairy', 'None']"
+387,Sesame Tofu,Japanese,Asian,Japan,Vegetarian,Breakfast,100,345.7,8.8,14.0,48.7,3.8,17.1,232.0,27.0,1,1,0,0,1,0,0,1,['Gluten']
+388,Manakish,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Breakfast,100,444.3,6.5,5.2,33.0,1.6,15.5,1123.0,82.0,1,0,1,0,1,1,1,1,"['Soy', 'Nuts', 'Shellfish']"
+389,Vegetable Som Tum Thai,Thai,Asian,Thailand,Vegetarian,Beverage,100,164.7,8.2,15.3,10.4,6.7,9.6,546.0,10.0,1,0,0,0,1,1,1,1,"['Shellfish', 'None']"
+390,Com Tam,Vietnamese,Asian,Vietnam,Non-Vegetarian,Snack,100,328.5,16.8,12.4,31.3,4.4,0.1,524.0,56.0,0,1,0,1,1,1,0,1,"['Eggs', 'None']"
+391,Matar Paneer,Indian,Asian,India,Vegetarian,Snack,100,167.7,6.0,4.1,28.4,7.9,9.5,571.0,3.0,0,0,1,1,1,1,1,0,[]
+392,Involtini di Vitello,Italian,European,Italy,Non-Vegetarian,Dessert,100,485.4,8.5,26.1,53.8,4.7,28.6,480.0,104.0,0,1,1,0,0,1,1,0,"['None', 'Eggs', 'Soy']"
+393,Lobster Bisque,American,North American,United States,Non-Vegetarian,Dessert,100,422.9,7.6,20.4,27.4,1.9,38.0,826.0,95.0,1,1,1,0,1,1,1,1,[]
+394,Prasini Salata,Greek,European,Greece,Vegetarian,Dinner,100,167.2,7.4,18.2,36.7,8.3,7.4,541.0,10.0,1,1,0,0,1,1,1,1,['Soy']
+395,Garden Salad,American,North American,United States,Vegetarian,Beverage,100,276.4,8.1,10.5,36.0,9.5,1.9,677.0,12.0,0,1,1,0,1,1,1,0,"['Eggs', 'Shellfish']"
+396,Vegetable Panang Curry,Thai,Asian,Thailand,Vegetarian,Dessert,100,333.2,1.2,16.0,42.6,0.3,27.3,749.0,4.0,0,1,0,0,1,0,0,1,"['Gluten', 'Nuts']"
+397,Bagara Baingan,Indian,Asian,India,Vegetarian,Snack,100,291.1,7.9,14.1,20.4,3.3,3.2,149.0,7.0,0,0,0,1,1,1,1,1,"['None', 'Nuts', 'Eggs']"
+398,Crispy Duck,Chinese,Asian,China,Non-Vegetarian,Beverage,100,316.1,32.6,25.9,25.6,0.7,2.9,579.0,60.0,1,1,1,0,1,1,0,1,"['None', 'Eggs', 'Soy']"
+399,Samak Tajen,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Snack,100,278.8,25.7,15.9,15.6,5.0,7.9,577.0,140.0,1,0,1,1,1,1,1,0,"['Gluten', 'None']"
+400,Seolleongtang,Korean,Asian,South Korea,Non-Vegetarian,Beverage,100,388.2,21.5,15.8,20.2,5.6,8.8,392.0,77.0,1,1,1,1,1,0,0,0,"['Soy', 'Gluten', 'None']"
+401,Hobak Juk,Korean,Asian,South Korea,Vegetarian,Lunch,100,238.3,9.0,6.3,44.4,7.4,12.7,701.0,30.0,0,1,1,0,1,1,1,0,[]
+402,Kotopoulo Lemonato,Greek,European,Greece,Non-Vegetarian,Dessert,100,331.8,6.5,13.2,48.6,0.9,32.3,507.0,44.0,0,1,1,0,1,1,1,1,"['Shellfish', 'Soy']"
+403,Konnyaku Stew,Japanese,Asian,Japan,Vegetarian,Beverage,100,141.3,3.0,15.2,39.3,6.1,3.3,158.0,1.0,0,1,1,1,1,1,1,1,[]
+404,New England Clam Chowder,American,North American,United States,Non-Vegetarian,Dinner,100,191.4,32.8,13.3,15.6,0.6,2.2,767.0,103.0,0,1,1,0,1,0,1,1,"['None', 'Dairy']"
+405,Greek Salad,Greek,European,Greece,Vegetarian,Dessert,100,273.6,1.5,17.8,33.2,1.1,39.0,531.0,22.0,0,1,1,0,1,1,0,0,['Shellfish']
+406,Kung Pao Tofu,Chinese,Asian,China,Vegetarian,Dessert,100,324.7,4.9,20.8,49.4,3.5,19.3,450.0,16.0,1,1,0,1,1,1,1,0,['Eggs']
+407,Arnaki Lemonato,Greek,European,Greece,Non-Vegetarian,Lunch,100,367.6,27.6,19.7,8.5,3.6,1.2,603.0,47.0,0,1,0,0,1,0,1,1,"['None', 'Eggs']"
+408,Khao Pad,Thai,Asian,Thailand,Non-Vegetarian,Dinner,100,323.0,19.1,16.6,31.9,1.2,5.1,677.0,32.0,0,1,1,0,1,1,1,1,['Nuts']
+409,Labneh,Lebanese,Middle Eastern,Lebanon,Vegetarian,Beverage,100,298.2,3.8,11.1,32.4,7.0,10.6,277.0,0.0,0,1,1,1,1,1,1,1,[]
+410,Mushroom Dupbap,Korean,Asian,South Korea,Vegetarian,Breakfast,100,380.9,13.0,21.7,44.6,6.9,10.7,334.0,32.0,1,0,0,0,1,1,0,1,['Gluten']
+411,Dau Phu Sot Ca,Vietnamese,Asian,Vietnam,Vegetarian,Dinner,100,212.8,5.2,17.5,45.3,5.7,2.1,371.0,32.0,0,0,1,0,1,1,0,1,"['Nuts', 'Dairy']"
+412,Mac and Cheese,American,North American,United States,Vegetarian,Dinner,100,325.4,5.4,4.1,45.1,5.1,8.6,778.0,3.0,0,1,1,0,1,1,1,0,"['Dairy', 'Shellfish', 'Eggs']"
+413,Fiori di Zucca Fritti,Italian,European,Italy,Vegetarian,Dessert,100,394.5,1.7,17.5,53.1,2.2,39.9,491.0,13.0,1,1,0,0,1,1,1,1,"['Gluten', 'Eggs', 'Dairy']"
+414,Zaru Soba,Japanese,Asian,Japan,Vegetarian,Beverage,100,155.0,7.2,9.3,12.7,5.0,7.5,606.0,26.0,0,1,1,0,1,1,0,0,[]
+415,Halloumi,Lebanese,Middle Eastern,Lebanon,Vegetarian,Breakfast,100,377.2,5.1,9.4,39.9,4.4,2.1,663.0,31.0,1,0,0,0,0,1,1,1,[]
+416,Scaloppine al Marsala,Italian,European,Italy,Non-Vegetarian,Dinner,100,287.1,16.3,24.9,22.5,4.7,7.5,1023.0,92.0,0,1,0,0,1,1,1,1,"['Gluten', 'Shellfish', 'Eggs']"
+417,Vegetable Hu Tieu,Vietnamese,Asian,Vietnam,Vegetarian,Lunch,100,135.1,11.1,13.5,39.7,3.4,3.7,723.0,30.0,1,1,1,0,1,1,1,1,"['Gluten', 'None', 'Nuts']"
+418,Mutton Curry,Indian,Asian,India,Non-Vegetarian,Beverage,100,377.1,30.2,21.1,24.6,5.3,5.8,869.0,49.0,0,1,1,0,0,0,1,1,['Gluten']
+419,Hot and Sour Soup,Chinese,Asian,China,Vegetarian,Lunch,100,218.5,11.6,7.6,18.1,4.5,4.4,250.0,17.0,0,0,1,0,1,1,1,1,['Gluten']
+420,Vegetable Hoagie,American,North American,United States,Vegetarian,Snack,100,327.0,9.1,6.2,13.1,7.6,6.4,675.0,26.0,0,0,0,1,0,1,1,0,['None']
+421,Tofu Tod,Thai,Asian,Thailand,Vegetarian,Breakfast,100,399.1,9.1,18.8,27.9,7.6,13.5,327.0,11.0,1,0,0,0,1,0,1,1,"['None', 'Dairy', 'Gluten']"
+422,Revithia,Greek,European,Greece,Vegetarian,Breakfast,100,247.7,15.4,9.4,37.9,2.9,13.9,670.0,31.0,1,1,0,0,1,0,1,1,['Dairy']
+423,Fabada Asturiana,Spanish,European,Spain,Non-Vegetarian,Dessert,100,428.3,2.7,11.8,49.5,1.8,25.8,328.0,61.0,0,0,1,1,1,1,0,1,"['Nuts', 'Eggs']"
+424,Chiles Rellenos,Mexican,Latin American,Mexico,Vegetarian,Dessert,100,210.1,8.9,14.9,44.5,0.2,31.7,326.0,36.0,0,1,0,0,1,1,1,1,[]
+425,Cheese Pizza,American,North American,United States,Vegetarian,Beverage,100,322.0,6.9,18.3,49.8,8.6,12.8,274.0,23.0,0,1,0,1,1,1,1,1,"['Gluten', 'None', 'Shellfish']"
+426,Freekeh with Vegetables,Lebanese,Middle Eastern,Lebanon,Vegetarian,Lunch,100,116.8,4.1,20.0,23.1,8.0,12.3,701.0,40.0,1,1,1,0,1,1,1,1,"['Dairy', 'Gluten']"
+427,Vegetable Khao Soi,Thai,Asian,Thailand,Vegetarian,Breakfast,100,260.4,5.6,13.2,23.9,1.2,8.5,649.0,23.0,1,0,0,1,1,1,0,1,"['Dairy', 'Eggs', 'Nuts']"
+428,Wonton Soup,Chinese,Asian,China,Non-Vegetarian,Beverage,100,228.2,28.1,13.1,5.4,4.6,6.2,986.0,35.0,0,0,1,1,1,1,1,0,"['Eggs', 'Dairy', 'Nuts']"
+429,Huevos Rancheros,Mexican,Latin American,Mexico,Non-Vegetarian,Dessert,100,451.1,6.6,21.3,46.9,4.3,29.7,823.0,149.0,0,1,1,1,0,0,1,0,"['None', 'Dairy', 'Soy']"
+430,Souvlaki,Greek,European,Greece,Non-Vegetarian,Dinner,100,339.2,23.8,23.6,16.7,1.4,6.0,1135.0,141.0,0,1,1,0,1,0,1,1,[]
+431,Vegetable Brandade,French,European,France,Vegetarian,Breakfast,100,285.5,12.9,9.2,49.9,7.9,13.7,663.0,29.0,1,0,0,0,1,1,1,1,[]
+432,Kishk,Lebanese,Middle Eastern,Lebanon,Vegetarian,Beverage,100,248.3,3.6,10.7,37.0,7.4,6.2,759.0,7.0,0,1,1,1,0,1,1,1,"['None', 'Soy', 'Shellfish']"
+433,Mangalorean Chicken Curry,Indian,Asian,India,Non-Vegetarian,Snack,100,275.1,28.8,23.3,24.5,1.7,1.6,872.0,102.0,0,0,0,1,1,1,0,1,"['Soy', 'Gluten']"
+434,Mentaiko,Japanese,Asian,Japan,Non-Vegetarian,Dinner,100,194.8,29.1,18.0,25.0,5.0,1.7,317.0,123.0,0,1,1,0,1,0,1,1,"['Gluten', 'None']"
+435,Gigot d'Agneau,French,European,France,Non-Vegetarian,Snack,100,302.4,29.0,26.4,29.1,5.8,5.4,740.0,78.0,1,0,0,1,1,1,1,1,[]
+436,Albóndigas,Spanish,European,Spain,Non-Vegetarian,Beverage,100,188.4,26.5,14.1,32.6,3.5,5.9,619.0,36.0,0,1,0,0,1,0,1,1,[]
+437,Filetto al Pepe Verde,Italian,European,Italy,Non-Vegetarian,Dinner,100,157.9,23.5,9.9,23.2,5.3,8.8,893.0,55.0,0,1,1,0,1,1,1,1,[]
+438,Shrimp Ceviche,Mexican,Latin American,Mexico,Non-Vegetarian,Breakfast,100,415.7,18.3,8.9,42.1,3.0,16.4,1198.0,34.0,1,1,0,1,1,1,1,1,['Soy']
+439,Judías Verdes con Tomate,Spanish,European,Spain,Vegetarian,Dinner,100,324.3,10.5,19.5,28.6,8.8,1.9,335.0,3.0,0,1,1,0,1,1,1,1,['None']
+440,Kontosouvli,Greek,European,Greece,Non-Vegetarian,Dinner,100,393.8,31.3,26.8,33.1,0.5,3.9,364.0,55.0,1,1,1,0,1,0,1,1,"['Nuts', 'Eggs']"
+441,Lotus Root Stir-Fry,Chinese,Asian,China,Vegetarian,Beverage,100,157.3,8.6,7.6,14.0,3.3,3.1,781.0,30.0,1,1,0,0,1,1,1,0,"['Nuts', 'Dairy']"
+442,Pad See Ew,Thai,Asian,Thailand,Non-Vegetarian,Dessert,100,490.3,5.0,15.6,52.9,1.6,22.5,509.0,46.0,0,1,1,0,0,0,0,1,"['Shellfish', 'None']"
+443,Butadon,Japanese,Asian,Japan,Non-Vegetarian,Dinner,100,214.1,22.1,22.8,6.9,1.3,8.1,432.0,71.0,0,1,1,0,0,1,1,1,[]
+444,Cozze alla Marinara,Italian,European,Italy,Non-Vegetarian,Breakfast,100,416.2,7.3,6.7,34.5,3.1,12.1,1023.0,46.0,1,1,0,0,1,1,1,1,"['Dairy', 'Gluten']"
+445,Mloukhieh,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Lunch,100,295.2,25.1,11.2,23.7,1.6,4.9,374.0,85.0,0,1,0,0,1,1,1,1,"['Gluten', 'Nuts']"
+446,Moo Ping,Thai,Asian,Thailand,Non-Vegetarian,Dinner,100,226.6,31.4,9.3,17.6,2.8,7.3,817.0,110.0,0,1,1,0,0,0,1,1,"['Shellfish', 'Eggs', 'Dairy']"
+447,Enoki Mushroom Stir-Fry,Chinese,Asian,China,Vegetarian,Dinner,100,294.3,13.3,8.3,31.5,8.7,14.9,723.0,15.0,0,1,1,0,1,1,1,1,"['Eggs', 'Dairy']"
+448,Chicken Sambousek,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Beverage,100,198.8,24.8,24.3,19.8,2.9,8.4,625.0,133.0,0,1,1,0,1,1,0,0,"['Eggs', 'Soy']"
+449,Pho Bo,Vietnamese,Asian,Vietnam,Non-Vegetarian,Lunch,100,251.7,21.6,18.0,27.9,0.8,2.0,1156.0,51.0,0,1,1,0,1,1,1,1,['Eggs']
+450,Aloo Capsicum,Indian,Asian,India,Vegetarian,Dinner,100,241.9,10.0,11.3,35.8,3.8,8.7,361.0,26.0,0,1,1,0,1,1,1,1,[]
+451,Doenjang Jjigae,Korean,Asian,South Korea,Vegetarian,Dinner,100,135.3,9.9,6.1,21.1,3.7,3.6,678.0,11.0,0,1,1,0,1,1,1,1,"['Gluten', 'Nuts']"
+452,Gaeng Pa,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,381.8,34.4,20.6,9.3,2.2,8.0,631.0,40.0,1,1,1,0,1,1,1,1,"['Eggs', 'Nuts', 'Dairy']"
+453,Frittata di Spinaci,Italian,European,Italy,Vegetarian,Lunch,100,239.2,13.1,16.5,17.0,7.4,4.1,253.0,35.0,0,1,0,0,1,1,1,1,[]
+454,Duck Confit,French,European,France,Non-Vegetarian,Breakfast,100,262.4,8.9,5.0,46.1,6.5,13.3,975.0,48.0,1,0,0,0,1,0,0,1,"['Dairy', 'Shellfish']"
+455,Vegetable Onigiri,Japanese,Asian,Japan,Vegetarian,Beverage,100,214.6,7.2,4.6,29.4,9.4,1.6,304.0,8.0,1,0,1,1,1,1,1,0,[]
+456,Melanzane a Funghetto,Italian,European,Italy,Vegetarian,Snack,100,159.5,13.9,11.0,28.7,8.1,3.2,441.0,17.0,1,1,0,1,1,1,1,1,[]
+457,Tofu Kimchi,Korean,Asian,South Korea,Vegetarian,Dessert,100,379.1,10.0,25.4,38.9,4.1,19.3,121.0,8.0,1,1,1,0,0,0,1,1,['Soy']
+458,Vegetable Kimbap,Korean,Asian,South Korea,Vegetarian,Breakfast,100,285.1,12.7,17.3,47.3,4.6,11.0,135.0,1.0,1,0,0,1,1,1,1,0,"['Nuts', 'Shellfish', 'Soy']"
+459,Szechuan Shrimp,Chinese,Asian,China,Non-Vegetarian,Beverage,100,287.8,23.8,26.5,9.8,0.1,4.5,514.0,36.0,1,1,1,1,1,1,0,1,[]
+460,Vegetable Mjadra,Lebanese,Middle Eastern,Lebanon,Vegetarian,Snack,100,281.1,4.3,13.3,21.2,3.4,6.3,661.0,16.0,0,0,1,1,1,1,1,1,"['Dairy', 'Soy', 'Eggs']"
+461,Yakitori,Japanese,Asian,Japan,Non-Vegetarian,Lunch,100,337.7,17.5,25.0,12.1,4.1,5.7,1136.0,76.0,0,1,0,0,1,1,1,1,[]
+462,Zuppa di Orzo,Italian,European,Italy,Vegetarian,Snack,100,116.5,3.2,17.1,31.0,8.2,4.3,342.0,1.0,0,0,0,1,1,1,1,1,"['Gluten', 'Dairy', 'Eggs']"
+463,Canh Bun,Vietnamese,Asian,Vietnam,Non-Vegetarian,Dinner,100,390.4,28.4,28.5,13.0,3.7,6.8,586.0,132.0,0,1,0,0,1,1,0,0,"['Dairy', 'Eggs']"
+464,Frittata di Patate,Italian,European,Italy,Vegetarian,Dinner,100,336.8,13.6,15.6,21.1,4.3,14.5,107.0,29.0,0,1,1,1,1,1,1,0,"['Soy', 'Shellfish', 'Nuts']"
+465,Drunken Chicken,Chinese,Asian,China,Non-Vegetarian,Dessert,100,411.9,6.6,29.8,35.9,1.7,17.0,699.0,61.0,1,1,0,0,0,1,1,1,"['Soy', 'Nuts']"
+466,Gobi Manchurian,Indian,Asian,India,Vegetarian,Snack,100,185.8,13.0,18.9,17.4,5.0,14.0,143.0,4.0,0,0,0,1,1,1,0,1,['Eggs']
+467,Gratin de Courgettes,French,European,France,Vegetarian,Dinner,100,140.7,10.1,5.6,48.7,5.6,8.0,273.0,19.0,0,1,1,0,1,1,1,1,['Soy']
+468,Kalmi Kebab,Indian,Asian,India,Non-Vegetarian,Dinner,100,315.5,30.0,24.6,22.3,5.4,8.2,981.0,37.0,0,1,1,0,1,1,1,1,"['Nuts', 'Shellfish']"
+469,Yachae Twigim,Korean,Asian,South Korea,Vegetarian,Beverage,100,101.7,5.5,14.3,26.4,5.2,13.4,727.0,36.0,0,1,0,0,1,1,1,1,[]
+470,Com Chay,Vietnamese,Asian,Vietnam,Vegetarian,Dinner,100,178.5,11.3,7.6,17.6,3.5,5.8,401.0,33.0,0,1,1,0,0,1,0,1,"['Soy', 'Gluten', 'Nuts']"
+471,Chicken and Waffles,American,North American,United States,Non-Vegetarian,Breakfast,100,230.0,16.0,15.6,28.6,4.4,7.4,836.0,82.0,1,0,0,0,1,1,1,1,[]
+472,Cheese Sambousek,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dinner,100,141.1,4.4,12.3,46.1,4.8,11.3,561.0,37.0,1,0,1,0,1,1,1,1,"['Nuts', 'Gluten']"
+473,Salade de Lentilles,French,European,France,Vegetarian,Dinner,100,305.2,9.8,14.2,45.9,5.2,5.6,108.0,33.0,1,0,1,0,1,1,1,1,"['Shellfish', 'Soy', 'Dairy']"
+474,Malfouf,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dessert,100,440.3,1.9,21.5,41.2,0.6,39.5,250.0,3.0,1,0,0,0,0,1,1,0,"['Soy', 'Shellfish', 'Gluten']"
+475,Balila,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dinner,100,248.7,11.9,3.6,36.3,6.3,2.4,221.0,23.0,1,1,1,0,1,1,1,1,['None']
+476,Bouchées à la Reine,French,European,France,Non-Vegetarian,Dinner,100,224.1,33.8,26.0,34.5,1.6,9.7,688.0,72.0,1,1,1,0,1,1,1,1,"['Soy', 'Eggs', 'Shellfish']"
+477,Espinacas con Garbanzos,Spanish,European,Spain,Vegetarian,Lunch,100,112.6,3.6,14.8,28.3,3.8,9.6,277.0,23.0,0,1,1,0,1,1,1,1,[]
+478,Corn Pakora,Indian,Asian,India,Vegetarian,Dinner,100,189.8,12.9,17.0,29.1,4.8,6.1,664.0,13.0,0,1,0,0,1,1,1,0,['Dairy']
+479,Warak Enab,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dessert,100,262.7,1.8,19.3,41.9,4.2,20.5,367.0,32.0,0,0,0,1,0,1,1,0,"['None', 'Soy']"
+480,Mi Quang,Vietnamese,Asian,Vietnam,Non-Vegetarian,Beverage,100,355.9,22.7,18.1,14.1,5.6,1.2,1140.0,112.0,0,1,1,1,1,1,0,1,"['Shellfish', 'Gluten']"
+481,Vegetable Chirashi,Japanese,Asian,Japan,Vegetarian,Dinner,100,232.9,3.4,11.1,26.3,3.3,10.2,780.0,22.0,0,0,1,0,1,1,1,0,['Nuts']
+482,Safiha,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dinner,100,328.7,16.4,17.2,8.5,3.7,9.4,896.0,39.0,0,1,0,1,0,0,1,0,"['Nuts', 'None', 'Gluten']"
+483,Mushroom Tacos,Mexican,Latin American,Mexico,Vegetarian,Snack,100,188.7,9.6,9.9,43.3,8.5,9.6,361.0,10.0,0,0,0,1,0,1,0,1,"['None', 'Nuts', 'Eggs']"
+484,Pasta alle Noci,Italian,European,Italy,Vegetarian,Beverage,100,126.5,7.3,10.0,37.0,7.3,2.0,377.0,7.0,0,1,1,0,1,1,1,1,['Shellfish']
+485,Chicken 555,Indian,Asian,India,Non-Vegetarian,Lunch,100,189.2,31.5,8.9,17.6,1.0,8.8,801.0,58.0,0,1,1,0,0,0,1,1,"['None', 'Nuts', 'Eggs']"
+486,Kappa Maki,Japanese,Asian,Japan,Vegetarian,Beverage,100,225.6,11.8,19.3,18.8,9.1,14.1,741.0,25.0,0,1,1,1,0,1,0,1,[]
+487,Vegetable Fabada,Spanish,European,Spain,Vegetarian,Breakfast,100,357.5,11.0,20.0,35.9,5.7,9.7,612.0,33.0,1,0,1,0,1,1,1,1,[]
+488,Coq au Riesling,French,European,France,Non-Vegetarian,Beverage,100,186.6,31.7,19.9,30.3,2.6,3.8,1124.0,60.0,1,0,1,0,1,1,1,1,['Soy']
+489,Caldo de Res,Mexican,Latin American,Mexico,Non-Vegetarian,Beverage,100,361.1,24.7,19.3,14.3,3.4,3.3,335.0,63.0,1,1,0,1,0,1,1,1,"['Gluten', 'None', 'Eggs']"
+490,Empress Chicken,Chinese,Asian,China,Non-Vegetarian,Beverage,100,151.6,34.6,29.2,16.9,4.4,3.5,904.0,127.0,0,1,0,0,1,1,1,1,['Eggs']
+491,Goi Du Du,Vietnamese,Asian,Vietnam,Vegetarian,Breakfast,100,436.7,11.0,20.7,28.0,7.9,2.5,522.0,26.0,1,1,0,0,1,0,1,1,['Soy']
+492,Chicken Avgolemono,Greek,European,Greece,Non-Vegetarian,Snack,100,322.0,17.4,28.6,10.4,3.7,2.2,576.0,96.0,1,0,0,1,1,0,1,0,"['Shellfish', 'Nuts']"
+493,Moules Marinières,French,European,France,Non-Vegetarian,Dinner,100,254.3,18.2,11.8,17.5,4.5,9.0,376.0,77.0,0,1,1,0,1,0,1,0,"['Gluten', 'Dairy', 'Shellfish']"
+494,Chole Bhature,Indian,Asian,India,Vegetarian,Lunch,100,125.1,3.2,14.2,34.1,3.3,4.3,117.0,33.0,0,1,1,1,0,1,1,0,"['Eggs', 'None', 'Gluten']"
+495,Rau Muong Xao,Vietnamese,Asian,Vietnam,Vegetarian,Breakfast,100,443.7,7.0,9.6,46.1,7.5,9.6,135.0,2.0,1,0,1,1,1,1,0,1,[]
+496,Tarte aux Champignons,French,European,France,Vegetarian,Lunch,100,243.5,7.7,3.5,33.3,2.1,12.0,315.0,2.0,0,0,1,0,1,1,1,0,"['Dairy', 'Gluten']"
+497,Spaghetti con le Vongole,Italian,European,Italy,Non-Vegetarian,Beverage,100,297.1,23.0,29.4,21.3,1.7,7.1,544.0,139.0,0,1,1,0,1,1,1,1,['Dairy']
+498,Mango Sticky Rice,Thai,Asian,Thailand,Vegetarian,Beverage,100,193.7,9.6,3.9,27.0,8.7,12.3,257.0,9.0,0,1,1,1,1,1,1,1,['Dairy']
+499,Quiche Lorraine,French,European,France,Non-Vegetarian,Dinner,100,354.3,33.6,10.1,18.5,2.0,8.7,375.0,55.0,1,1,1,0,1,1,1,1,"['Soy', 'Dairy']"
+500,Bekri Meze,Greek,European,Greece,Non-Vegetarian,Snack,100,338.1,16.0,18.8,18.3,2.0,3.9,777.0,49.0,1,0,1,1,1,1,1,1,"['Eggs', 'Shellfish']"
+501,Goi Ngo Sen,Vietnamese,Asian,Vietnam,Vegetarian,Snack,100,243.0,12.7,15.9,16.2,3.2,4.8,353.0,16.0,1,0,0,1,1,1,0,0,"['Nuts', 'Soy', 'Gluten']"
+502,Vegetable Kofta,Lebanese,Middle Eastern,Lebanon,Vegetarian,Breakfast,100,369.9,5.9,5.7,31.8,5.9,5.5,549.0,10.0,1,0,1,0,1,1,1,1,[]
+503,Skordalia,Greek,European,Greece,Vegetarian,Lunch,100,321.5,13.7,8.1,19.2,5.3,4.4,571.0,33.0,1,1,1,0,1,1,1,0,"['None', 'Dairy']"
+504,Esquites,Mexican,Latin American,Mexico,Vegetarian,Breakfast,100,368.3,17.4,12.9,24.7,6.2,8.5,570.0,11.0,1,1,0,1,1,1,1,1,"['Nuts', 'Soy', 'Shellfish']"
+505,Hamburger,American,North American,United States,Non-Vegetarian,Breakfast,100,220.3,19.9,8.1,49.7,7.8,16.3,893.0,99.0,1,1,0,0,1,1,1,1,['Eggs']
+506,Cotoletta alla Milanese,Italian,European,Italy,Non-Vegetarian,Snack,100,366.5,20.8,18.3,23.6,2.5,4.3,597.0,98.0,0,1,1,1,1,0,1,0,['Dairy']
+507,Goan Fish Curry,Indian,Asian,India,Non-Vegetarian,Breakfast,100,412.6,8.0,23.7,40.7,6.8,12.0,1002.0,32.0,1,0,0,0,1,1,1,1,"['Eggs', 'None', 'Soy']"
+508,Paella,Spanish,European,Spain,Non-Vegetarian,Lunch,100,354.6,15.8,27.6,34.8,1.8,2.1,989.0,60.0,0,1,1,1,0,1,1,1,"['Eggs', 'Shellfish']"
+509,Vegetable Tarte Tatin,French,European,France,Vegetarian,Lunch,100,316.4,4.2,5.1,49.2,7.4,12.9,327.0,27.0,0,1,1,0,1,1,0,0,"['Dairy', 'Nuts', 'Eggs']"
+510,Goi Cuon,Vietnamese,Asian,Vietnam,Non-Vegetarian,Snack,100,298.6,27.1,23.0,22.3,2.6,2.8,992.0,57.0,0,1,0,1,1,1,1,1,"['Eggs', 'Nuts', 'Dairy']"
+511,Sindhi Biryani,Indian,Asian,India,Non-Vegetarian,Dinner,100,323.1,19.7,21.8,27.4,1.3,0.6,418.0,103.0,0,1,0,0,0,1,1,1,['Eggs']
+512,Tekkadon,Japanese,Asian,Japan,Non-Vegetarian,Dinner,100,362.4,15.9,24.2,15.2,2.9,9.3,599.0,86.0,1,0,1,1,1,1,1,1,"['None', 'Eggs', 'Gluten']"
+513,Chilorio,Mexican,Latin American,Mexico,Non-Vegetarian,Lunch,100,153.4,16.6,13.7,5.8,3.8,4.3,793.0,51.0,0,1,1,0,1,1,1,1,['Eggs']
+514,Tarte à l'Oignon,French,European,France,Vegetarian,Lunch,100,174.0,11.0,19.4,12.0,9.1,9.1,495.0,20.0,0,1,1,0,1,1,1,1,"['None', 'Dairy', 'Shellfish']"
+515,Buffalo Chicken Wings,American,North American,United States,Non-Vegetarian,Snack,100,167.3,16.8,21.2,15.2,5.5,4.1,429.0,116.0,0,0,0,1,0,1,1,1,[]
+516,Costolette di Agnello,Italian,European,Italy,Non-Vegetarian,Dinner,100,223.3,25.5,23.4,32.0,4.8,6.8,912.0,144.0,0,1,1,0,1,1,0,1,"['Eggs', 'None']"
+517,Moo Tod Kratiem,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,274.0,5.0,10.4,26.5,5.6,13.4,834.0,32.0,0,0,1,0,1,0,1,1,"['Shellfish', 'Nuts', 'Eggs']"
+518,Ravioli ai Funghi,Italian,European,Italy,Vegetarian,Dessert,100,418.6,3.9,23.3,44.5,1.7,18.4,166.0,33.0,0,1,0,0,1,1,1,1,"['None', 'Shellfish']"
+519,Sweet and Sour Lotus Root,Chinese,Asian,China,Vegetarian,Breakfast,100,429.6,14.7,7.1,32.1,6.1,16.0,183.0,0.0,1,1,0,0,0,1,1,1,"['Gluten', 'None']"
+520,Gyros,Greek,European,Greece,Non-Vegetarian,Dessert,100,413.6,4.2,15.1,25.5,2.7,36.3,1162.0,98.0,0,1,0,0,1,0,1,1,['Nuts']
+521,Fugu (Pufferfish),Japanese,Asian,Japan,Non-Vegetarian,Beverage,100,278.6,16.7,20.1,16.4,3.6,3.9,516.0,41.0,0,1,1,0,1,1,1,0,"['Gluten', 'Dairy', 'Eggs']"
+522,Soupe à l'Oignon,French,European,France,Vegetarian,Breakfast,100,278.7,6.4,8.5,49.6,4.1,11.6,712.0,40.0,1,1,0,1,1,1,1,1,"['Soy', 'Eggs']"
+523,Pollo al Ajillo,Spanish,European,Spain,Non-Vegetarian,Snack,100,295.7,31.2,15.2,14.2,2.4,6.7,914.0,68.0,0,0,0,1,1,1,1,1,[]
+524,Nom Du Du,Vietnamese,Asian,Vietnam,Vegetarian,Snack,100,133.3,10.6,5.2,33.1,7.5,10.8,627.0,35.0,1,1,0,0,1,1,1,1,"['Gluten', 'Soy']"
+525,Sweet and Sour Tofu,Chinese,Asian,China,Vegetarian,Dinner,100,225.0,11.8,13.5,17.5,2.2,5.0,410.0,25.0,0,1,1,0,1,1,1,0,"['Dairy', 'None']"
+526,Banh Mi,Vietnamese,Asian,Vietnam,Non-Vegetarian,Breakfast,100,412.5,7.9,7.5,48.9,1.8,10.6,827.0,95.0,1,1,1,0,1,1,1,1,['None']
+527,Galatopita,Greek,European,Greece,Non-Vegetarian,Beverage,100,171.5,16.1,10.3,22.6,3.3,2.3,874.0,128.0,1,0,1,0,1,1,0,1,[]
+528,Chorizo,Spanish,European,Spain,Non-Vegetarian,Beverage,100,160.4,25.0,23.2,12.6,1.8,6.1,1108.0,127.0,0,1,0,0,1,1,1,1,[]
+529,Oi Naengguk,Korean,Asian,South Korea,Vegetarian,Dessert,100,374.9,7.6,17.3,47.4,2.3,19.7,591.0,22.0,1,1,0,1,0,1,1,0,['None']
+530,Red Curry,Thai,Asian,Thailand,Non-Vegetarian,Dessert,100,307.6,9.2,10.4,36.1,0.3,34.2,932.0,70.0,0,0,1,1,1,1,1,1,[]
+531,Batata Harra,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dinner,100,268.9,7.8,15.9,28.2,5.3,14.1,276.0,5.0,1,1,1,0,1,1,0,1,[]
+532,Hamachi Kama,Japanese,Asian,Japan,Non-Vegetarian,Breakfast,100,346.1,19.5,12.6,21.9,3.4,11.1,446.0,109.0,1,0,0,0,0,1,1,1,['Eggs']
+533,Arrosto di Maiale,Italian,European,Italy,Non-Vegetarian,Breakfast,100,449.4,11.8,12.1,32.0,1.8,17.9,673.0,76.0,1,0,0,0,1,0,1,0,[]
+534,Dakgalbi,Korean,Asian,South Korea,Non-Vegetarian,Snack,100,314.9,23.8,22.3,6.8,4.9,9.4,884.0,145.0,0,0,0,1,1,1,1,0,"['Gluten', 'None', 'Eggs']"
+535,Haemul Pajeon,Korean,Asian,South Korea,Non-Vegetarian,Beverage,100,187.9,24.5,21.2,22.5,2.4,3.4,414.0,77.0,1,0,1,0,0,1,1,1,"['Gluten', 'Dairy']"
+536,Costolette di Maiale,Italian,European,Italy,Non-Vegetarian,Breakfast,100,240.7,16.0,9.2,21.8,4.9,12.7,1085.0,99.0,1,0,0,0,0,1,1,1,"['Shellfish', 'Nuts']"
+537,Avocado Maki,Japanese,Asian,Japan,Vegetarian,Beverage,100,186.4,12.6,12.2,13.2,6.5,13.7,377.0,12.0,0,1,1,1,1,1,1,1,[]
+538,Tortilla de Patatas,Spanish,European,Spain,Vegetarian,Snack,100,135.9,4.8,10.4,33.8,2.6,14.2,629.0,23.0,0,0,0,1,1,1,1,1,"['Shellfish', 'Gluten', 'Nuts']"
+539,Vegetable Gratin Dauphinois,French,European,France,Vegetarian,Beverage,100,307.1,4.0,11.1,35.2,8.6,12.0,294.0,38.0,1,1,1,1,1,1,1,0,['Gluten']
+540,Carne Asada,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,181.1,32.5,29.4,10.3,4.3,0.4,665.0,92.0,0,0,1,0,1,0,1,1,"['Dairy', 'Soy', 'None']"
+541,Beoseot Jeongol,Korean,Asian,South Korea,Vegetarian,Breakfast,100,345.2,19.0,18.4,34.4,6.7,19.1,115.0,39.0,1,1,0,0,1,1,1,1,[]
+542,Gopchang,Korean,Asian,South Korea,Non-Vegetarian,Beverage,100,171.5,31.3,14.2,9.0,2.6,6.4,643.0,37.0,0,1,1,0,1,0,1,0,"['Nuts', 'Gluten', 'Soy']"
+543,Garides me Feta,Greek,European,Greece,Non-Vegetarian,Dinner,100,299.9,33.0,16.4,11.5,2.7,0.5,1038.0,129.0,0,0,1,0,1,1,1,1,[]
+544,Vegetable Bulgogi,Korean,Asian,South Korea,Vegetarian,Beverage,100,247.0,7.2,16.6,32.2,8.6,9.8,649.0,24.0,0,1,1,1,1,1,1,1,"['Eggs', 'Gluten', 'Soy']"
+545,Vegetable Nimono,Japanese,Asian,Japan,Vegetarian,Breakfast,100,303.5,19.4,15.8,38.2,2.5,13.3,500.0,7.0,1,1,1,0,1,0,1,1,[]
+546,Gambas al Ajillo,Spanish,European,Spain,Non-Vegetarian,Dessert,100,217.9,6.4,25.3,43.3,1.1,31.7,372.0,83.0,1,1,1,0,0,1,1,0,"['Gluten', 'Nuts', 'Soy']"
+547,Loubieh Bil Zeit,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dinner,100,140.8,5.2,6.4,25.5,2.4,6.6,458.0,19.0,0,1,1,0,1,1,1,1,"['Soy', 'None', 'Gluten']"
+548,Beef Shawarma,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dessert,100,314.8,8.6,12.9,42.7,0.3,16.8,816.0,98.0,1,1,0,0,0,0,1,1,"['Eggs', 'None']"
+549,Vegetable Dumplings,Chinese,Asian,China,Vegetarian,Lunch,100,319.5,9.7,19.3,11.9,2.8,1.6,230.0,22.0,1,1,1,0,1,1,0,0,['Eggs']
+550,Shoyu Ramen,Japanese,Asian,Japan,Non-Vegetarian,Breakfast,100,361.4,5.7,23.9,45.3,3.1,3.4,453.0,45.0,1,0,1,0,0,0,1,1,['Shellfish']
+551,Avocado Tacos,Mexican,Latin American,Mexico,Vegetarian,Dinner,100,130.8,9.2,7.2,24.3,9.9,10.6,764.0,6.0,0,1,0,0,1,1,0,1,"['Nuts', 'Dairy', 'Gluten']"
+552,Vegetable Pozole,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,195.5,9.7,4.3,10.2,7.4,10.0,388.0,20.0,0,1,1,0,1,1,0,1,"['Dairy', 'Gluten', 'Nuts']"
+553,Paneer Tikka Masala,Indian,Asian,India,Vegetarian,Dinner,100,203.9,3.3,8.7,17.1,2.8,14.4,520.0,29.0,0,1,1,0,0,1,0,1,"['Dairy', 'None']"
+554,Cold Sesame Noodles,Chinese,Asian,China,Vegetarian,Breakfast,100,278.8,10.9,9.7,22.9,2.3,16.4,574.0,22.0,1,0,1,0,1,1,1,0,"['Eggs', 'Dairy']"
+555,Duck Red Curry,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,268.8,33.4,9.6,13.4,2.1,7.8,1193.0,59.0,0,1,0,0,0,1,1,0,['Dairy']
+556,Daoud Basha,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Beverage,100,368.6,31.6,12.9,17.0,2.5,9.8,463.0,126.0,0,1,1,0,1,1,0,1,['Nuts']
+557,Queso Fundido,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,183.5,11.8,10.1,33.1,8.7,12.3,706.0,2.0,0,1,0,0,1,1,1,0,[]
+558,Gaeng Tai Pla,Thai,Asian,Thailand,Non-Vegetarian,Dessert,100,407.6,2.3,18.3,44.2,2.0,28.0,1197.0,46.0,1,0,1,0,0,1,1,1,[]
+559,Chili Rellenos,Mexican,Latin American,Mexico,Vegetarian,Lunch,100,268.9,7.8,5.3,16.3,9.6,13.3,735.0,40.0,0,1,1,0,1,0,1,1,['None']
+560,Piccione al Forno,Italian,European,Italy,Non-Vegetarian,Snack,100,202.1,22.1,22.7,19.5,2.5,3.6,834.0,99.0,0,0,0,1,1,1,1,0,"['Nuts', 'Eggs']"
+561,Kheer,Indian,Asian,India,Vegetarian,Snack,100,140.4,8.7,12.4,32.8,3.7,11.4,118.0,14.0,1,1,0,1,1,1,1,1,['Gluten']
+562,Lasagna Vegetariana,Italian,European,Italy,Vegetarian,Dinner,100,295.1,9.8,7.4,37.8,6.5,12.1,615.0,24.0,0,1,1,0,1,1,1,1,['None']
+563,Sawda Djej,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Breakfast,100,322.0,7.0,10.2,32.6,5.2,11.2,559.0,31.0,1,1,0,0,0,0,1,1,['None']
+564,Aubergines à la Provençale,French,European,France,Vegetarian,Lunch,100,224.1,6.4,15.5,11.0,6.7,14.2,222.0,19.0,0,1,1,0,1,1,1,0,"['None', 'Dairy']"
+565,Tinga de Pollo,Mexican,Latin American,Mexico,Non-Vegetarian,Snack,100,172.9,27.5,20.1,17.2,3.1,9.0,477.0,33.0,1,1,0,1,1,1,1,1,['Eggs']
+566,Tonkatsu,Japanese,Asian,Japan,Non-Vegetarian,Dessert,100,458.5,6.2,27.8,45.9,4.1,25.7,975.0,140.0,0,1,1,0,0,1,1,0,"['Eggs', 'Dairy', 'None']"
+567,Chorizo Tacos,Mexican,Latin American,Mexico,Non-Vegetarian,Breakfast,100,343.0,7.7,10.4,26.0,2.7,7.5,800.0,101.0,1,0,0,1,1,1,1,1,"['Gluten', 'Dairy', 'Shellfish']"
+568,Pollo al Limone,Italian,European,Italy,Non-Vegetarian,Dinner,100,256.6,27.3,9.8,7.6,1.0,5.2,493.0,64.0,0,1,1,1,1,1,1,1,['Gluten']
+569,Provençal Tart,French,European,France,Vegetarian,Lunch,100,200.1,12.7,3.2,36.0,7.4,12.2,753.0,1.0,0,0,1,1,1,1,1,1,"['Nuts', 'Dairy', 'Gluten']"
+570,Salt and Pepper Squid,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,238.4,18.3,14.2,36.9,5.6,14.2,1139.0,150.0,1,1,0,0,1,1,1,1,"['Nuts', 'Shellfish', 'None']"
+571,Tarte Flambée,French,European,France,Vegetarian,Lunch,100,280.0,6.4,18.0,12.0,3.8,13.6,279.0,9.0,0,0,1,0,1,0,1,0,"['Shellfish', 'Soy']"
+572,Pescado Zarandeado,Mexican,Latin American,Mexico,Non-Vegetarian,Snack,100,184.5,32.2,19.0,25.2,1.4,7.6,984.0,68.0,1,0,0,1,0,1,1,1,[]
+573,Hu Tieu Nam Vang,Vietnamese,Asian,Vietnam,Non-Vegetarian,Snack,100,252.7,19.2,29.5,24.4,5.6,3.0,1004.0,122.0,0,0,0,1,1,0,1,1,"['Eggs', 'Gluten', 'Shellfish']"
+574,Banh Beo,Vietnamese,Asian,Vietnam,Non-Vegetarian,Lunch,100,322.9,34.3,16.7,8.9,4.0,7.3,818.0,55.0,0,0,1,1,1,1,1,1,[]
+575,Setas al Ajillo,Spanish,European,Spain,Vegetarian,Beverage,100,226.1,6.7,10.3,35.8,8.0,4.3,384.0,11.0,1,1,1,1,1,1,1,0,[]
+576,Mysore Pak,Indian,Asian,India,Vegetarian,Snack,100,149.7,12.4,18.5,24.8,8.0,13.6,692.0,7.0,0,0,1,1,1,0,1,1,[]
+577,Elote,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,339.1,7.5,8.8,12.5,5.9,2.5,274.0,13.0,0,1,1,0,1,1,1,0,"['Eggs', 'Gluten', 'Dairy']"
+578,Bean Taquitos,Mexican,Latin American,Mexico,Vegetarian,Dinner,100,302.2,13.5,8.1,44.3,8.9,11.7,203.0,28.0,1,1,1,0,1,1,1,1,"['Gluten', 'None']"
+579,Chiles en Nogada with Meat,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,386.3,28.7,15.3,20.0,3.9,5.1,408.0,67.0,0,0,1,0,0,1,1,1,"['Shellfish', 'None']"
+580,Hong Kong-Style Roast Goose,Chinese,Asian,China,Non-Vegetarian,Lunch,100,350.6,32.2,11.0,33.6,2.0,6.6,977.0,127.0,0,1,0,0,1,1,0,1,['Soy']
+581,Calabaza en Tacha,Mexican,Latin American,Mexico,Vegetarian,Dessert,100,483.7,3.8,27.2,29.6,3.5,33.5,574.0,10.0,0,1,0,0,1,1,1,1,['Eggs']
+582,Beef with Broccoli,Chinese,Asian,China,Non-Vegetarian,Dinner,100,368.3,18.4,9.2,26.5,2.9,8.5,645.0,50.0,0,0,1,0,1,0,1,1,[]
+583,Pan con Tomate,Spanish,European,Spain,Vegetarian,Beverage,100,309.1,9.6,6.2,38.8,6.1,9.5,423.0,33.0,0,1,1,0,1,1,1,1,['Dairy']
+584,Vegetable Baozi,Chinese,Asian,China,Vegetarian,Lunch,100,307.4,11.5,4.8,43.6,7.4,10.8,354.0,35.0,0,1,1,0,1,1,1,1,"['Soy', 'Eggs']"
+585,Crab Cakes,American,North American,United States,Non-Vegetarian,Breakfast,100,381.3,6.7,13.2,46.6,1.3,19.3,911.0,106.0,1,1,0,0,1,0,1,1,[]
+586,Prosciutto e Fichi,Italian,European,Italy,Non-Vegetarian,Dessert,100,281.2,3.2,28.8,35.4,3.9,24.8,425.0,31.0,1,0,1,0,1,1,1,1,['Shellfish']
+587,Vegetable Molletes,Mexican,Latin American,Mexico,Vegetarian,Breakfast,100,336.1,19.6,12.4,30.7,3.4,11.4,408.0,35.0,1,1,0,0,1,1,1,1,[]
+588,Pissaladière,French,European,France,Vegetarian,Breakfast,100,326.4,12.6,7.8,49.5,2.7,3.3,564.0,24.0,0,1,0,0,1,1,1,1,"['Shellfish', 'Gluten']"
+589,Gimbap,Korean,Asian,South Korea,Non-Vegetarian,Beverage,100,253.8,23.4,25.3,10.9,4.9,6.5,677.0,85.0,1,1,0,0,1,1,1,0,"['Shellfish', 'Soy', 'Gluten']"
+590,Vegetable Kibbeh,Lebanese,Middle Eastern,Lebanon,Vegetarian,Snack,100,164.2,12.0,11.7,22.8,6.8,14.9,405.0,37.0,0,1,0,0,1,1,1,1,[]
+591,Banh Cuon,Vietnamese,Asian,Vietnam,Non-Vegetarian,Beverage,100,236.3,16.1,12.5,17.6,1.3,0.0,1124.0,131.0,1,1,1,1,1,1,1,1,"['Dairy', 'None', 'Nuts']"
+592,Pescado a la Veracruzana,Mexican,Latin American,Mexico,Non-Vegetarian,Lunch,100,335.6,18.4,10.6,7.0,4.3,9.3,687.0,44.0,0,1,0,1,1,1,1,1,"['Eggs', 'Shellfish', 'Soy']"
+593,Cozze Gratinate,Italian,European,Italy,Non-Vegetarian,Breakfast,100,328.1,10.2,12.5,38.6,6.0,4.0,332.0,149.0,1,1,1,1,1,0,1,1,[]
+594,Bruschetta,Italian,European,Italy,Vegetarian,Dessert,100,269.8,1.5,13.8,26.4,2.0,35.1,339.0,18.0,0,1,0,1,1,1,1,1,"['Nuts', 'Dairy']"
+595,Pad Thai,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,368.9,12.6,22.2,46.0,1.1,16.0,715.0,149.0,1,0,0,0,1,1,0,1,['Nuts']
+596,Manduguk,Korean,Asian,South Korea,Non-Vegetarian,Snack,100,270.8,34.7,24.6,12.5,3.2,9.9,1072.0,42.0,0,0,0,1,1,1,1,1,"['Nuts', 'Soy', 'Dairy']"
+597,Tamarind Rice,Indian,Asian,India,Vegetarian,Snack,100,276.6,7.1,3.1,26.1,3.9,12.5,336.0,33.0,0,0,0,1,1,1,1,0,['Dairy']
+598,Vegetable Enchiladas Verdes,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,100.1,6.7,7.1,19.3,2.5,3.6,489.0,12.0,1,1,0,1,0,1,0,1,"['Shellfish', 'Eggs']"
+599,Cha Gio,Vietnamese,Asian,Vietnam,Non-Vegetarian,Breakfast,100,304.3,10.7,22.5,47.2,4.5,7.9,396.0,144.0,1,1,0,0,1,1,0,1,"['Shellfish', 'None', 'Soy']"
+600,Tarte aux Épinards,French,European,France,Vegetarian,Lunch,100,115.1,6.6,8.1,22.8,3.3,12.0,186.0,25.0,1,1,1,0,0,1,1,1,"['Eggs', 'Soy']"
+601,Pulpo a la Mexicana,Mexican,Latin American,Mexico,Non-Vegetarian,Snack,100,181.0,16.4,28.0,10.7,4.9,5.4,370.0,145.0,0,0,0,1,1,1,1,1,"['Nuts', 'Dairy', 'None']"
+602,Sopa de Lima,Mexican,Latin American,Mexico,Non-Vegetarian,Beverage,100,211.7,32.2,11.7,30.6,0.1,5.1,992.0,142.0,1,1,0,0,0,1,1,1,[]
+603,Keftedakia,Greek,European,Greece,Non-Vegetarian,Beverage,100,377.3,31.4,27.5,11.0,1.7,2.9,639.0,77.0,1,0,1,0,0,0,1,1,['None']
+604,Pla Sam Rod,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,286.1,18.2,23.2,10.0,1.9,5.0,1017.0,119.0,0,0,1,0,1,1,1,0,"['Gluten', 'Dairy', 'Nuts']"
+605,Bun Bo Hue,Vietnamese,Asian,Vietnam,Non-Vegetarian,Snack,100,311.4,18.1,20.0,7.6,2.3,4.1,336.0,63.0,0,0,0,1,1,0,1,1,"['Shellfish', 'Soy']"
+606,Blanquette de Veau,French,European,France,Non-Vegetarian,Beverage,100,388.9,34.1,15.8,6.3,1.1,3.9,1153.0,47.0,0,1,0,1,1,0,1,1,['Shellfish']
+607,Ca Kho To,Vietnamese,Asian,Vietnam,Non-Vegetarian,Lunch,100,340.9,17.2,29.6,16.4,4.7,3.4,865.0,53.0,1,1,1,0,1,1,1,0,[]
+608,Poulet Basquaise,French,European,France,Non-Vegetarian,Beverage,100,186.5,33.8,28.2,31.6,3.8,8.1,362.0,70.0,0,1,1,0,1,1,1,1,"['Nuts', 'Shellfish', 'Gluten']"
+609,Coquilles Saint-Jacques,French,European,France,Non-Vegetarian,Beverage,100,228.4,27.7,15.8,9.5,3.6,8.1,644.0,46.0,0,1,1,1,0,1,1,0,[]
+610,Polenta e Funghi,Italian,European,Italy,Vegetarian,Beverage,100,149.2,5.8,8.1,35.7,6.8,10.7,354.0,33.0,1,1,1,0,1,1,1,1,['Gluten']
+611,Shish Tawook,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Breakfast,100,251.0,12.0,21.0,25.4,1.8,17.9,609.0,112.0,1,0,0,0,1,0,1,1,"['Shellfish', 'Soy']"
+612,Freekeh with Chicken,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dessert,100,207.6,7.2,16.3,27.0,3.0,21.0,648.0,40.0,0,1,1,1,1,1,0,1,['Soy']
+613,Vegetable Shawarma,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dessert,100,244.1,3.7,11.8,56.9,0.0,27.1,186.0,12.0,1,0,1,0,1,1,1,1,"['Shellfish', 'Eggs']"
+614,Elote Esquites,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,331.5,4.9,19.4,18.2,7.9,8.7,719.0,22.0,1,1,1,0,1,1,1,1,['Nuts']
+615,Risotto con Salsiccia,Italian,European,Italy,Non-Vegetarian,Breakfast,100,333.6,7.9,8.3,47.5,3.3,8.7,984.0,71.0,1,0,1,0,1,1,1,1,['Nuts']
+616,Ladoo,Indian,Asian,India,Vegetarian,Snack,100,338.0,11.9,13.2,45.2,2.4,4.6,426.0,9.0,0,1,0,1,1,1,0,1,"['Shellfish', 'Soy']"
+617,Vegetable Kimchi Fried Rice,Korean,Asian,South Korea,Vegetarian,Breakfast,100,386.0,18.8,13.5,30.3,7.7,10.0,442.0,14.0,1,0,1,0,1,1,1,0,"['Eggs', 'Soy', 'Dairy']"
+618,Vegetable Futomaki,Japanese,Asian,Japan,Vegetarian,Beverage,100,327.4,9.8,16.0,42.5,4.7,7.1,694.0,15.0,0,1,1,0,1,1,1,1,['Shellfish']
+619,Jokbal,Korean,Asian,South Korea,Non-Vegetarian,Beverage,100,348.5,33.8,21.7,27.2,4.8,8.5,656.0,36.0,1,0,0,0,1,1,0,0,['Nuts']
+620,French Onion Soup,French,European,France,Non-Vegetarian,Breakfast,100,300.5,15.1,14.0,42.5,3.5,13.4,468.0,120.0,1,0,0,1,1,0,1,1,[]
+621,Straccetti di Manzo,Italian,European,Italy,Non-Vegetarian,Breakfast,100,336.4,8.1,10.8,42.5,4.4,5.9,1171.0,116.0,1,0,1,0,1,1,0,1,[]
+622,Naengmyeon,Korean,Asian,South Korea,Non-Vegetarian,Lunch,100,389.3,23.5,18.5,31.9,3.2,7.1,527.0,84.0,0,1,1,1,1,1,1,1,[]
+623,Stuffed Grape Leaves,Lebanese,Middle Eastern,Lebanon,Vegetarian,Dinner,100,130.9,5.5,3.0,11.6,9.8,4.4,564.0,34.0,0,1,1,0,1,0,0,0,[]
+624,Chicken Afghani,Indian,Asian,India,Non-Vegetarian,Breakfast,100,337.7,7.3,19.6,38.0,6.1,15.9,1178.0,99.0,1,1,1,0,1,1,1,1,[]
+625,Vegetable Bouillabaisse,French,European,France,Vegetarian,Snack,100,185.4,10.8,4.2,45.9,3.0,5.6,671.0,24.0,1,0,1,1,1,1,1,0,[]
+626,Bok Choy with Garlic Sauce,Chinese,Asian,China,Vegetarian,Dinner,100,198.4,8.7,17.5,23.6,9.0,2.2,644.0,34.0,0,1,0,1,1,1,1,1,[]
+627,Scaloppine al Limone,Italian,European,Italy,Non-Vegetarian,Snack,100,195.5,23.6,11.6,26.2,3.2,6.4,477.0,55.0,0,0,1,1,0,1,1,1,"['Dairy', 'Gluten', 'Shellfish']"
+628,Sweet and Sour Pork,Chinese,Asian,China,Non-Vegetarian,Dessert,100,212.4,3.9,21.2,55.0,3.3,25.9,1158.0,116.0,0,1,1,0,0,1,1,1,"['Gluten', 'Eggs', 'Dairy']"
+629,Japchae Deopbap,Korean,Asian,South Korea,Vegetarian,Beverage,100,332.5,9.3,7.4,12.1,7.8,2.7,312.0,21.0,1,1,1,1,1,1,1,1,[]
+630,Vegetable Pajeon,Korean,Asian,South Korea,Vegetarian,Lunch,100,241.1,10.2,5.8,25.2,6.9,14.6,609.0,37.0,0,1,1,0,0,1,1,1,[]
+631,Foie Gras,French,European,France,Non-Vegetarian,Dessert,100,428.7,6.3,13.8,48.3,3.1,30.1,741.0,93.0,0,0,1,0,1,1,1,1,"['Nuts', 'None']"
+632,Tofu Satay,Thai,Asian,Thailand,Vegetarian,Lunch,100,183.6,9.2,6.4,42.2,3.5,2.2,405.0,26.0,1,1,1,0,1,1,1,1,"['Nuts', 'None', 'Shellfish']"
+633,Penne Arrabbiata,Italian,European,Italy,Vegetarian,Beverage,100,209.4,6.3,12.5,23.9,9.5,13.9,452.0,13.0,0,0,1,0,1,1,1,1,['Shellfish']
+634,Kenchin-jiru,Japanese,Asian,Japan,Vegetarian,Dessert,100,421.1,1.3,19.5,36.8,4.6,15.3,487.0,30.0,1,1,1,0,1,0,0,0,['Shellfish']
+635,Vegetable Jiaozi,Chinese,Asian,China,Vegetarian,Snack,100,221.3,4.0,19.5,30.7,6.9,4.3,438.0,17.0,0,0,0,1,1,1,1,1,[]
+636,Bossam,Korean,Asian,South Korea,Non-Vegetarian,Beverage,100,168.7,17.1,26.4,12.2,1.2,5.0,992.0,37.0,1,0,1,0,1,1,1,1,[]
+637,Zha Jiang Mian,Chinese,Asian,China,Non-Vegetarian,Dessert,100,373.0,2.1,10.7,26.8,4.2,17.9,341.0,83.0,0,1,1,1,1,1,1,1,"['Soy', 'Shellfish', 'None']"
+638,Ikayaki,Japanese,Asian,Japan,Non-Vegetarian,Lunch,100,361.0,20.2,17.3,6.2,2.7,5.8,814.0,70.0,0,1,1,1,1,1,1,0,['Nuts']
+639,Nachos,Mexican,Latin American,Mexico,Vegetarian,Dessert,100,294.7,2.0,17.3,28.5,3.8,39.2,779.0,35.0,1,1,1,0,1,1,1,0,"['Soy', 'Nuts', 'Shellfish']"
+640,Vegetable Sukiyaki,Thai,Asian,Thailand,Vegetarian,Beverage,100,250.2,11.4,7.8,35.2,5.6,7.7,630.0,11.0,1,0,1,0,1,1,1,0,"['Shellfish', 'Nuts', 'Soy']"
+641,Pollo en Salsa Verde,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,229.5,33.5,9.2,19.6,5.5,6.1,792.0,60.0,0,0,1,1,1,1,1,0,[]
+642,Vegetable Hot and Sour Soup,Chinese,Asian,China,Vegetarian,Lunch,100,185.8,13.2,12.5,30.6,2.8,1.2,775.0,15.0,0,1,1,1,1,1,1,1,[]
+643,Chinese Broccoli with Garlic,Chinese,Asian,China,Vegetarian,Snack,100,250.8,4.0,14.6,47.3,6.6,2.8,507.0,31.0,0,0,0,1,1,1,1,1,"['Gluten', 'None', 'Shellfish']"
+644,Mushroom Dumplings,Chinese,Asian,China,Vegetarian,Breakfast,100,301.6,18.2,18.0,47.0,5.4,4.4,317.0,8.0,1,0,1,0,0,1,1,1,[]
+645,Vegetable Picadillo,Mexican,Latin American,Mexico,Vegetarian,Snack,100,327.2,12.1,14.5,22.0,3.5,11.6,432.0,9.0,0,0,0,1,1,1,1,1,[]
+646,Kadhi Pakora,Indian,Asian,India,Vegetarian,Dessert,100,385.0,1.4,16.5,41.4,0.7,39.6,246.0,5.0,1,0,1,1,1,1,1,1,"['Dairy', 'Shellfish']"
+647,Bistecca alla Fiorentina,Italian,European,Italy,Non-Vegetarian,Lunch,100,200.9,30.4,17.4,22.0,0.1,0.3,701.0,128.0,0,0,1,1,1,1,0,1,[]
+648,Vegetable Dolsot Bibimbap,Korean,Asian,South Korea,Vegetarian,Lunch,100,321.3,4.0,12.2,46.5,5.1,12.6,194.0,37.0,0,1,1,1,1,1,1,1,[]
+649,Spicy Tuna Roll,Japanese,Asian,Japan,Non-Vegetarian,Beverage,100,337.9,33.8,22.9,15.9,5.6,2.8,599.0,114.0,0,0,0,1,1,0,1,1,"['Dairy', 'Eggs']"
+650,Insalata di Lenticchie,Italian,European,Italy,Vegetarian,Dessert,100,429.6,9.4,14.1,52.9,3.7,16.6,371.0,11.0,0,1,1,0,1,1,1,1,"['Soy', 'Shellfish', 'Nuts']"
+651,Chicken Fricassee,French,European,France,Non-Vegetarian,Dessert,100,291.3,9.8,22.9,50.1,4.9,24.4,1022.0,82.0,0,1,1,1,1,1,1,1,['Shellfish']
+652,Risotto ai Funghi,Italian,European,Italy,Vegetarian,Dinner,100,317.4,5.2,19.1,18.8,4.6,11.6,376.0,24.0,0,0,1,0,1,1,0,1,['Nuts']
+653,Tortilla Soup,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,211.1,11.9,6.9,12.3,4.4,7.6,218.0,14.0,1,1,1,0,1,1,1,1,[]
+654,Onion Uttapam,Indian,Asian,India,Vegetarian,Dinner,100,200.0,3.7,12.9,45.4,3.2,9.4,565.0,17.0,1,1,1,0,1,1,1,1,"['Eggs', 'None']"
+655,Chicken Tikka Biryani,Indian,Asian,India,Non-Vegetarian,Breakfast,100,375.3,11.2,15.1,20.2,5.8,13.9,335.0,74.0,1,0,0,1,1,1,1,0,"['Soy', 'Shellfish', 'Nuts']"
+656,Steamed Pork Ribs with Black Bean Sauce,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,444.8,11.3,15.0,47.3,6.0,12.5,1018.0,134.0,1,0,0,0,1,1,1,0,[]
+657,Beef Bourguignon,French,European,France,Non-Vegetarian,Lunch,100,264.2,24.5,16.5,34.0,4.2,0.8,1077.0,88.0,0,1,1,1,1,1,1,1,"['Dairy', 'Soy']"
+658,Fettuccine Alfredo,Italian,European,Italy,Vegetarian,Lunch,100,117.2,9.6,10.1,45.1,3.6,12.6,490.0,2.0,0,1,1,0,1,1,0,1,"['Gluten', 'None', 'Nuts']"
+659,Caponata Siciliana,Italian,European,Italy,Non-Vegetarian,Breakfast,100,443.0,12.7,10.8,34.1,7.0,7.5,473.0,45.0,1,0,0,0,1,1,1,1,"['Eggs', 'Shellfish']"
+660,Samgyeopsal,Korean,Asian,South Korea,Non-Vegetarian,Snack,100,224.5,30.6,18.4,11.8,1.0,3.3,1146.0,71.0,1,1,0,1,1,1,0,0,['None']
+661,Tendon,Japanese,Asian,Japan,Non-Vegetarian,Dessert,100,496.4,5.4,13.6,56.2,2.3,32.7,1185.0,36.0,1,0,1,1,0,1,0,1,"['Gluten', 'None', 'Dairy']"
+662,Tagliatelle al Ragù,Italian,European,Italy,Non-Vegetarian,Dinner,100,174.2,29.4,14.2,10.5,0.2,0.2,997.0,46.0,0,1,1,0,1,1,1,1,"['Nuts', 'Eggs', 'Dairy']"
+663,Erachi Varutharacha Curry,Indian,Asian,India,Non-Vegetarian,Dinner,100,266.9,27.1,17.4,5.8,4.7,0.1,986.0,137.0,0,1,1,0,1,1,1,1,"['Soy', 'Eggs', 'Nuts']"
+664,Veal Marsala,Italian,European,Italy,Non-Vegetarian,Snack,100,258.2,25.7,18.5,16.7,5.3,8.9,602.0,104.0,0,0,1,1,1,1,1,1,"['Gluten', 'None', 'Dairy']"
+665,Lamb Navarin,French,European,France,Non-Vegetarian,Breakfast,100,431.7,19.4,15.2,33.6,3.0,19.3,429.0,100.0,1,0,0,0,1,1,1,0,['Shellfish']
+666,Pork Carnitas,Mexican,Latin American,Mexico,Non-Vegetarian,Dessert,100,284.8,3.5,18.1,60.0,0.3,29.5,374.0,49.0,0,0,1,0,0,0,1,1,[]
+667,Yakisoba,Japanese,Asian,Japan,Non-Vegetarian,Beverage,100,259.9,25.2,13.7,14.5,0.5,3.0,1170.0,143.0,1,1,1,1,1,0,1,1,"['Dairy', 'Gluten']"
+668,Stufato di Manzo,Italian,European,Italy,Non-Vegetarian,Dinner,100,233.7,26.4,28.0,5.2,4.9,9.5,382.0,49.0,0,1,0,0,1,1,0,1,"['None', 'Gluten', 'Soy']"
+669,Pak Boong Fai Daeng,Thai,Asian,Thailand,Vegetarian,Lunch,100,340.2,9.5,3.2,20.3,5.6,10.7,613.0,40.0,0,1,1,0,1,1,1,0,['Shellfish']
+670,Risotto alla Rapa Rossa,Italian,European,Italy,Vegetarian,Lunch,100,171.9,9.5,12.1,26.2,3.4,14.7,697.0,20.0,0,1,1,0,1,0,0,1,[]
+671,Nam Tok,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,350.8,8.4,15.9,40.8,4.6,19.8,850.0,75.0,1,0,0,0,1,1,1,1,"['Soy', 'Nuts', 'Gluten']"
+672,Yangzhou Fried Rice,Chinese,Asian,China,Non-Vegetarian,Snack,100,343.0,18.4,16.5,15.4,2.6,7.8,736.0,125.0,1,0,0,1,0,1,1,1,[]
+673,Ravioli,Italian,European,Italy,Vegetarian,Breakfast,100,344.1,10.1,21.2,27.1,2.6,11.1,283.0,0.0,1,0,0,0,0,1,1,1,[]
+674,Vegetable Huaraches,Mexican,Latin American,Mexico,Vegetarian,Snack,100,262.1,9.1,10.6,48.7,6.6,13.1,198.0,23.0,0,1,0,1,0,0,1,0,"['Gluten', 'Nuts', 'Dairy']"
+675,Lamb Mansaf,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dinner,100,367.0,26.7,23.8,16.2,0.6,4.6,655.0,134.0,0,0,1,0,1,0,1,1,"['None', 'Soy']"
+676,Yam Woon Sen,Thai,Asian,Thailand,Vegetarian,Dessert,100,273.2,9.7,29.2,33.7,1.7,37.4,777.0,18.0,1,0,1,0,0,1,1,1,"['Shellfish', 'Dairy', 'Eggs']"
+677,Vegetable Pad Kee Mao,Thai,Asian,Thailand,Vegetarian,Breakfast,100,280.2,12.9,18.8,28.2,6.2,2.9,135.0,15.0,1,1,0,1,1,1,0,1,[]
+678,Shiso Maki,Japanese,Asian,Japan,Vegetarian,Dessert,100,306.0,3.8,19.8,36.2,1.0,22.7,782.0,16.0,1,0,0,0,1,1,0,1,[]
+679,Linguine ai Frutti di Mare,Italian,European,Italy,Non-Vegetarian,Dessert,100,333.4,6.2,29.7,33.5,3.4,32.9,847.0,41.0,1,1,0,1,1,1,1,1,"['None', 'Gluten', 'Eggs']"
+680,Pepperoni Pizza,Italian,European,Italy,Non-Vegetarian,Beverage,100,319.2,16.3,21.1,27.2,1.3,8.4,327.0,131.0,1,1,0,0,1,1,1,0,[]
+681,Ragù alla Bolognese,Italian,European,Italy,Non-Vegetarian,Dinner,100,265.1,19.4,10.9,33.6,0.4,2.0,613.0,104.0,0,1,1,0,1,1,1,1,['Dairy']
+682,Vegetable Tom Kha,Thai,Asian,Thailand,Vegetarian,Lunch,100,236.2,4.5,7.9,19.6,3.7,6.8,593.0,9.0,0,1,1,0,1,1,0,1,"['Eggs', 'Shellfish']"
+683,Beef Arayes,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Lunch,100,241.7,22.8,29.5,33.6,4.8,2.4,361.0,68.0,1,1,0,0,1,1,1,1,['Shellfish']
+684,Giouvetsi,Greek,European,Greece,Non-Vegetarian,Snack,100,216.7,25.1,25.1,30.7,5.1,3.6,919.0,68.0,0,1,0,1,1,1,1,0,[]
+685,Ras Asfour,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dessert,100,218.3,7.3,10.2,39.3,1.6,32.3,990.0,66.0,1,0,1,0,1,1,1,1,['Nuts']
+686,Vegetable Chimichangas,Mexican,Latin American,Mexico,Vegetarian,Lunch,100,302.9,6.5,10.6,39.1,7.5,14.8,258.0,26.0,0,1,1,0,1,1,1,0,['Soy']
+687,Zuppa di Pesce,Italian,European,Italy,Non-Vegetarian,Dinner,100,302.4,33.3,11.4,27.6,3.4,2.7,727.0,70.0,0,1,1,0,0,0,1,1,"['Shellfish', 'Eggs', 'Nuts']"
+688,Tofu Laab,Thai,Asian,Thailand,Vegetarian,Lunch,100,244.8,13.7,12.7,35.3,6.1,1.7,263.0,20.0,0,1,0,0,1,1,1,1,[]
+689,Kuromame,Japanese,Asian,Japan,Vegetarian,Beverage,100,177.6,5.2,11.6,22.9,4.1,7.5,193.0,37.0,0,0,0,1,1,1,0,0,[]
+690,Pappardelle al Ragù di Cinghiale,Italian,European,Italy,Non-Vegetarian,Breakfast,100,416.9,15.6,7.1,43.3,6.7,15.8,403.0,107.0,1,1,0,0,1,1,1,1,"['Eggs', 'Shellfish', 'Gluten']"
+691,Vegetable Biryani,Indian,Asian,India,Vegetarian,Breakfast,100,408.6,13.7,17.9,33.8,4.7,2.6,547.0,3.0,1,0,0,0,1,1,1,0,[]
+692,Chicken Vindaloo,Indian,Asian,India,Non-Vegetarian,Breakfast,100,308.8,9.4,15.9,24.0,5.8,16.3,447.0,43.0,1,0,0,1,1,1,1,1,['None']
+693,Kongguksu,Korean,Asian,South Korea,Non-Vegetarian,Beverage,100,186.4,32.5,19.6,19.0,0.6,6.5,1081.0,129.0,0,1,1,0,1,1,1,1,[]
+694,Oyakodon,Japanese,Asian,Japan,Non-Vegetarian,Beverage,100,306.5,16.5,10.5,6.5,1.5,1.4,534.0,76.0,0,0,1,0,0,1,1,1,['Gluten']
+695,Zampone con Lenticchie,Italian,European,Italy,Non-Vegetarian,Lunch,100,385.7,27.2,26.4,26.3,0.7,7.4,548.0,107.0,0,1,1,0,1,1,1,1,['Dairy']
+696,Goong Pad Med Mamuang,Thai,Asian,Thailand,Non-Vegetarian,Snack,100,235.2,35.0,13.8,13.4,5.6,0.2,927.0,117.0,0,1,0,1,1,1,0,1,[]
+697,Beef Chow Fun,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,409.1,19.6,24.5,22.0,6.8,13.6,883.0,45.0,1,0,1,1,1,1,1,0,[]
+698,Pork Satay,Thai,Asian,Thailand,Non-Vegetarian,Lunch,100,312.5,34.6,28.1,18.2,0.2,3.6,1044.0,114.0,0,1,1,0,1,1,1,0,['Nuts']
+699,Aguachile,Mexican,Latin American,Mexico,Non-Vegetarian,Lunch,100,264.8,16.1,17.4,19.1,5.6,6.4,580.0,93.0,0,1,1,0,1,0,1,1,[]
+700,Sundubu Jjigae,Korean,Asian,South Korea,Non-Vegetarian,Lunch,100,166.5,34.5,15.9,19.3,2.1,6.8,896.0,116.0,0,1,0,0,1,1,1,1,"['Eggs', 'Dairy']"
+701,Vegetable Steamed Dumplings,Chinese,Asian,China,Vegetarian,Dinner,100,167.0,6.8,5.1,36.2,2.3,9.4,709.0,36.0,0,1,1,1,1,1,1,1,['Dairy']
+702,Vegetable Hakka NoodlesSzechuan Eggplant,Chinese,Asian,China,Vegetarian,Dinner,100,212.3,8.5,4.3,36.8,8.6,4.4,395.0,34.0,1,1,1,0,1,1,1,1,[]
+703,Kimchi Buchimgae,Korean,Asian,South Korea,Non-Vegetarian,Snack,100,369.3,19.9,20.1,10.8,0.6,9.1,1038.0,121.0,1,0,0,1,1,1,1,1,['None']
+704,Crispy Tofu,Chinese,Asian,China,Vegetarian,Breakfast,100,212.2,17.7,13.8,30.3,4.8,3.6,630.0,23.0,1,1,0,0,1,1,1,1,"['Nuts', 'Shellfish']"
+705,Dak Galbi,Korean,Asian,South Korea,Non-Vegetarian,Breakfast,100,246.6,7.8,8.7,21.7,5.1,17.1,316.0,36.0,1,0,1,0,0,1,1,1,['Soy']
+706,Tofu Pra Ram,Thai,Asian,Thailand,Vegetarian,Beverage,100,243.2,12.8,8.6,24.0,6.8,4.8,119.0,29.0,1,0,1,0,0,1,0,1,['Nuts']
+707,Beef Teriyaki,Japanese,Asian,Japan,Non-Vegetarian,Lunch,100,306.4,26.6,24.3,25.3,1.2,3.5,413.0,46.0,0,1,0,1,1,1,1,1,[]
+708,Mutton Kofta,Indian,Asian,India,Non-Vegetarian,Beverage,100,319.0,32.2,29.2,23.9,1.1,1.1,1032.0,99.0,0,1,0,0,1,1,1,0,[]
+709,Chicken Tikka Masala,Indian,Asian,India,Non-Vegetarian,Dinner,100,304.6,30.6,23.5,30.0,0.3,7.5,1066.0,64.0,0,1,1,0,1,1,1,1,['Gluten']
+710,Chile con Queso,Mexican,Latin American,Mexico,Vegetarian,Snack,100,260.1,6.8,19.3,11.3,6.6,3.3,599.0,7.0,1,0,0,1,0,1,0,1,['Soy']
+711,Honey Walnut Shrimp,Chinese,Asian,China,Non-Vegetarian,Dessert,100,270.6,5.4,28.3,32.4,0.7,34.0,751.0,139.0,0,1,1,0,1,1,0,1,['Soy']
+712,Goong Ob Woonsen,Thai,Asian,Thailand,Non-Vegetarian,Dinner,100,186.7,27.9,13.1,9.7,4.1,5.9,979.0,67.0,0,0,1,0,1,1,1,1,"['None', 'Dairy']"
+713,Haemul Sundubu,Korean,Asian,South Korea,Non-Vegetarian,Breakfast,100,312.0,11.1,24.7,28.8,3.1,8.4,808.0,60.0,1,0,0,0,1,0,1,1,[]
+714,Vegetable Hot Pot,Chinese,Asian,China,Vegetarian,Beverage,100,328.8,6.2,18.2,14.1,7.3,13.7,218.0,39.0,0,1,1,0,1,1,1,1,[]
+715,Vegetable Quesadilla,Mexican,Latin American,Mexico,Vegetarian,Snack,100,213.2,14.3,14.5,22.1,3.5,5.3,165.0,6.0,0,0,1,1,1,0,0,0,"['None', 'Soy']"
+716,Garlic Mushroom Rice,Chinese,Asian,China,Vegetarian,Beverage,100,126.2,8.1,16.5,15.7,3.0,10.0,238.0,4.0,1,1,1,1,1,1,1,1,"['Shellfish', 'Nuts']"
+717,Bouillabaisse,French,European,France,Non-Vegetarian,Beverage,100,191.7,33.5,26.1,15.6,3.9,5.4,909.0,112.0,0,0,1,1,1,1,1,1,"['Gluten', 'Nuts', 'Dairy']"
+718,Daikon Salad,Japanese,Asian,Japan,Vegetarian,Lunch,100,257.2,6.2,3.7,28.2,9.1,9.0,683.0,40.0,0,0,1,0,1,1,1,1,"['Eggs', 'Shellfish']"
+719,Htapodi Krasato,Greek,European,Greece,Non-Vegetarian,Snack,100,190.9,28.8,22.8,34.4,5.9,6.9,519.0,126.0,0,0,0,1,1,1,1,0,"['Soy', 'None']"
+720,Vegetable Tostadas,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,126.8,12.4,18.5,25.3,7.0,7.0,406.0,12.0,0,1,1,1,1,1,0,1,['Shellfish']
+721,Escargots,French,European,France,Non-Vegetarian,Breakfast,100,390.5,19.0,23.8,25.2,7.1,15.3,528.0,38.0,1,1,0,1,1,1,1,0,"['Gluten', 'Shellfish']"
+722,Arnaki Fricase,Greek,European,Greece,Non-Vegetarian,Lunch,100,217.0,33.2,21.9,26.6,1.5,7.2,325.0,75.0,0,1,1,0,1,1,1,1,['Gluten']
+723,Tomato Rice,Indian,Asian,India,Vegetarian,Breakfast,100,356.7,7.2,21.5,27.1,5.6,9.3,517.0,4.0,1,0,0,0,1,0,1,1,['None']
+724,Fattet Djej,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dinner,100,154.2,33.2,13.9,29.6,6.0,2.1,539.0,110.0,0,0,1,0,1,0,1,1,"['Gluten', 'None']"
+725,Kalakand,Indian,Asian,India,Vegetarian,Dinner,100,341.4,14.0,11.5,41.8,3.1,14.7,775.0,7.0,0,1,0,1,1,1,1,1,"['Eggs', 'Soy']"
+726,Chicken Ghee Roast,Indian,Asian,India,Non-Vegetarian,Snack,100,224.9,17.0,14.0,29.5,2.3,0.9,608.0,148.0,1,0,1,1,0,1,1,0,[]
+727,Chili Con Carne,Mexican,Latin American,Mexico,Non-Vegetarian,Breakfast,100,357.4,11.2,8.3,49.6,6.7,7.1,363.0,37.0,1,1,0,0,0,0,1,1,[]
+728,Pizza Marinara,Italian,European,Italy,Vegetarian,Snack,100,130.1,10.0,18.8,29.9,8.7,7.2,596.0,29.0,1,0,0,1,0,1,0,1,['Soy']
+729,Miyeokguk,Korean,Asian,South Korea,Non-Vegetarian,Beverage,100,193.5,22.2,22.0,7.1,2.2,5.3,1197.0,87.0,0,1,1,0,1,1,1,1,"['Gluten', 'Soy', 'Nuts']"
+730,Vegetable Pad Woon Sen,Thai,Asian,Thailand,Vegetarian,Dinner,100,304.0,8.2,16.5,33.8,9.1,6.8,523.0,25.0,0,1,1,1,1,1,1,1,[]
+731,Vegetable Enchiladas,Mexican,Latin American,Mexico,Vegetarian,Breakfast,100,304.3,7.2,6.9,20.5,7.1,6.3,248.0,29.0,1,1,1,0,1,1,1,1,"['Shellfish', 'Gluten', 'None']"
+732,Risotto ai Frutti di Mare,Italian,European,Italy,Non-Vegetarian,Dessert,100,296.0,5.6,13.3,58.6,4.3,36.6,666.0,121.0,0,0,1,0,1,1,0,1,"['None', 'Shellfish']"
+733,Nam Tok Moo,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,186.0,15.2,8.4,22.6,2.7,5.2,307.0,81.0,0,1,0,0,1,1,1,1,['Gluten']
+734,Donne Biryani,Indian,Asian,India,Non-Vegetarian,Breakfast,100,379.5,11.6,19.6,27.0,6.7,12.6,490.0,58.0,1,1,0,1,1,1,1,1,"['Eggs', 'Gluten', 'Dairy']"
+735,Chile Colorado,Mexican,Latin American,Mexico,Non-Vegetarian,Lunch,100,307.0,31.6,17.1,12.7,5.2,6.7,703.0,89.0,0,1,1,0,1,1,1,0,"['None', 'Soy']"
+736,Sopa de Fideo with Vegetables,Mexican,Latin American,Mexico,Vegetarian,Dinner,100,151.1,10.5,9.1,49.8,5.8,7.8,496.0,37.0,0,1,1,0,1,1,1,1,"['None', 'Soy']"
+737,Psarosoupa,Greek,European,Greece,Non-Vegetarian,Dessert,100,440.2,5.1,24.4,45.5,2.5,19.8,718.0,59.0,0,1,1,0,1,0,1,1,"['Gluten', 'Dairy']"
+738,Gai Tod,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,378.7,21.7,28.9,21.0,3.8,5.4,416.0,75.0,0,0,1,1,1,1,1,1,"['Gluten', 'Eggs', 'None']"
+739,Milanesa de Res,Mexican,Latin American,Mexico,Non-Vegetarian,Breakfast,100,224.8,14.3,13.9,43.3,2.5,5.0,666.0,141.0,0,1,0,0,1,1,1,1,"['Dairy', 'None', 'Shellfish']"
+740,Badami Paneer,Indian,Asian,India,Vegetarian,Breakfast,100,377.6,11.3,15.3,22.5,7.9,14.0,300.0,23.0,1,0,0,0,1,1,1,1,"['Nuts', 'Gluten']"
+741,Pollo Asado,Mexican,Latin American,Mexico,Non-Vegetarian,Breakfast,100,227.4,19.5,8.5,39.4,2.7,14.9,999.0,111.0,1,1,1,1,1,0,1,1,"['Nuts', 'Dairy', 'Gluten']"
+742,Tod Mun Pla,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,303.6,32.8,9.7,14.9,1.5,9.9,650.0,118.0,0,0,1,1,1,0,0,1,['None']
+743,Black Pepper Tofu,Thai,Asian,Thailand,Vegetarian,Snack,100,271.2,5.5,7.1,21.3,5.3,4.3,114.0,35.0,1,0,0,0,1,1,0,1,"['Soy', 'Shellfish', 'Gluten']"
+744,Fish Sayyadieh,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dinner,100,391.4,21.8,15.4,5.2,4.1,8.3,432.0,49.0,1,1,0,0,1,0,1,1,[]
+745,Spaghetti alla Puttanesca,Italian,European,Italy,Non-Vegetarian,Dessert,100,437.0,6.5,10.9,46.8,1.5,24.2,993.0,127.0,1,1,1,1,0,1,1,0,['None']
+746,Salmon Nigiri,Japanese,Asian,Japan,Non-Vegetarian,Dinner,100,250.1,33.9,16.9,28.2,2.9,9.0,1117.0,40.0,1,1,1,1,1,0,1,1,"['Gluten', 'Dairy', 'None']"
+747,Canard à l'Orange,French,European,France,Non-Vegetarian,Dessert,100,480.9,8.4,25.8,32.0,4.0,36.3,560.0,144.0,0,0,1,1,1,1,0,1,"['Eggs', 'Nuts', 'Dairy']"
+748,Lepre in Salmì,Italian,European,Italy,Non-Vegetarian,Dinner,100,162.5,18.0,19.8,22.3,3.9,0.2,1164.0,35.0,0,1,1,1,0,0,0,1,"['Nuts', 'Eggs', 'Dairy']"
+749,Peperonata,Italian,European,Italy,Vegetarian,Breakfast,100,235.8,5.2,16.3,48.0,5.7,16.8,109.0,22.0,1,0,0,1,1,1,1,1,"['Nuts', 'Gluten', 'Soy']"
+750,Kafta,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dinner,100,264.9,25.0,9.6,25.5,3.0,7.7,737.0,48.0,0,1,0,1,0,0,1,1,"['Soy', 'None']"
+751,Gaeng Jued Taohu,Thai,Asian,Thailand,Vegetarian,Dinner,100,262.1,5.1,17.8,34.5,3.3,14.5,463.0,3.0,1,1,1,0,1,0,1,1,[]
+752,Braised Tofu with Mushrooms,Chinese,Asian,China,Vegetarian,Lunch,100,256.7,6.0,16.7,42.7,9.8,8.0,418.0,30.0,0,1,1,0,0,1,1,1,[]
+753,Vegetable Hor Mok,Thai,Asian,Thailand,Vegetarian,Dinner,100,133.1,9.6,12.3,13.6,5.3,12.9,699.0,4.0,0,1,0,0,1,1,1,1,"['Eggs', 'Nuts', 'Gluten']"
+754,Hot Pot,Chinese,Asian,China,Non-Vegetarian,Beverage,100,172.7,20.3,27.2,8.9,4.3,1.0,861.0,73.0,0,0,0,1,1,1,1,1,[]
+755,Dahi Chicken,Indian,Asian,India,Non-Vegetarian,Breakfast,100,397.2,8.5,17.8,27.1,6.0,17.7,414.0,134.0,1,0,0,0,1,1,1,1,"['None', 'Dairy', 'Shellfish']"
+756,Oden,Japanese,Asian,Japan,Non-Vegetarian,Lunch,100,298.4,17.5,17.4,9.8,4.2,7.6,395.0,91.0,0,1,1,1,0,0,1,1,[]
+757,Milmyeon,Korean,Asian,South Korea,Non-Vegetarian,Beverage,100,353.7,33.7,19.3,33.5,3.2,3.9,1063.0,89.0,1,1,1,0,0,1,0,1,"['None', 'Shellfish', 'Eggs']"
+758,Kalguksu,Korean,Asian,South Korea,Non-Vegetarian,Dessert,100,341.6,5.4,26.9,54.1,2.0,23.3,743.0,99.0,1,1,0,0,0,1,1,1,"['Gluten', 'Dairy', 'Eggs']"
+759,Yakhni Pulao,Indian,Asian,India,Non-Vegetarian,Dinner,100,209.6,30.9,18.7,15.0,0.6,2.4,1154.0,67.0,0,0,1,0,1,1,1,1,"['Eggs', 'Nuts', 'Gluten']"
+760,Katsudon,Japanese,Asian,Japan,Non-Vegetarian,Beverage,100,192.2,24.2,14.8,6.1,1.9,5.4,797.0,73.0,0,0,1,0,1,1,1,1,"['Dairy', 'Soy']"
+761,Kolhapuri Chicken,Indian,Asian,India,Non-Vegetarian,Breakfast,100,311.8,19.5,12.5,27.7,2.7,10.2,984.0,55.0,1,0,0,0,1,1,1,1,"['None', 'Shellfish', 'Dairy']"
+762,Goma-ae,Japanese,Asian,Japan,Vegetarian,Dinner,100,277.3,3.3,10.1,41.0,4.7,8.9,243.0,30.0,0,1,1,1,1,1,1,1,"['Gluten', 'Dairy', 'Nuts']"
+763,Shinko Maki,Japanese,Asian,Japan,Vegetarian,Lunch,100,113.1,13.2,6.4,45.0,4.8,11.1,323.0,36.0,0,1,1,1,1,1,1,1,"['None', 'Gluten']"
+764,Parmigiana di Melanzane,Italian,European,Italy,Vegetarian,Dessert,100,238.0,2.6,19.9,27.9,1.0,38.6,784.0,15.0,1,0,1,0,1,1,1,0,"['None', 'Nuts']"
+765,Shami Kebab,Indian,Asian,India,Non-Vegetarian,Dinner,100,380.8,25.9,13.9,26.1,4.0,9.9,539.0,111.0,0,1,1,0,1,1,0,1,"['Nuts', 'Shellfish', 'Soy']"
+766,Rara Chicken,Indian,Asian,India,Non-Vegetarian,Beverage,100,163.0,17.3,8.1,35.0,4.8,7.9,759.0,66.0,0,1,0,0,1,1,1,1,"['Soy', 'Gluten', 'Nuts']"
+767,Papaya Salad,Thai,Asian,Thailand,Vegetarian,Beverage,100,137.8,6.4,9.4,40.3,6.3,2.1,113.0,4.0,1,1,0,0,1,1,1,1,['Gluten']
+768,Beef Tartare,French,European,France,Non-Vegetarian,Beverage,100,252.6,33.7,22.0,29.1,2.8,3.6,398.0,135.0,0,1,1,0,0,1,1,1,"['Soy', 'Eggs', 'Nuts']"
+769,Frittata di Funghi,Italian,European,Italy,Vegetarian,Lunch,100,295.8,5.0,11.7,29.5,7.0,14.2,506.0,22.0,0,1,0,0,1,1,1,0,"['Eggs', 'Gluten', 'Nuts']"
+770,Paccheri al Ragù di Mare,Italian,European,Italy,Non-Vegetarian,Dinner,100,162.6,16.3,12.1,6.0,4.5,7.2,422.0,130.0,0,1,1,0,1,1,1,1,['None']
+771,Youvetsi,Greek,European,Greece,Non-Vegetarian,Lunch,100,188.7,21.0,13.5,16.2,1.5,4.9,667.0,148.0,0,1,0,1,1,0,1,1,['Eggs']
+772,Pasta all'Arrabbiata,Italian,European,Italy,Vegetarian,Dinner,100,114.0,4.7,3.9,35.0,2.4,12.7,458.0,21.0,1,1,1,1,1,1,1,1,['Nuts']
+773,Tuna Nigiri,Japanese,Asian,Japan,Non-Vegetarian,Snack,100,290.4,18.4,12.3,14.6,3.6,2.1,405.0,146.0,0,0,0,1,1,1,1,1,['Nuts']
+774,Dim Sum,Chinese,Asian,China,Non-Vegetarian,Dessert,100,206.6,8.2,25.8,35.4,0.7,18.6,928.0,107.0,1,1,1,0,1,0,1,0,"['Dairy', 'None', 'Gluten']"
+775,Vegetable Fried Rice,Chinese,Asian,China,Vegetarian,Snack,100,295.7,14.2,14.8,16.2,3.9,12.8,247.0,3.0,0,0,1,1,1,1,1,1,[]
+776,Bœuf à la Mode,French,European,France,Non-Vegetarian,Beverage,100,325.8,23.1,28.2,24.5,0.5,9.5,533.0,70.0,0,0,1,1,1,1,1,1,"['Shellfish', 'Dairy']"
+777,Wood Ear Mushroom Salad,Chinese,Asian,China,Vegetarian,Dinner,100,200.6,3.6,11.4,14.9,5.2,5.9,641.0,32.0,0,1,1,0,0,0,1,1,[]
+778,Chicharrones en Salsa Verde,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,188.4,22.3,16.2,9.5,4.8,7.1,471.0,74.0,1,1,1,0,0,1,1,1,"['Shellfish', 'Eggs']"
+779,Vegetable Gaeng Kari,Thai,Asian,Thailand,Vegetarian,Dessert,100,231.7,6.7,12.4,59.5,3.9,24.8,505.0,36.0,0,0,1,0,1,1,1,1,[]
+780,Vegetable Pad Phak,Thai,Asian,Thailand,Vegetarian,Dessert,100,366.2,2.6,17.6,54.5,3.2,31.3,707.0,36.0,0,1,1,1,0,1,1,0,"['Soy', 'Gluten']"
+781,Risotto al Pomodoro,Italian,European,Italy,Vegetarian,Dessert,100,475.9,1.9,20.9,50.9,3.8,30.2,217.0,32.0,0,1,1,1,1,1,1,0,[]
+782,Mentaiko Pasta,Japanese,Asian,Japan,Non-Vegetarian,Dessert,100,416.0,1.8,19.3,31.1,1.7,15.5,660.0,96.0,1,1,0,1,0,1,0,1,[]
+783,General Tso's Chicken,Chinese,Asian,China,Non-Vegetarian,Dessert,100,385.9,7.0,26.7,32.5,0.6,36.3,441.0,147.0,0,0,1,0,1,1,1,0,['Shellfish']
+784,Kaki-age Tempura,Japanese,Asian,Japan,Vegetarian,Snack,100,310.6,9.0,19.7,13.9,4.4,9.9,345.0,37.0,1,1,0,1,0,1,1,0,"['Shellfish', 'Eggs']"
+785,Nasu Dengaku,Japanese,Asian,Japan,Vegetarian,Snack,100,116.4,9.6,13.0,36.1,4.0,6.1,691.0,8.0,0,0,0,1,1,1,1,0,"['Dairy', 'Soy', 'Shellfish']"
+786,Vegetable Donburi,Japanese,Asian,Japan,Vegetarian,Snack,100,306.7,9.8,16.0,38.5,3.7,9.0,707.0,17.0,1,1,0,1,1,1,1,1,[]
+787,Cantonese Roast Duck,Chinese,Asian,China,Non-Vegetarian,Snack,100,391.6,24.0,11.1,16.7,5.7,3.2,1081.0,136.0,0,0,1,1,1,1,1,1,"['Soy', 'None', 'Eggs']"
+788,Cabrito,Mexican,Latin American,Mexico,Non-Vegetarian,Beverage,100,237.5,16.7,23.9,14.3,4.7,4.4,737.0,123.0,0,1,1,1,0,1,0,0,[]
+789,Bisque de Homard,French,European,France,Non-Vegetarian,Dinner,100,245.6,23.9,16.3,16.0,3.2,8.1,626.0,93.0,0,1,1,0,1,1,1,0,['Dairy']
+790,Lampredotto,Italian,European,Italy,Non-Vegetarian,Lunch,100,317.7,20.4,14.1,33.0,4.3,5.8,883.0,34.0,0,1,1,1,0,1,1,1,['Eggs']
+791,Anatra ai Fichi,Italian,European,Italy,Non-Vegetarian,Dessert,100,385.4,5.6,20.9,37.6,0.4,19.8,1156.0,79.0,0,1,1,0,1,1,0,1,"['None', 'Dairy']"
+792,Croque Monsieur,French,European,France,Non-Vegetarian,Dinner,100,266.7,16.1,8.8,26.5,3.2,5.1,519.0,119.0,0,1,1,1,1,1,1,1,['None']
+793,Alambre,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,192.1,18.8,18.1,13.6,1.5,6.5,886.0,129.0,0,1,1,0,1,1,1,1,"['Eggs', 'Gluten']"
+794,Pad Prik King,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,254.4,16.5,14.0,34.4,3.6,7.1,307.0,92.0,0,1,1,0,1,0,1,1,[]
+795,Tea-Smoked Duck,Chinese,Asian,China,Non-Vegetarian,Lunch,100,159.4,26.4,28.3,34.1,3.2,4.6,1151.0,111.0,0,1,1,0,1,1,1,1,[]
+796,Galbitang,Korean,Asian,South Korea,Non-Vegetarian,Dessert,100,219.5,5.2,14.8,41.4,2.3,29.6,621.0,50.0,0,1,0,0,1,1,1,1,[]
+797,Steamed Vegetable Buns,Chinese,Asian,China,Vegetarian,Dinner,100,225.9,13.0,14.3,23.5,9.5,13.8,247.0,2.0,1,0,1,0,1,1,1,1,"['Gluten', 'Soy']"
+798,Boeuf en Daube,French,European,France,Non-Vegetarian,Beverage,100,335.3,31.6,29.3,31.7,3.6,5.3,325.0,60.0,0,1,1,1,1,1,1,1,[]
+799,Bean and Cheese Pupusas,Mexican,Latin American,Mexico,Vegetarian,Breakfast,100,314.9,14.4,16.1,42.3,3.0,12.2,162.0,17.0,1,0,0,0,1,0,1,1,"['Gluten', 'None', 'Nuts']"
+800,Gaeng Om,Thai,Asian,Thailand,Vegetarian,Lunch,100,287.5,11.3,19.8,21.1,6.0,5.6,408.0,34.0,0,1,0,0,0,1,0,1,"['Eggs', 'Gluten', 'Dairy']"
+801,Kalbi Tang,Korean,Asian,South Korea,Non-Vegetarian,Dinner,100,321.1,32.6,12.5,31.2,0.4,8.9,596.0,68.0,0,0,1,0,1,1,1,1,['Nuts']
+802,Makchang,Korean,Asian,South Korea,Non-Vegetarian,Lunch,100,278.0,33.8,9.1,15.6,5.1,4.0,479.0,81.0,0,1,1,0,1,1,1,1,"['Gluten', 'Dairy']"
+803,Corn Tamales,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,196.4,14.0,16.0,30.2,9.9,7.5,141.0,10.0,1,1,0,0,1,1,1,1,"['Soy', 'Gluten', 'Nuts']"
+804,Pla Pao,Thai,Asian,Thailand,Non-Vegetarian,Dinner,100,259.0,18.1,28.8,28.0,1.6,5.9,949.0,143.0,1,0,1,0,1,1,1,1,[]
+805,Tofu Penang,Thai,Asian,Thailand,Vegetarian,Lunch,100,320.4,9.2,16.2,32.5,6.4,2.6,188.0,21.0,0,1,1,0,1,1,1,1,"['Soy', 'Eggs']"
+806,Cochinita Pibil,Mexican,Latin American,Mexico,Non-Vegetarian,Dessert,100,280.7,1.2,24.5,26.1,3.0,28.5,1172.0,88.0,0,0,1,0,1,1,1,0,"['Soy', 'Eggs', 'Nuts']"
+807,Samgyetang,Korean,Asian,South Korea,Non-Vegetarian,Dinner,100,165.9,26.0,26.5,34.9,2.6,3.2,1116.0,53.0,0,1,1,0,1,1,1,1,"['Eggs', 'None', 'Nuts']"
+808,Steak Frites,French,European,France,Non-Vegetarian,Breakfast,100,353.9,11.1,5.8,30.4,2.9,14.3,1154.0,62.0,1,0,0,1,1,1,1,1,[]
+809,Tum Makua,Thai,Asian,Thailand,Vegetarian,Beverage,100,302.9,3.7,12.1,12.8,9.5,11.7,561.0,33.0,0,1,1,0,0,1,1,0,['Eggs']
+810,Salt and Pepper Pork Ribs,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,361.9,19.5,19.3,47.7,4.6,4.1,775.0,45.0,1,0,0,0,1,1,1,1,[]
+811,Dan Dan Noodles,Chinese,Asian,China,Vegetarian,Snack,100,248.1,8.8,13.6,10.4,3.6,7.9,765.0,15.0,1,1,0,1,0,1,1,1,"['Shellfish', 'Soy']"
+812,Fish Tikka,Indian,Asian,India,Non-Vegetarian,Snack,100,256.1,29.3,21.3,14.0,2.5,2.2,1169.0,46.0,1,0,0,1,1,1,1,1,"['None', 'Gluten', 'Shellfish']"
+813,Crispy Lemon Chicken,Chinese,Asian,China,Non-Vegetarian,Dessert,100,311.6,1.2,14.4,52.3,1.0,17.0,727.0,31.0,0,0,1,0,1,1,1,1,"['Shellfish', 'None']"
+814,Seppie in Umido,Italian,European,Italy,Non-Vegetarian,Beverage,100,171.2,31.2,25.0,32.5,5.1,6.8,347.0,124.0,0,0,1,0,1,1,1,1,[]
+815,Kibbeh,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Breakfast,100,411.4,17.0,15.2,27.0,6.9,15.1,1183.0,49.0,1,0,0,0,1,1,1,1,"['Dairy', 'Shellfish']"
+816,Black Bean and Corn Salad,Mexican,Latin American,Mexico,Vegetarian,Lunch,100,156.4,5.5,16.5,17.5,2.5,15.0,117.0,33.0,0,1,1,0,1,0,1,1,['Nuts']
+817,Kebab Karaz,Lebanese,Middle Eastern,Lebanon,Non-Vegetarian,Dessert,100,309.6,8.6,21.1,56.6,4.6,15.2,368.0,60.0,0,0,1,0,1,1,1,1,[]
+818,Tofu Pad Khing,Thai,Asian,Thailand,Vegetarian,Dinner,100,267.3,13.7,10.8,34.3,3.5,12.3,777.0,11.0,0,1,1,0,1,1,1,0,[]
+819,Nopalitos Salad,Mexican,Latin American,Mexico,Vegetarian,Dinner,100,223.7,4.0,12.5,30.1,3.2,7.2,334.0,21.0,0,1,1,0,1,1,1,1,[]
+820,Tortelloni di Ricotta,Italian,European,Italy,Vegetarian,Dessert,100,375.7,1.1,25.2,50.0,1.8,16.3,628.0,38.0,1,1,1,0,1,1,1,1,[]
+821,Pollo Pibil,Mexican,Latin American,Mexico,Non-Vegetarian,Breakfast,100,260.0,9.9,8.7,37.3,2.1,8.4,927.0,97.0,1,1,0,1,1,1,1,1,[]
+822,Budae Jjigae,Korean,Asian,South Korea,Non-Vegetarian,Breakfast,100,296.6,11.3,16.2,20.2,1.5,17.9,370.0,115.0,1,0,0,1,1,1,0,1,['Nuts']
+823,Tofu and Vegetable Clay Pot,Chinese,Asian,China,Vegetarian,Breakfast,100,430.0,9.1,12.4,37.1,7.2,19.0,618.0,3.0,1,1,0,0,1,0,1,1,['Dairy']
+824,Snow Pea Leaf Stir-Fry,Chinese,Asian,China,Vegetarian,Snack,100,267.3,7.9,11.0,12.0,3.5,12.1,418.0,12.0,1,1,0,1,1,1,1,1,"['Dairy', 'Nuts']"
+825,Stifado,Greek,European,Greece,Non-Vegetarian,Dinner,100,246.0,32.1,24.5,13.2,0.7,2.5,1129.0,100.0,0,1,0,0,1,1,1,1,"['Gluten', 'Eggs', 'Nuts']"
+826,Beef Tataki,Japanese,Asian,Japan,Non-Vegetarian,Breakfast,100,333.4,13.9,12.3,44.2,4.7,4.1,416.0,94.0,1,1,0,0,1,1,1,1,[]
+827,Calabacitas,Mexican,Latin American,Mexico,Vegetarian,Dinner,100,334.1,6.7,17.8,40.6,4.0,1.5,171.0,29.0,0,1,0,0,1,1,0,1,['Nuts']
+828,Mirchi Ka Salan,Indian,Asian,India,Vegetarian,Breakfast,100,249.9,10.6,15.0,41.8,1.8,9.3,440.0,22.0,1,0,0,1,1,0,1,0,"['None', 'Dairy', 'Shellfish']"
+829,Bibimbap,Korean,Asian,South Korea,Non-Vegetarian,Dessert,100,445.5,2.5,26.2,49.3,2.8,32.5,671.0,47.0,0,1,1,0,1,1,1,1,['None']
+830,Hor Mok,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,316.4,25.5,22.1,15.1,5.4,5.9,377.0,84.0,1,1,1,0,1,1,1,1,[]
+831,Cucumber Salad,Chinese,Asian,China,Vegetarian,Beverage,100,289.1,12.5,11.4,45.8,4.1,6.7,729.0,36.0,0,1,0,0,1,0,1,1,[]
+832,Fish Plaki,Greek,European,Greece,Non-Vegetarian,Dessert,100,405.7,8.7,11.8,55.3,1.6,19.5,515.0,80.0,0,0,1,0,0,1,1,0,[]
+833,Jajangmyeon,Korean,Asian,South Korea,Non-Vegetarian,Dessert,100,275.4,3.9,12.7,35.4,2.9,26.0,612.0,120.0,0,0,1,1,1,0,1,1,[]
+834,Kaeng Kari Gai,Thai,Asian,Thailand,Non-Vegetarian,Dessert,100,468.1,7.8,16.6,51.1,0.8,18.3,611.0,127.0,0,1,1,0,1,1,1,1,['Soy']
+835,Chilaquiles,Mexican,Latin American,Mexico,Vegetarian,Lunch,100,161.6,3.8,5.2,44.3,7.1,4.5,489.0,21.0,1,1,1,0,1,1,0,1,"['Dairy', 'Shellfish']"
+836,Mexican Rice,Mexican,Latin American,Mexico,Vegetarian,Dinner,100,263.9,5.8,17.7,22.4,7.6,1.2,361.0,14.0,0,1,0,0,1,1,0,1,"['Gluten', 'Eggs', 'Dairy']"
+837,Soutzoukakia,Greek,European,Greece,Non-Vegetarian,Lunch,100,285.9,16.5,25.4,11.5,4.1,8.0,806.0,119.0,0,1,1,0,1,1,1,1,['Gluten']
+838,Pastitsio,Greek,European,Greece,Non-Vegetarian,Dessert,100,398.6,4.2,26.2,35.3,2.9,33.6,641.0,66.0,0,1,1,0,0,1,1,1,[]
+839,Rasgulla,Indian,Asian,India,Vegetarian,Lunch,100,214.8,12.8,18.8,31.8,7.3,13.6,169.0,9.0,0,1,1,0,1,1,1,0,"['Nuts', 'Soy']"
+840,Vegetable Egg Foo Young,Chinese,Asian,China,Vegetarian,Dessert,100,412.7,8.4,27.1,39.5,0.4,25.9,262.0,12.0,0,0,1,0,1,1,1,1,"['None', 'Nuts']"
+841,Soondae,Korean,Asian,South Korea,Non-Vegetarian,Breakfast,100,393.1,6.1,21.6,32.8,5.2,3.6,604.0,41.0,1,0,1,0,0,1,1,1,['Dairy']
+842,Pasta al Gorgonzola,Italian,European,Italy,Vegetarian,Dinner,100,340.4,12.7,10.8,18.9,9.5,5.8,213.0,23.0,1,0,1,0,0,1,1,1,[]
+843,Dragon Roll,Japanese,Asian,Japan,Non-Vegetarian,Snack,100,385.9,15.1,13.2,33.2,1.0,1.1,813.0,133.0,1,0,0,1,1,1,1,0,['Dairy']
+844,Black Bean Soup,Mexican,Latin American,Mexico,Vegetarian,Dinner,100,219.3,14.9,14.5,13.0,9.9,6.7,301.0,22.0,0,1,1,0,1,1,0,1,['Nuts']
+845,Five-Spice Tofu,Chinese,Asian,China,Vegetarian,Lunch,100,176.1,4.0,3.0,28.0,8.7,9.0,799.0,11.0,1,1,1,0,1,1,1,1,"['Eggs', 'Dairy', 'None']"
+846,Kao Ka Moo,Thai,Asian,Thailand,Non-Vegetarian,Lunch,100,220.1,18.2,11.6,13.6,4.8,9.1,1178.0,58.0,0,0,1,0,1,0,1,1,"['Eggs', 'Shellfish']"
+847,Zucchini Fritti,Italian,European,Italy,Vegetarian,Snack,100,320.3,6.9,4.9,44.8,7.1,3.3,401.0,11.0,1,0,1,1,1,1,0,0,['Eggs']
+848,Chinese Eggplant with Garlic Sauce,Chinese,Asian,China,Vegetarian,Beverage,100,284.2,8.4,19.8,12.2,4.8,7.7,452.0,13.0,0,0,1,0,1,1,0,1,['Nuts']
+849,Egg Masala,Indian,Asian,India,Non-Vegetarian,Dinner,100,332.3,32.5,28.7,29.2,5.1,5.5,1043.0,66.0,0,0,1,0,1,0,1,1,"['Dairy', 'Shellfish']"
+850,Chicken Dum Biryani,Indian,Asian,India,Non-Vegetarian,Lunch,100,249.6,21.3,18.3,13.6,5.8,3.1,388.0,93.0,0,1,0,0,0,1,1,1,['Dairy']
+851,Vegetable Som Tam,Thai,Asian,Thailand,Vegetarian,Lunch,100,114.3,4.3,6.7,28.6,5.5,12.2,618.0,17.0,1,1,1,0,1,1,1,1,"['Gluten', 'Shellfish']"
+852,Tofu Teriyaki,Japanese,Asian,Japan,Vegetarian,Snack,100,183.4,6.8,16.2,12.1,2.1,12.1,434.0,5.0,1,0,0,1,1,1,1,1,[]
+853,Phad Phong Karee,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,208.9,33.7,26.9,26.3,2.9,5.2,1178.0,146.0,0,1,1,0,1,1,1,1,[]
+854,Reshmi Kebab,Indian,Asian,India,Non-Vegetarian,Beverage,100,203.8,31.2,12.3,11.4,4.1,4.1,1138.0,41.0,0,1,1,1,0,1,0,0,"['None', 'Nuts', 'Shellfish']"
+855,Chicken Enchiladas,Mexican,Latin American,Mexico,Non-Vegetarian,Snack,100,277.9,33.4,27.9,9.7,2.2,6.2,443.0,146.0,0,0,0,1,1,1,0,1,"['None', 'Nuts', 'Dairy']"
+856,Miso Soup,Japanese,Asian,Japan,Vegetarian,Beverage,100,328.7,5.0,5.1,13.4,9.3,3.7,391.0,18.0,0,1,1,1,1,1,1,1,"['Nuts', 'Dairy', 'Shellfish']"
+857,Vegetable Pad Pak Boong,Thai,Asian,Thailand,Vegetarian,Breakfast,100,349.8,6.1,9.5,47.9,7.4,16.1,114.0,13.0,1,0,0,0,1,1,1,1,['Gluten']
+858,Char Siu Pork Buns,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,357.0,9.1,23.2,39.0,1.5,18.4,1162.0,39.0,1,0,0,0,1,0,1,1,['Shellfish']
+859,Vegetable Korokke,Japanese,Asian,Japan,Vegetarian,Snack,100,233.1,6.6,9.7,17.2,6.6,14.4,452.0,3.0,0,0,1,1,1,1,1,1,[]
+860,Buche Tacos,Mexican,Latin American,Mexico,Non-Vegetarian,Dessert,100,386.0,4.1,27.1,40.2,1.0,19.8,992.0,62.0,1,1,1,0,1,1,1,1,"['Soy', 'Nuts', 'Gluten']"
+861,Sopa Azteca,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,341.8,19.1,15.1,19.0,5.7,9.3,486.0,73.0,0,1,1,0,1,0,1,1,[]
+862,Pla Rad Prik,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,187.3,25.2,18.1,32.0,5.6,3.8,743.0,138.0,1,1,0,1,1,0,1,1,"['Shellfish', 'Dairy', 'Eggs']"
+863,Tagliatelle ai Funghi,Italian,European,Italy,Vegetarian,Dessert,100,442.0,1.0,16.4,39.8,1.1,20.0,126.0,26.0,0,0,0,1,1,1,1,1,"['Shellfish', 'Gluten', 'Nuts']"
+864,Parmigiana di Zucchine,Italian,European,Italy,Vegetarian,Snack,100,165.6,3.6,6.9,42.1,8.8,7.8,391.0,39.0,0,0,0,1,1,1,1,1,"['Eggs', 'Gluten']"
+865,Hunan Beef,Chinese,Asian,China,Non-Vegetarian,Snack,100,200.1,19.3,14.4,10.2,2.3,9.1,854.0,79.0,1,0,0,1,0,1,1,1,[]
+866,Mapo Tofu,Chinese,Asian,China,Vegetarian,Dessert,100,480.3,1.4,14.2,44.8,3.1,16.0,382.0,26.0,1,1,1,0,1,1,0,1,"['Dairy', 'Soy', 'None']"
+867,Pineapple Fried Rice,Thai,Asian,Thailand,Vegetarian,Beverage,100,274.5,10.7,8.4,13.7,5.4,2.8,763.0,19.0,0,1,0,0,0,1,1,0,[]
+868,Vegetable Okonomiyaki,Japanese,Asian,Japan,Vegetarian,Dinner,100,179.3,12.2,11.5,22.4,8.5,13.1,571.0,2.0,0,1,1,1,1,1,1,1,"['None', 'Eggs', 'Gluten']"
+869,Morning Glory Stir Fry,Thai,Asian,Thailand,Vegetarian,Dinner,100,241.6,12.2,5.3,19.1,9.1,1.3,627.0,19.0,0,0,1,0,1,0,0,0,[]
+870,Machaca,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,261.7,15.1,26.0,15.8,3.2,6.8,932.0,145.0,0,1,0,0,1,1,1,1,"['Soy', 'Eggs', 'Nuts']"
+871,Kokoretsi,Greek,European,Greece,Non-Vegetarian,Beverage,100,282.8,23.0,29.0,24.3,1.8,1.3,1058.0,73.0,1,0,1,1,0,1,1,1,"['Shellfish', 'Gluten']"
+872,Beef Udon,Japanese,Asian,Japan,Non-Vegetarian,Lunch,100,315.1,24.4,12.4,23.1,0.4,4.1,792.0,82.0,0,1,0,0,1,1,1,1,[]
+873,Refried Beans,Mexican,Latin American,Mexico,Vegetarian,Snack,100,287.2,12.9,16.1,11.6,3.6,8.5,754.0,33.0,0,0,1,1,1,1,1,0,['Shellfish']
+874,Agnello al Forno,Italian,European,Italy,Non-Vegetarian,Breakfast,100,410.6,9.5,13.6,34.1,2.1,2.6,1152.0,59.0,1,0,0,1,1,1,0,1,['Dairy']
+875,Kinpira Gobo,Japanese,Asian,Japan,Vegetarian,Snack,100,160.0,4.0,18.8,33.2,7.3,13.8,342.0,25.0,0,0,0,1,1,1,1,1,[]
+876,Twice-Cooked Pork,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,209.7,7.8,21.6,43.0,3.5,8.8,780.0,30.0,1,1,0,0,1,1,1,1,"['Gluten', 'None']"
+877,Kleftiko,Greek,European,Greece,Non-Vegetarian,Breakfast,100,260.3,8.1,10.0,44.2,3.0,5.4,754.0,134.0,1,0,1,0,0,1,1,1,['Eggs']
+878,Yam Nua,Thai,Asian,Thailand,Non-Vegetarian,Lunch,100,210.3,16.6,15.8,27.4,3.3,8.2,1164.0,125.0,0,0,1,0,0,1,1,1,"['Shellfish', 'None']"
+879,Tortellini alla Panna,Italian,European,Italy,Vegetarian,Dessert,100,381.1,5.4,10.8,59.5,1.9,18.8,567.0,11.0,0,1,0,1,1,1,1,1,['Shellfish']
+880,Tom Yum Goong,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,346.4,13.8,13.9,45.1,2.9,10.1,784.0,110.0,0,0,1,1,1,1,1,1,[]
+881,Mapo Doufu with Pork,Chinese,Asian,China,Non-Vegetarian,Dessert,100,435.2,4.6,22.9,30.3,4.7,24.6,957.0,32.0,1,1,0,0,1,1,1,1,"['None', 'Nuts', 'Dairy']"
+882,Squid Masala,Indian,Asian,India,Non-Vegetarian,Snack,100,201.3,24.7,27.3,20.8,5.6,4.8,741.0,44.0,0,1,0,1,1,0,1,1,"['Eggs', 'Nuts', 'Shellfish']"
+883,Vegetable Gorditas,Mexican,Latin American,Mexico,Vegetarian,Lunch,100,300.7,6.0,18.3,46.4,9.5,8.3,574.0,31.0,0,0,1,0,1,1,0,0,"['Shellfish', 'Nuts']"
+884,Chamorro,Mexican,Latin American,Mexico,Non-Vegetarian,Lunch,100,182.8,27.0,8.8,19.9,0.9,1.8,629.0,82.0,1,1,1,0,1,1,1,1,['Shellfish']
+885,Salted Fish Fried Rice,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,355.8,6.1,15.1,25.5,5.0,13.5,801.0,119.0,1,0,1,0,1,0,1,1,['Dairy']
+886,Linguine with Tomato Sauce,Italian,European,Italy,Vegetarian,Breakfast,100,283.9,16.5,13.7,34.5,5.5,2.3,558.0,25.0,1,1,0,0,1,0,1,1,"['Soy', 'Eggs']"
+887,Lamb Gyros,Greek,European,Greece,Non-Vegetarian,Beverage,100,227.5,16.7,10.0,32.7,4.1,1.3,621.0,101.0,1,1,1,0,1,1,1,1,['Soy']
+888,Chiles en Nogada (without meat),Mexican,Latin American,Mexico,Vegetarian,Beverage,100,308.9,3.5,7.0,45.6,2.1,3.8,771.0,25.0,0,1,1,0,1,1,0,1,"['Eggs', 'Soy']"
+889,Bengali Chingri Malai Curry,Indian,Asian,India,Non-Vegetarian,Beverage,100,215.4,16.3,8.6,12.3,5.3,4.2,948.0,140.0,0,0,0,1,1,1,1,1,['Shellfish']
+890,Poo Pad Pong Karee,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,252.0,18.8,19.4,32.2,4.8,0.7,923.0,99.0,0,1,1,0,1,0,1,1,"['Dairy', 'Soy']"
+891,Saganaki,Greek,European,Greece,Non-Vegetarian,Lunch,100,376.9,17.4,19.7,31.4,2.5,4.8,363.0,63.0,0,1,1,0,1,1,0,1,[]
+892,Miyazaki Chicken Nanban,Japanese,Asian,Japan,Non-Vegetarian,Lunch,100,231.1,33.9,14.2,18.8,4.0,1.6,738.0,119.0,0,1,1,0,1,1,1,0,"['Eggs', 'Shellfish', 'Nuts']"
+893,Dongpo Pork,Chinese,Asian,China,Non-Vegetarian,Beverage,100,366.7,27.5,22.7,8.8,5.7,1.3,997.0,62.0,0,1,1,0,0,1,1,1,[]
+894,Moong Dal Halwa,Indian,Asian,India,Vegetarian,Breakfast,100,433.4,15.8,20.1,26.6,4.1,13.1,639.0,4.0,1,1,1,0,1,0,1,1,"['None', 'Soy']"
+895,Pizza Romana,Italian,European,Italy,Vegetarian,Dessert,100,488.7,9.0,15.4,53.8,2.6,26.5,320.0,23.0,0,1,1,0,1,1,0,0,['Gluten']
+896,Bean Burrito,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,282.5,7.9,13.7,38.0,7.7,1.7,702.0,18.0,0,1,1,0,1,1,1,1,[]
+897,Sandesh,Indian,Asian,India,Vegetarian,Lunch,100,165.6,5.9,11.2,45.5,5.0,11.5,168.0,19.0,0,0,1,1,1,1,1,0,['Dairy']
+898,Costillas Adobadas,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,397.9,30.4,12.6,20.0,1.4,4.1,1002.0,123.0,0,1,1,0,1,1,1,1,"['Shellfish', 'Gluten']"
+899,Merluzzo alla Livornese,Italian,European,Italy,Non-Vegetarian,Dessert,100,268.4,9.3,21.9,38.3,2.5,30.1,804.0,88.0,0,1,0,0,1,1,1,0,"['Eggs', 'Nuts']"
+900,Pla Kapong,Thai,Asian,Thailand,Non-Vegetarian,Snack,100,276.2,18.5,25.9,21.3,0.8,7.7,1139.0,144.0,0,1,0,1,1,1,1,0,['Eggs']
+901,Laab Het,Thai,Asian,Thailand,Vegetarian,Snack,100,192.3,4.6,11.8,14.5,9.5,3.6,277.0,16.0,1,0,1,1,1,1,1,1,['Nuts']
+902,Mixiote,Mexican,Latin American,Mexico,Non-Vegetarian,Dessert,100,314.9,8.2,19.1,31.0,1.3,27.7,433.0,103.0,0,1,0,0,1,1,1,0,"['Soy', 'Nuts', 'Dairy']"
+903,Sichuan Hot Pot,Chinese,Asian,China,Non-Vegetarian,Dessert,100,369.7,7.4,28.8,56.9,4.7,21.1,418.0,66.0,1,1,1,1,1,1,0,1,"['None', 'Nuts', 'Soy']"
+904,Achari Tikka,Indian,Asian,India,Non-Vegetarian,Dessert,100,468.5,9.7,27.2,28.9,4.7,25.6,308.0,83.0,1,0,1,1,1,1,0,0,"['Gluten', 'Eggs']"
+905,Vegetable Chiles en Nogada,Mexican,Latin American,Mexico,Vegetarian,Beverage,100,111.5,9.5,8.8,28.9,6.9,13.2,563.0,17.0,0,0,1,1,1,1,0,1,['None']
+906,Chicharrón en Salsa Verde,Mexican,Latin American,Mexico,Non-Vegetarian,Snack,100,354.9,33.1,10.6,21.0,1.7,0.5,902.0,134.0,0,1,1,1,1,1,1,1,"['None', 'Dairy', 'Eggs']"
+907,Takoyaki,Japanese,Asian,Japan,Non-Vegetarian,Dinner,100,190.7,31.2,26.8,32.4,1.6,9.0,589.0,96.0,0,1,1,1,0,1,1,1,"['Dairy', 'Nuts']"
+908,Orange Chicken,Chinese,Asian,China,Non-Vegetarian,Dessert,100,215.2,1.4,24.4,40.6,1.3,19.8,903.0,30.0,0,1,0,1,1,1,1,1,[]
+909,Stir-Fried Tofu Skin,Chinese,Asian,China,Vegetarian,Breakfast,100,401.5,6.2,8.8,31.6,4.4,8.4,324.0,39.0,1,0,1,0,1,1,1,1,"['Soy', 'Gluten', 'None']"
+910,Risotto ai Peperoni,Italian,European,Italy,Vegetarian,Snack,100,260.4,3.3,10.3,45.0,4.4,2.3,631.0,24.0,1,0,1,1,1,1,1,0,['Eggs']
+911,Panchmel Dal,Indian,Asian,India,Vegetarian,Lunch,100,242.6,3.6,5.4,34.9,3.7,8.1,481.0,11.0,0,0,1,0,1,1,1,1,"['Eggs', 'Gluten']"
+912,Pav Bhaji,Indian,Asian,India,Vegetarian,Dessert,100,484.5,8.6,24.4,27.7,0.5,27.3,212.0,39.0,1,1,1,0,1,1,0,1,['Dairy']
+913,Tao Hoo Song Kreung,Thai,Asian,Thailand,Vegetarian,Dinner,100,139.6,8.8,9.2,35.6,3.0,7.0,292.0,36.0,0,1,1,0,0,1,1,1,[]
+914,Chicken Kali Mirch,Indian,Asian,India,Non-Vegetarian,Breakfast,100,210.1,18.7,21.7,28.9,6.5,2.6,1170.0,93.0,0,1,0,0,1,1,1,1,"['Nuts', 'Eggs']"
+915,Cucumber Sunomono,Japanese,Asian,Japan,Vegetarian,Lunch,100,175.8,7.4,4.1,49.6,2.3,10.2,410.0,38.0,0,1,0,0,1,0,1,1,"['Eggs', 'Soy', 'Shellfish']"
+916,Paratha,Indian,Asian,India,Vegetarian,Dessert,100,273.8,5.8,19.6,49.6,0.3,19.8,250.0,30.0,0,1,0,0,1,1,1,1,['Shellfish']
+917,Pozole,Mexican,Latin American,Mexico,Non-Vegetarian,Beverage,100,197.3,26.5,12.7,30.8,5.7,5.2,617.0,58.0,1,1,1,0,0,1,1,0,['Gluten']
+918,Sichuan Dry-Fried Green Beans,Chinese,Asian,China,Vegetarian,Breakfast,100,212.4,9.0,18.1,36.0,7.6,9.1,586.0,20.0,1,0,0,0,1,1,1,1,['Dairy']
+919,Pancetta,Italian,European,Italy,Non-Vegetarian,Beverage,100,278.1,20.4,18.0,19.1,4.2,9.4,596.0,35.0,1,1,0,0,0,1,1,1,"['Shellfish', 'Nuts']"
+920,Makua Yao Pad Tao Jiew,Thai,Asian,Thailand,Vegetarian,Dessert,100,348.9,5.9,13.4,51.6,4.9,38.6,238.0,35.0,0,1,1,0,1,1,1,0,"['Eggs', 'Dairy']"
+921,Garides Saganaki,Greek,European,Greece,Non-Vegetarian,Dinner,100,326.1,24.1,19.9,30.5,2.9,3.7,744.0,99.0,0,1,1,0,1,1,1,1,"['Nuts', 'Shellfish']"
+922,Maridaki Tiganito,Greek,European,Greece,Non-Vegetarian,Dessert,100,256.7,9.1,23.5,47.2,0.5,30.1,409.0,39.0,0,1,0,0,1,1,1,1,['None']
+923,Orata al Forno,Italian,European,Italy,Non-Vegetarian,Beverage,100,281.8,23.1,21.0,7.7,2.6,1.7,1188.0,97.0,0,1,1,0,1,1,1,0,['Shellfish']
+924,Cacio e Pepe,Italian,European,Italy,Vegetarian,Breakfast,100,371.9,9.9,6.9,49.3,3.0,9.6,555.0,1.0,1,1,1,0,1,1,0,1,"['Shellfish', 'Eggs']"
+925,Beef Curry,Japanese,Asian,Japan,Non-Vegetarian,Snack,100,352.6,25.7,14.1,6.8,1.0,9.0,917.0,60.0,1,0,0,1,1,1,1,1,"['Nuts', 'Gluten']"
+926,Fish Kofta,Indian,Asian,India,Non-Vegetarian,Breakfast,100,216.4,15.4,16.4,32.1,3.5,5.9,903.0,146.0,1,0,0,0,1,0,1,0,"['Eggs', 'Shellfish', 'Nuts']"
+927,Fish Caldine,Indian,Asian,India,Non-Vegetarian,Dinner,100,193.9,26.9,17.3,18.4,1.5,8.3,737.0,95.0,0,0,1,0,1,1,1,1,"['Gluten', 'Soy', 'Dairy']"
+928,Crab Rangoon,Chinese,Asian,China,Non-Vegetarian,Dinner,100,226.2,18.6,9.9,26.4,1.2,6.9,651.0,80.0,1,1,1,0,0,1,1,1,"['None', 'Shellfish', 'Dairy']"
+929,Sweet Potato Tempura,Japanese,Asian,Japan,Vegetarian,Lunch,100,217.3,7.4,4.7,22.4,7.3,10.3,300.0,18.0,0,1,1,0,1,0,1,1,['Shellfish']
+930,Maiale al Latte,Italian,European,Italy,Non-Vegetarian,Beverage,100,198.4,19.2,8.5,31.9,1.3,2.3,552.0,45.0,0,1,1,0,1,1,1,1,['Eggs']
+931,Roasted Poblano and Cheese Tacos,Mexican,Latin American,Mexico,Vegetarian,Dinner,100,259.8,3.9,5.3,35.8,4.7,10.9,490.0,10.0,0,1,1,0,1,1,1,1,"['None', 'Dairy']"
+932,Vegetable Khao Pad,Thai,Asian,Thailand,Vegetarian,Snack,100,262.7,4.4,12.1,27.5,4.1,9.5,710.0,40.0,1,0,0,1,1,1,1,0,['Shellfish']
+933,Vegetable Ma Po Tofu,Chinese,Asian,China,Vegetarian,Beverage,100,251.9,7.9,6.8,20.3,5.8,6.1,740.0,15.0,0,1,0,0,1,1,1,1,"['Gluten', 'Dairy', 'Nuts']"
+934,Braised Tofu,Chinese,Asian,China,Vegetarian,Dessert,100,312.0,4.5,26.7,47.8,3.1,23.4,673.0,2.0,1,0,1,1,1,1,0,1,[]
+935,Goong Tod,Thai,Asian,Thailand,Non-Vegetarian,Snack,100,367.7,25.3,16.8,19.9,4.0,0.1,1084.0,84.0,0,0,0,1,1,1,1,0,"['Eggs', 'Shellfish', 'Soy']"
+936,Pescado Veracruzana,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,235.7,17.8,17.7,19.9,2.4,6.8,679.0,145.0,0,1,1,0,1,1,1,1,['None']
+937,Vegetable Kakiage,Japanese,Asian,Japan,Vegetarian,Beverage,100,249.8,12.7,4.9,25.9,4.7,9.0,703.0,3.0,0,1,1,0,1,1,1,0,['Dairy']
+938,Vegetable Yam Pla Duk Fu,Thai,Asian,Thailand,Vegetarian,Snack,100,118.1,13.2,6.6,36.8,6.3,12.7,188.0,5.0,0,0,0,1,1,1,1,1,"['Gluten', 'None', 'Dairy']"
+939,Sorpotel,Indian,Asian,India,Non-Vegetarian,Beverage,100,289.2,33.9,17.1,14.8,3.6,9.3,1053.0,149.0,0,1,1,1,1,1,0,1,[]
+940,Mushroom Hot Pot,Japanese,Asian,Japan,Vegetarian,Dessert,100,206.8,2.0,22.2,53.7,1.4,21.0,651.0,2.0,1,0,0,0,1,1,1,1,"['Soy', 'Shellfish']"
+941,Chicken Gyoza,Japanese,Asian,Japan,Non-Vegetarian,Snack,100,242.3,25.1,20.3,26.9,2.1,6.1,827.0,96.0,1,0,0,1,1,0,1,1,"['None', 'Dairy']"
+942,Beijing Zha Jiang Mian,Chinese,Asian,China,Non-Vegetarian,Lunch,100,310.1,20.2,9.9,8.6,1.3,5.0,1056.0,114.0,0,0,1,0,0,1,1,1,"['Dairy', 'None', 'Eggs']"
+943,Beef Tacos,Mexican,Latin American,Mexico,Non-Vegetarian,Breakfast,100,397.3,10.3,13.1,31.8,2.3,3.1,832.0,149.0,1,1,0,0,1,1,1,1,"['Eggs', 'Dairy', 'None']"
+944,Tripas Tacos,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,191.7,15.9,25.1,12.6,5.0,7.0,1151.0,79.0,0,1,0,0,0,0,1,1,[]
+945,Yum Woon Sen Talay,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,365.5,12.0,17.6,33.5,2.3,11.1,776.0,127.0,1,0,0,0,1,1,0,1,['Dairy']
+946,Kori Rotti,Indian,Asian,India,Non-Vegetarian,Breakfast,100,383.9,15.0,7.3,41.6,4.5,18.1,1128.0,37.0,1,0,0,0,1,0,1,1,[]
+947,Coconut Rice,Indian,Asian,India,Vegetarian,Dessert,100,446.2,1.3,17.3,44.0,0.7,33.7,106.0,7.0,1,1,0,1,1,1,1,0,['Soy']
+948,Vegetable Shanghai Noodles,Chinese,Asian,China,Vegetarian,Breakfast,100,345.2,15.7,23.3,41.2,5.7,9.1,101.0,5.0,1,0,0,1,1,1,1,1,['None']
+949,Garlic Bok Choy,Chinese,Asian,China,Vegetarian,Dessert,100,360.4,7.1,18.3,50.6,2.6,16.9,234.0,34.0,0,1,1,1,1,1,1,0,[]
+950,Negitoro Don,Japanese,Asian,Japan,Non-Vegetarian,Dessert,100,417.5,9.1,12.4,59.7,1.0,15.3,1198.0,64.0,0,0,1,0,0,1,1,1,"['None', 'Nuts', 'Soy']"
+951,Tom Saap,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,367.0,7.7,16.6,47.1,3.2,14.1,469.0,105.0,1,1,1,0,1,1,1,1,"['None', 'Soy', 'Dairy']"
+952,Machaca con Huevo,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,234.1,19.2,14.9,10.4,5.4,4.0,521.0,84.0,0,1,1,0,1,0,1,1,[]
+953,California Roll,Japanese,Asian,Japan,Non-Vegetarian,Breakfast,100,280.1,16.2,24.4,33.1,7.0,12.2,442.0,113.0,1,1,0,0,1,1,1,1,"['Gluten', 'Nuts', 'Shellfish']"
+954,Menudo,Mexican,Latin American,Mexico,Non-Vegetarian,Dessert,100,354.0,6.9,27.8,40.4,4.5,33.8,740.0,102.0,1,1,0,0,1,1,1,1,"['Eggs', 'Nuts', 'Soy']"
+955,Green Curry,Thai,Asian,Thailand,Non-Vegetarian,Dinner,100,231.4,34.7,22.7,6.3,2.0,6.2,351.0,33.0,0,1,0,0,1,1,1,1,[]
+956,Stir-Fried Clams with Black Bean Sauce,Chinese,Asian,China,Non-Vegetarian,Dinner,100,262.5,21.7,17.6,12.9,1.0,6.9,763.0,54.0,0,1,1,0,1,1,1,1,[]
+957,Vegetable Ramen,Japanese,Asian,Japan,Vegetarian,Lunch,100,179.9,10.1,4.2,15.9,2.6,12.4,627.0,30.0,0,1,1,0,1,1,0,1,[]
+958,Kung Pao Mushrooms,Chinese,Asian,China,Vegetarian,Dinner,100,279.1,11.0,11.1,35.7,2.3,9.7,645.0,20.0,0,1,1,0,0,1,1,1,"['Soy', 'Shellfish']"
+959,Chu Chee Pla,Thai,Asian,Thailand,Non-Vegetarian,Dinner,100,239.4,20.5,22.1,25.8,5.2,3.4,993.0,97.0,0,0,1,0,1,1,1,1,"['None', 'Soy']"
+960,Paya Soup,Indian,Asian,India,Non-Vegetarian,Snack,100,370.7,25.6,19.4,22.3,4.5,9.6,366.0,36.0,0,0,0,1,1,0,1,0,[]
+961,Moo Grob Pad Prik,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,384.4,25.6,21.5,19.5,0.6,7.7,973.0,67.0,0,1,1,1,1,0,1,1,[]
+962,Peking Duck,Chinese,Asian,China,Non-Vegetarian,Snack,100,226.6,31.8,9.6,31.4,1.5,5.9,1142.0,111.0,0,0,0,1,0,0,1,1,"['None', 'Dairy', 'Nuts']"
+963,Pasta al Pomodoro,Italian,European,Italy,Vegetarian,Breakfast,100,303.6,15.3,11.9,28.3,8.0,15.5,551.0,14.0,1,1,0,0,1,0,0,1,[]
+964,Fish Curry,Indian,Asian,India,Non-Vegetarian,Lunch,100,162.3,15.6,20.2,27.9,3.2,8.4,330.0,74.0,1,0,1,0,0,1,1,1,"['Nuts', 'Gluten']"
+965,Omurice with Vegetables,Japanese,Asian,Japan,Vegetarian,Breakfast,100,259.3,11.7,6.4,48.6,2.6,18.6,398.0,39.0,1,1,0,0,1,1,1,1,"['Shellfish', 'Dairy']"
+966,Vegetable Chow Mein,Chinese,Asian,China,Vegetarian,Breakfast,100,338.5,19.0,5.1,42.4,7.3,4.5,167.0,17.0,1,1,1,0,1,1,1,1,['Shellfish']
+967,Birria,Mexican,Latin American,Mexico,Non-Vegetarian,Beverage,100,383.4,25.8,19.6,9.2,0.0,8.1,379.0,106.0,0,1,1,1,0,1,1,0,"['Shellfish', 'Eggs', 'Nuts']"
+968,Vegetable Potstickers,Chinese,Asian,China,Vegetarian,Dessert,100,474.4,2.9,23.3,27.8,3.0,19.1,615.0,12.0,0,1,0,0,1,1,1,0,"['Nuts', 'Gluten']"
+969,Pizza Quattro Stagioni,Italian,European,Italy,Non-Vegetarian,Dessert,100,339.0,6.4,13.4,51.0,1.5,31.6,442.0,113.0,1,1,1,0,1,1,0,0,['Eggs']
+970,Yellowtail Sashimi,Japanese,Asian,Japan,Non-Vegetarian,Breakfast,100,232.0,11.4,9.9,42.5,2.8,17.9,1103.0,54.0,1,0,1,0,1,1,0,1,"['None', 'Soy']"
+971,Lamb Barbacoa,Mexican,Latin American,Mexico,Non-Vegetarian,Dinner,100,303.5,16.8,16.6,26.4,4.0,6.2,554.0,75.0,0,0,1,0,1,1,1,1,['None']
+972,Prawn Curry,Indian,Asian,India,Non-Vegetarian,Breakfast,100,225.7,15.8,15.1,41.3,2.7,7.8,601.0,33.0,1,1,0,0,1,1,0,1,"['None', 'Soy']"
+973,Vegetable Udon,Japanese,Asian,Japan,Vegetarian,Beverage,100,185.3,12.6,18.3,30.7,5.6,1.4,715.0,1.0,0,1,0,1,1,1,0,1,[]
+974,Pizza Vegetariana,Italian,European,Italy,Vegetarian,Breakfast,100,436.2,12.3,11.8,47.7,1.2,12.5,484.0,9.0,0,0,1,0,1,1,1,1,"['Gluten', 'Soy']"
+975,Xiao Long Bao,Chinese,Asian,China,Non-Vegetarian,Lunch,100,257.2,28.0,24.0,5.0,5.6,1.6,510.0,62.0,0,1,0,0,0,1,0,1,"['Dairy', 'Soy']"
+976,Boti Kebab,Indian,Asian,India,Non-Vegetarian,Snack,100,159.5,17.5,29.7,14.5,0.7,1.1,948.0,133.0,0,1,0,1,1,1,1,0,[]
+977,Massaman Curry,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,214.2,15.4,12.9,6.7,0.6,4.3,507.0,92.0,0,0,1,0,1,1,1,1,"['Soy', 'None', 'Nuts']"
+978,Milanesa de Pollo,Mexican,Latin American,Mexico,Non-Vegetarian,Dessert,100,276.0,9.5,28.1,44.8,1.8,24.5,671.0,117.0,1,0,1,0,0,1,1,1,['Nuts']
+979,Pla Duk Pad Ped,Thai,Asian,Thailand,Non-Vegetarian,Breakfast,100,312.9,17.9,23.9,30.1,4.9,3.7,480.0,80.0,1,1,0,1,0,1,1,1,[]
+980,Unagi Don,Japanese,Asian,Japan,Non-Vegetarian,Dinner,100,201.6,32.5,11.5,18.7,3.6,6.9,645.0,134.0,1,1,0,0,1,0,1,1,[]
+981,Vegetable Sushi Rolls,Japanese,Asian,Japan,Vegetarian,Snack,100,242.1,8.3,4.1,28.6,8.6,9.6,683.0,20.0,0,0,1,1,1,1,1,0,[]
+982,Totani Ripieni,Italian,European,Italy,Non-Vegetarian,Breakfast,100,229.6,5.2,11.1,40.9,6.5,7.3,746.0,81.0,1,0,1,1,0,0,1,1,['Shellfish']
+983,Chicken Dopiaza,Indian,Asian,India,Non-Vegetarian,Lunch,100,252.6,19.6,11.0,10.9,0.3,2.0,308.0,105.0,0,1,1,0,1,1,0,1,['Soy']
+984,Inari Sushi,Japanese,Asian,Japan,Vegetarian,Dessert,100,294.9,9.8,13.9,37.1,1.8,15.2,687.0,1.0,0,0,0,1,1,1,1,0,[]
+985,Hoy Tod,Thai,Asian,Thailand,Non-Vegetarian,Snack,100,385.0,32.8,19.8,21.3,3.9,3.9,883.0,35.0,0,0,0,1,1,1,1,0,['Eggs']
+986,Chicken Xacuti,Indian,Asian,India,Non-Vegetarian,Breakfast,100,213.5,11.9,16.0,46.6,1.7,16.8,489.0,77.0,1,1,0,1,1,1,1,1,['Nuts']
+987,Agedashi Tofu,Japanese,Asian,Japan,Vegetarian,Snack,100,179.2,7.8,5.6,30.1,8.4,7.2,443.0,34.0,0,0,1,1,1,1,1,0,"['Eggs', 'Nuts', 'Dairy']"
+988,Baccalà Mantecato,Italian,European,Italy,Non-Vegetarian,Beverage,100,326.5,24.8,13.7,31.5,3.5,2.2,542.0,126.0,0,0,1,0,0,1,1,0,['Shellfish']
+989,Chicken Kolhapuri,Indian,Asian,India,Non-Vegetarian,Lunch,100,161.0,34.8,10.9,28.9,2.4,4.9,1093.0,80.0,1,1,1,0,0,1,1,1,"['Gluten', 'Eggs']"
+990,Arrachera,Mexican,Latin American,Mexico,Non-Vegetarian,Breakfast,100,334.4,5.7,5.0,27.3,5.8,4.2,402.0,79.0,1,0,0,0,1,1,1,1,['Dairy']
+991,Ganmodoki,Japanese,Asian,Japan,Vegetarian,Dessert,100,394.4,7.4,13.6,27.8,4.7,21.5,697.0,35.0,1,1,1,0,1,1,1,1,"['None', 'Soy']"
+992,Hariyali Tikka,Indian,Asian,India,Non-Vegetarian,Lunch,100,343.1,18.4,26.1,28.1,3.6,3.4,536.0,45.0,0,1,1,0,0,1,1,1,"['None', 'Eggs']"
+993,Crispy Aromatic Duck,Chinese,Asian,China,Non-Vegetarian,Breakfast,100,327.4,13.8,12.2,34.3,3.5,13.5,1111.0,50.0,1,0,0,1,1,1,1,1,['Nuts']
+994,Chicken Mole,Mexican,Latin American,Mexico,Non-Vegetarian,Snack,100,245.4,17.8,21.7,26.9,5.6,2.8,1155.0,38.0,0,0,1,1,1,1,1,1,"['Nuts', 'Eggs', 'Soy']"
+995,Lauki Chana Dal,Indian,Asian,India,Vegetarian,Beverage,100,250.8,3.7,18.2,31.2,7.4,12.6,205.0,2.0,0,1,1,0,1,1,1,1,['None']
+996,Lasagne ai Funghi,Italian,European,Italy,Vegetarian,Dessert,100,463.7,3.8,12.6,41.4,3.0,15.8,292.0,1.0,1,1,1,1,1,1,1,1,['Dairy']
+997,Fegato alla Veneziana,Italian,European,Italy,Non-Vegetarian,Beverage,100,255.1,32.9,29.6,24.1,1.0,9.1,765.0,48.0,1,0,1,0,0,1,1,1,[]
+998,Faraona al Forno,Italian,European,Italy,Non-Vegetarian,Lunch,100,380.4,30.1,24.1,26.3,1.2,2.1,919.0,56.0,1,1,1,0,1,0,1,1,[]
+999,Tom Kha Gai,Thai,Asian,Thailand,Non-Vegetarian,Beverage,100,259.7,30.6,25.2,18.6,4.8,8.4,889.0,57.0,0,1,1,1,1,1,1,1,"['Nuts', 'Eggs', 'Soy']"
+1000,Mapo Tofu with Pork,Chinese,Asian,China,Non-Vegetarian,Dessert,100,282.2,3.8,12.3,34.6,1.0,26.4,1118.0,43.0,0,1,1,0,1,1,1,1,['Eggs']
+1001,Banana,Fruit,Asian,Vietnam,Vegan,Snack,100,97.6,1.5,0.1,28.5,3.3,12.3,11.0,0.0,1,0,1,1,1,1,1,1,['None']
+1002,Orange,Fruit,Asian,Thailand,Vegan,Snack,100,60.6,1.5,0.0,26.8,2.8,17.7,3.0,0.0,1,1,1,1,0,0,0,1,[]
+1003,Lychee,Fruit,Asian,Vietnam,Vegan,Snack,100,94.2,1.7,0.5,22.4,2.8,22.9,7.0,0.0,0,0,0,1,0,1,0,0,[]
+1004,Grape,Fruit,Middle Eastern,Lebanon,Vegan,Snack,100,107.3,1.7,0.4,14.6,2.6,21.5,3.0,0.0,1,1,0,1,0,0,1,0,['Nuts']
+1005,Cranberry,Fruit,North American,United States,Vegan,Snack,100,82.0,1.7,0.4,22.8,2.0,7.2,12.0,0.0,0,0,0,1,0,0,1,0,[]
+1006,Yuzu,Fruit,Asian,Japan,Vegan,Snack,100,47.9,0.9,0.9,16.9,4.9,24.6,4.0,0.0,1,0,0,1,0,0,0,1,['None']
+1007,Fig,Fruit,European,Greece,Vegan,Snack,100,43.3,1.6,0.5,12.0,3.8,5.6,13.0,0.0,1,0,0,1,0,1,1,0,['Nuts']
+1008,Prickly Pear,Fruit,Latin American,Mexico,Vegan,Snack,100,51.1,0.7,0.2,29.2,3.8,21.0,6.0,0.0,0,1,1,1,0,1,1,0,[]
+1009,Soursop,Fruit,Latin American,Mexico,Vegan,Snack,100,66.9,0.9,0.5,21.0,3.5,10.1,14.0,0.0,0,0,0,1,0,1,0,0,['None']
+1010,Guava,Fruit,Asian,India,Vegan,Snack,100,53.6,1.9,0.0,19.6,2.3,14.0,9.0,0.0,0,0,1,1,0,0,0,1,['None']
+1011,Mandarin Orange,Fruit,Asian,China,Vegan,Snack,100,74.8,1.1,0.7,23.7,4.3,10.0,9.0,0.0,0,1,0,1,0,0,0,1,['Nuts']
+1012,Apple,Fruit,Middle Eastern,Lebanon,Vegan,Snack,100,86.8,1.1,0.5,16.3,1.6,9.3,2.0,0.0,1,0,0,1,0,0,1,0,[]
+1013,Cherry,Fruit,North American,United States,Vegan,Snack,100,94.6,1.5,1.0,24.6,1.2,22.7,13.0,0.0,0,0,0,1,0,1,0,0,[]
+1014,Korean Pear,Fruit,Asian,South Korea,Vegan,Snack,100,75.5,1.4,1.0,20.6,4.6,6.7,3.0,0.0,0,0,0,1,0,0,1,0,[]
+1015,Mirabelle Plum,Fruit,European,France,Vegan,Snack,100,75.3,1.4,0.8,29.8,2.6,5.9,12.0,0.0,0,0,1,1,0,1,0,0,['None']
+1016,Longan,Fruit,Asian,Thailand,Vegan,Snack,100,88.4,0.8,0.5,24.8,4.1,15.0,5.0,0.0,1,0,0,1,0,1,0,0,['Nuts']
+1017,Mamey Sapote,Fruit,Latin American,Mexico,Vegan,Snack,100,117.9,1.5,0.4,15.6,3.9,9.8,3.0,0.0,0,1,1,1,0,1,0,0,[]
+1018,Persimmon,Fruit,European,Spain,Vegan,Snack,100,82.4,0.9,0.6,12.4,3.6,10.7,0.0,0.0,1,1,0,1,0,0,1,0,[]
+1019,Durian,Fruit,Asian,Thailand,Vegan,Snack,100,50.2,1.9,0.9,14.7,4.1,17.2,15.0,0.0,0,0,0,1,0,1,0,0,['Nuts']
+1020,Mango,Fruit,Asian,India,Vegan,Snack,100,69.9,1.5,0.1,17.9,4.9,15.8,4.0,0.0,0,1,1,1,0,1,0,0,[]
+1021,Spanish Orange,Fruit,European,Spain,Vegan,Snack,100,49.6,1.6,0.6,17.5,4.8,5.4,5.0,0.0,0,0,0,1,0,0,0,1,[]
+1022,Japanese Persimmon,Fruit,Asian,Japan,Vegan,Snack,100,113.7,1.0,0.3,20.7,4.3,7.1,14.0,0.0,1,0,0,1,0,0,1,0,['None']
+1023,Rambutan,Fruit,Asian,Thailand,Vegan,Snack,100,103.6,0.8,0.7,17.7,2.6,20.7,14.0,0.0,0,1,1,1,0,1,0,0,[]
+1024,Custard Apple,Fruit,Asian,India,Vegan,Snack,100,50.1,1.1,0.5,17.5,2.5,6.0,10.0,0.0,1,0,0,1,0,0,1,0,['None']
+1025,Blood Orange,Fruit,European,Italy,Vegan,Snack,100,74.9,0.8,0.8,26.1,2.9,11.0,10.0,0.0,0,1,0,1,0,0,0,1,[]
+1026,Italian Plum,Fruit,European,Italy,Vegan,Snack,100,63.1,0.9,0.7,10.8,1.4,5.1,2.0,0.0,0,1,0,1,0,1,1,0,[]
+1027,Star Apple,Fruit,Asian,Vietnam,Vegan,Snack,100,45.5,2.0,0.3,13.0,2.0,23.7,8.0,0.0,0,0,1,1,1,0,0,1,['Nuts']
+1028,Pomegranate,Fruit,Middle Eastern,Lebanon,Vegan,Snack,100,69.2,1.8,0.4,16.7,1.8,12.6,5.0,0.0,0,0,0,1,0,0,1,0,[]
+1029,French Apple,Fruit,European,France,Vegan,Snack,100,94.2,0.9,0.6,11.3,1.8,13.1,14.0,0.0,0,1,0,0,0,0,1,1,[]
+1030,Jackfruit,Fruit,Asian,India,Vegan,Snack,100,70.2,1.5,0.3,12.5,1.2,11.1,2.0,0.0,0,0,0,1,0,1,0,0,[]
+1031,Omija Berry,Fruit,Asian,South Korea,Vegan,Snack,100,53.9,1.6,0.0,21.2,2.5,15.1,8.0,0.0,0,0,0,1,0,1,1,0,[]
+1032,Date,Fruit,Middle Eastern,Lebanon,Vegan,Snack,100,65.1,0.9,0.7,27.4,1.8,7.0,13.0,0.0,1,0,1,1,0,0,1,0,['None']
+1033,Fuji Apple,Fruit,Asian,Japan,Vegan,Snack,100,68.0,1.3,0.4,12.5,3.4,15.5,3.0,0.0,1,0,0,1,0,0,1,1,[]
+1034,Cherimoya,Fruit,European,Spain,Vegan,Snack,100,76.1,1.7,0.6,11.9,3.2,19.1,12.0,0.0,0,0,0,1,0,0,0,1,['None']
+1035,Korean Melon,Fruit,Asian,South Korea,Vegan,Snack,100,90.3,0.7,0.7,23.5,1.1,13.2,5.0,0.0,0,1,0,1,0,1,0,0,['None']
+1036,Quince,Fruit,European,Greece,Vegan,Snack,100,93.6,0.8,0.6,28.3,4.2,23.4,15.0,0.0,0,0,1,1,0,0,1,0,['None']
+1037,Mandarin,Fruit,European,Italy,Vegan,Snack,100,40.9,1.4,0.4,27.2,2.0,24.6,9.0,0.0,1,0,0,1,0,0,0,1,[]
+1038,Chinese Bayberry,Fruit,Asian,China,Vegan,Snack,100,103.5,0.6,0.2,25.2,1.1,21.3,0.0,0.0,0,0,0,1,0,1,0,0,[]
+1039,Lebanese Peach,Fruit,Middle Eastern,Lebanon,Vegan,Snack,100,92.6,1.0,0.6,23.9,2.4,7.2,1.0,0.0,0,0,1,1,0,1,0,0,[]
+1040,Greek Olive,Fruit,European,Greece,Vegan,Snack,100,87.1,1.3,0.7,20.2,2.7,13.0,0.0,0.0,1,0,0,1,0,0,1,1,[]
+1041,Jamun,Fruit,Asian,India,Vegan,Snack,100,66.8,2.0,0.9,16.6,3.4,21.9,7.0,0.0,1,1,1,1,0,1,0,0,['Nuts']
+1042,French Pear,Fruit,European,France,Vegan,Snack,100,41.4,0.6,0.5,29.4,3.8,6.4,3.0,0.0,0,1,0,0,0,0,1,1,[]
